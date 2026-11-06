@@ -1,0 +1,100 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: A dishwasher's risotto stops a famous restaurateur cold: it is his dead daughter's recipe.
+CONTINUITY NOTES: Synthetic demo episode written for the Promo Finder prototype.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. RESTAURANT KITCHEN – NIGHT
+Scene start: 00:00.00
+Scene end: 00:53.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Smash cut: a plate shatters on the kitchen floor of a crowded restaurant.
+
+**MARCO (Furious):**
+Start: (00:03.00) | End: (00:05.50)
+"Who sent this out? Who dared plate this?"
+
+**ACTION:**
+Start: (00:05.50) | End: (00:07.50)
+The whole kitchen freezes. Every cook stares at Nora.
+
+**NORA (Defiant):**
+Start: (00:07.50) | End: (00:10.00)
+"I did. And it was perfect."
+
+**MARCO (Cold, Mocking):**
+Start: (00:10.00) | End: (00:13.00)
+"Perfect? You're a dishwasher. You'll be gone by tonight."
+
+**CAMERA:**
+Start: (00:13.00) | End: (00:15.00)
+Close-up on Nora's hands, burned and shaking.
+
+**NORA (Quiet):**
+Start: (00:15.00) | End: (00:18.00)
+"The critic at table nine asked for the chef. Not you. Me."
+
+**SOUND FX:**
+Start: (00:18.00) | End: (00:19.50)
+The dining room goes silent.
+
+**MARCO (Shocked):**
+Start: (00:19.50) | End: (00:21.50)
+"That's impossible."
+
+**ACTION:**
+Start: (00:21.50) | End: (00:24.00)
+An elegant older man in a grey suit steps into the kitchen doorway.
+
+**VICTOR (Calm):**
+Start: (00:24.00) | End: (00:27.00)
+"Who made the risotto?"
+
+**NORA (Nervous):**
+Start: (00:27.00) | End: (00:29.00)
+"I did, sir."
+
+**VICTOR (Stunned):**
+Start: (00:29.00) | End: (00:32.50)
+"Only one person ever cooked it like that. My daughter. And she died twelve years ago."
+
+**CAMERA:**
+Start: (00:32.50) | End: (00:35.00)
+Slow push on Nora's face as the colour drains from it.
+
+**NORA (Whispering):**
+Start: (00:35.00) | End: (00:37.50)
+"How do you know my mother's recipe?"
+
+**MARCO (Panicked):**
+Start: (00:37.50) | End: (00:40.00)
+"Sir, she's nobody. I'll have her thrown out."
+
+**VICTOR (Commanding):**
+Start: (00:40.00) | End: (00:43.00)
+"Touch her and you'll never work in this city again."
+
+**ACTION:**
+Start: (00:43.00) | End: (00:45.50)
+Victor reaches for the locket around Nora's neck. She steps back.
+
+**VICTOR (Trembling):**
+Start: (00:45.50) | End: (00:48.50)
+"Open it. Please. I need to see what's inside."
+
+**CAMERA:**
+Start: (00:48.50) | End: (00:50.50)
+Extreme close-up: Nora's thumb on the locket clasp.
+
+**SOUND FX:**
+Start: (00:50.50) | End: (00:51.50)
+A sharp click.
+
+**VICTOR (Breathless):**
+Start: (00:51.50) | End: (00:53.50)
+"Then who are you?"

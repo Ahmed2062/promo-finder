@@ -26,8 +26,16 @@ from . import prompts as P
 BEAT_RE = re.compile(r"(?:E(\d+)\.)?B(\d+)", re.I)
 
 
+PROGRESS = None   # optional callback(msg) - the Streamlit app sets this to show live progress
+
+
 def log(msg: str):
     print(f"[promo-finder] {msg}", flush=True)
+    if PROGRESS:
+        try:
+            PROGRESS(msg)
+        except Exception:
+            pass
 
 
 # ---------------------------------------------------------------------------
@@ -176,7 +184,8 @@ def run(input_dir: str, out_dir: str = "outputs", provider: str = "none", model:
     else:
         # 3 per-episode LLM picks ------------------------------------------------
         pool = []
-        for e in eps:
+        for k, e in enumerate(eps, 1):
+            log(f"LLM pick: episode {e.number} ({k}/{n_eps})")
             hints = hint_rows(show, per_ep[e.number][:5])
             txt = llm.ask(f"pick_E{e.number:02d}", P.SYSTEM_EDITOR, P.episode_prompt(show_name, e, eps, hints))
             if txt is None:
@@ -204,6 +213,7 @@ def run(input_dir: str, out_dir: str = "outputs", provider: str = "none", model:
             show.validate(p)
         acc = [{"id": p.id, "episodes": p.episodes, "title": p.title, "hook": p.hook,
                 "segments": [f"{sec_to_ts(s.start)}-{sec_to_ts(s.end)}" for s in p.segments]} for p in pool]
+        log("LLM: stitching cross-episode promos")
         txt = llm.ask("stitch_all", P.SYSTEM_EDITOR, P.cross_prompt(show_name, eps, highlights(show), acc))
         if txt is None:
             _pending_exit(llm, out)
@@ -232,6 +242,7 @@ def run(input_dir: str, out_dir: str = "outputs", provider: str = "none", model:
     strategy, weak = "", []
     if llm.enabled:
         shortlist = passed[:25]          # already de-duplicated; the model handles variety
+        log("LLM: ranking the shortlist")
         txt = llm.ask("rank", P.SYSTEM_EDITOR, P.rank_prompt(show_name, n_eps, [p.to_dict() for p in shortlist]))
         if txt is None:
             _pending_exit(llm, out)
@@ -258,6 +269,7 @@ def run(input_dir: str, out_dir: str = "outputs", provider: str = "none", model:
     if llm.enabled and judge:
         items = [{"id": p.id, "duration": p.duration,
                   "lines": [re.sub(r"^E\d+\.B\d+ ", "", ln) for ln in show.transcript(p)]} for p in order[:12]]
+        log("LLM: blind-viewer QA")
         txt = llm.ask("judge", P.SYSTEM_JUDGE, P.judge_prompt(items))
         if txt is None:
             _pending_exit(llm, out)

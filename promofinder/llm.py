@@ -24,7 +24,7 @@ PRESETS = {
     # name: (provider, base_url, default model, api-key env var)
     "anthropic": ("anthropic", None, "claude-opus-5-5", "ANTHROPIC_API_KEY"),
     "openai": ("openai", "https://api.openai.com/v1", "gpt-4o-mini", "OPENAI_API_KEY"),
-    "gemini": ("openai", "https://generativelanguage.googleapis.com/v1beta/openai", "gemini-2.0-flash", "GEMINI_API_KEY"),
+    "gemini": ("openai", "https://generativelanguage.googleapis.com/v1beta/openai", "gemini-2.5-flash", "GEMINI_API_KEY"),
     "groq": ("openai", "https://api.groq.com/openai/v1", "llama-3.3-70b-versatile", "GROQ_API_KEY"),
     "openrouter": ("openai", "https://openrouter.ai/api/v1", "meta-llama/llama-3.3-70b-instruct:free", "OPENROUTER_API_KEY"),
     "ollama": ("openai", "http://localhost:11434/v1", "qwen2.5:14b", None),
@@ -102,20 +102,62 @@ class LLM:
 
     def _call(self, system: str, user: str, max_tokens: int) -> str:
         last = None
-        for attempt in range(4):
+        swapped = False
+        for attempt in range(7):
             try:
                 if self.provider == "anthropic":
                     return self._anthropic(system, user, max_tokens)
                 return self._openai(system, user, max_tokens)
             except ImportError:
                 raise
-            except Exception as e:  # network / rate limit: back off and retry
+            except Exception as e:
+                resp = getattr(e, "response", None)
+                body = (getattr(resp, "text", "") or "")[:300] if resp is not None else ""
+                if body:
+                    e = RuntimeError(f"{e} | {body}")
+                    e.response = resp
                 last = e
                 msg = str(e).lower()
-                if any(s in msg for s in ("401", "403", "invalid", "api key", "authentication", "not found")):
+                status = getattr(getattr(e, "response", None), "status_code", None)
+                # model renamed / retired: ask the endpoint which models exist and switch once
+                if (status == 404 or "model" in msg and ("not found" in msg or "not supported" in msg))                         and self.provider == "openai" and not swapped:
+                    swapped = True
+                    alt = self._pick_model()
+                    if alt and alt != self.model:
+                        self.model = alt
+                        continue
+                if status in (401, 403) or any(s in msg for s in ("api key", "authentication", "permission")):
+                    raise RuntimeError(f"LLM call failed (check the API key): {e}") from e
+                if status in (400, 404) or "not found" in msg:
                     raise RuntimeError(f"LLM call failed: {e}") from e
-                time.sleep(2 ** attempt * 3)
+                # rate limit / overload / network: back off (free tiers allow ~10-15 calls a minute)
+                wait = 5 * 2 ** min(attempt, 4)
+                ra = getattr(getattr(e, "response", None), "headers", {}) or {}
+                try:
+                    wait = max(wait, float(ra.get("retry-after", 0)))
+                except (TypeError, ValueError):
+                    pass
+                time.sleep(min(wait, 90))
         raise RuntimeError(f"LLM call failed after retries: {last}")
+
+    def _pick_model(self) -> str | None:
+        """Pick a current model from the endpoint's /models list (prefers a non-lite 'flash' model on Gemini)."""
+        import requests
+        try:
+            r = requests.get(f"{self.base_url.rstrip('/')}/models",
+                             headers={"Authorization": f"Bearer {self.api_key}"}, timeout=30)
+            r.raise_for_status()
+            ids = [m["id"].split("/")[-1] for m in r.json().get("data", [])]
+        except Exception:
+            return None
+        if self.preset == "gemini":
+            flash = [i for i in ids if "flash" in i and "lite" not in i and "image" not in i
+                     and "tts" not in i and "live" not in i and "audio" not in i]
+            stable = [i for i in flash if "preview" not in i and "exp" not in i]
+            pool = stable or flash
+            return sorted(pool, key=lambda i: [int(x) if x.isdigit() else x for x in re.split(r"[-.]", i)
+                                               if x.isdigit()], reverse=True)[0] if pool else None
+        return ids[0] if ids else None
 
     def _anthropic(self, system: str, user: str, max_tokens: int) -> str:
         import anthropic  # pip install anthropic
@@ -129,6 +171,8 @@ class LLM:
 
     def _openai(self, system: str, user: str, max_tokens: int) -> str:
         import requests
+        if self.preset == "gemini":   # Gemini 2.5+ thinks before answering; thinking tokens count against max_tokens
+            max_tokens = max(max_tokens, 32000)
         r = requests.post(f"{self.base_url.rstrip('/')}/chat/completions",
                           headers={"Authorization": f"Bearer {self.api_key}"},
                           json={"model": self.model, "temperature": self.temperature, "max_tokens": max_tokens,
@@ -136,7 +180,7 @@ class LLM:
                                              {"role": "user", "content": user}]},
                           timeout=300)
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"]
+        return r.json()["choices"][0]["message"].get("content") or ""
 
 
 def parse_json(text: str):

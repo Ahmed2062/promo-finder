@@ -41,7 +41,7 @@ Put the scripts in `data/` (one `.txt` per episode; sub-folders are fine). `data
 | `manual` | writes each prompt to `outputs/<run>/llm/pending/`; paste it into any chat UI and save the reply as `<name>.response.txt` | – | free |
 
 ```bash
-python -m promofinder -i data/ -o outputs/run1 --provider gemini --model gemini-2.0-flash
+python -m promofinder -i data/ -o outputs/run1 --provider gemini --model gemini-2.5-flash
 python -m promofinder -i data/ -o outputs/run2 --provider anthropic --model claude-sonnet-5-5
 python -m promofinder -i data/ -o outputs/try --provider groq --episodes 1-5     # quick subset
 ```
@@ -56,7 +56,9 @@ Every prompt and raw reply is saved in `outputs/<run>/llm/`. Replies are cached 
 streamlit run app.py
 ```
 
-Upload a zip of scripts, pick a provider, and download the JSON, CSV or HTML report. It deploys as-is to Streamlit Community Cloud (that's how the live link above runs). The scripts are never bundled in the repo.
+Upload a zip of scripts, pick a provider, and download the JSON, CSV or HTML report. It deploys as-is to Streamlit Community Cloud (that's how the live link above runs). The scripts are never bundled in the repo; `samples/demo_show/` holds two short made-up episodes so the app can be tried without them.
+
+**Built-in free key (so visitors don't need one).** In the app's Streamlit Cloud *Settings → Secrets*, add a root-level key, e.g. `GEMINI_API_KEY = "..."` (free from Google AI Studio). The app then defaults to that provider and uses the key without ever showing it; a visitor can still paste their own. The same works for `GROQ_API_KEY` / `OPENROUTER_API_KEY`. Free tiers rate-limit, so the client backs off and retries, and if a default model has been retired it asks the endpoint for a current one.
 
 ## Outputs (per run)
 

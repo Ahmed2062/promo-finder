@@ -1,0 +1,96 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: The locket proves Nora's past, until her aunt Isabel arrives with a secret of her own.
+CONTINUITY NOTES: Synthetic demo episode written for the Promo Finder prototype.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. RESTAURANT KITCHEN – NIGHT
+Scene start: 00:00.00
+Scene end: 00:53.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:02.50)
+The open locket: a photo of a young woman holding a baby.
+
+**VICTOR (Emotional):**
+Start: (00:02.50) | End: (00:05.50)
+"That's my Elena. And that baby... is you."
+
+**NORA (Shaking):**
+Start: (00:05.50) | End: (00:08.50)
+"No. My mother told me my grandfather threw us out."
+
+**ACTION:**
+Start: (00:08.50) | End: (00:10.50)
+A woman in a red dress strides in, heels clicking. This is Isabel.
+
+**ISABEL (Icy):**
+Start: (00:10.50) | End: (00:13.50)
+"Father, step away from that girl. She's a fraud."
+
+**VICTOR (Hurt):**
+Start: (00:13.50) | End: (00:16.00)
+"Isabel, look at the photo."
+
+**ISABEL (Gloating):**
+Start: (00:16.00) | End: (00:19.50)
+"Anyone can buy a locket. I had her checked. She has a criminal record."
+
+**NORA (Outraged):**
+Start: (00:19.50) | End: (00:21.50)
+"That's a lie!"
+
+**CAMERA:**
+Start: (00:21.50) | End: (00:23.50)
+Isabel slaps a folder onto the steel counter.
+
+**ISABEL (Smug):**
+Start: (00:23.50) | End: (00:26.50)
+"Theft. Two years ago. Read it yourself."
+
+**MARCO (Gloating):**
+Start: (00:26.50) | End: (00:29.00)
+"I told you, sir. Nobody."
+
+**ACTION:**
+Start: (00:29.00) | End: (00:31.50)
+Victor opens the folder. His face hardens.
+
+**VICTOR (Cold):**
+Start: (00:31.50) | End: (00:34.00)
+"Is this true, Nora?"
+
+**NORA (Desperate):**
+Start: (00:34.00) | End: (00:37.50)
+"I stole medicine. For my mother. She was dying and no one would help us."
+
+**CAMERA:**
+Start: (00:37.50) | End: (00:39.50)
+Isabel's lips curl into a small, cruel smile.
+
+**ISABEL (Whispering):**
+Start: (00:39.50) | End: (00:42.50)
+"Then you should know who refused to help her."
+
+**NORA (Confused):**
+Start: (00:42.50) | End: (00:44.00)
+"What?"
+
+**ISABEL (Triumphant):**
+Start: (00:44.00) | End: (00:47.00)
+"It was me. I sent your mother away. And I'll do it to you."
+
+**SOUND FX:**
+Start: (00:47.00) | End: (00:48.00)
+Thunder cracks outside.
+
+**VICTOR (Devastated):**
+Start: (00:48.00) | End: (00:50.00)
+"Isabel... what did you do?"
+
+**ISABEL (Threatening):**
+Start: (00:50.00) | End: (00:53.00)
+"Choose, Father. Her or me. Right now."
