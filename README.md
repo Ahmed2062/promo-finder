@@ -11,6 +11,8 @@ It also checks its own output and reports where it fails.
 
 Built for Kuku's AI Generalist assignment, Problem 1 ("Find the Promos").
 
+**Live prototype:** https://promo-finder-ahmed2062.streamlit.app (upload a zip of episode `.txt` files; provider `none` runs free with no key).
+
 ```
 screenplays/*.txt ──► parse ──► heuristic shortlist ──► LLM picks (by beat id) ──► repair + rule checks ──► rank ──► blind-viewer QA ──► JSON / CSV / MD / HTML
                       code       code (free, ~5 s)       1 call / episode           code                     code + 1 call   1 call
@@ -54,7 +56,7 @@ Every prompt and raw reply is saved in `outputs/<run>/llm/`. Replies are cached 
 streamlit run app.py
 ```
 
-Upload a zip of scripts, pick a provider, and download the JSON, CSV or HTML report. It deploys as-is to Streamlit Community Cloud. Keep the repo private, or don't bundle the scripts.
+Upload a zip of scripts, pick a provider, and download the JSON, CSV or HTML report. It deploys as-is to Streamlit Community Cloud (that's how the live link above runs). The scripts are never bundled in the repo.
 
 ## Outputs (per run)
 

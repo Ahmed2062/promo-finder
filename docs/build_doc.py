@@ -55,6 +55,9 @@ story = [
     P("Promo Finder: picking microdrama promos from the screenplay", h1),
     P("Kuku AI Generalist assignment · Problem 1 · ran on all 50 episodes of <i>I Married a Broken Soldier. He was a Duke</i> "
       f"({R['episodes']} episodes, 103 min, 3,727 timestamped beats)", sub),
+    P("<b>Prototype:</b> <link href='https://promo-finder-ahmed2062.streamlit.app' color='#2563eb'>promo-finder-ahmed2062.streamlit.app</link>"
+      " · <b>Code + raw outputs:</b> <link href='https://github.com/Ahmed2062/promo-finder' color='#2563eb'>github.com/Ahmed2062/promo-finder</link>"
+      " · full unredacted outputs shared privately as a zip", sub),
 
     P("1. Why this problem, and how I scoped it", h2),
     P("Promo selection is a weekly job that blocks every launch. It has a clear spec (20–60 s, hook in 3 s, cut on a cliffhanger, "
