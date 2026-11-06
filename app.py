@@ -91,7 +91,7 @@ if st.button("Find promos", type="primary", disabled=not folder):
     with st.status("Reading episodes and picking promos…", expanded=True) as status:
         def show(m):
             status.update(label=m)
-            if "retry" in m or "switching" in m:
+            if any(k in m for k in ("retry", "switching", "falling back")):
                 st.caption("⏳ " + m)
         pipeline.PROGRESS = show
         try:

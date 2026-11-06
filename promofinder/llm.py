@@ -104,6 +104,7 @@ class LLM:
     def _call(self, system: str, user: str, max_tokens: int) -> str:
         last = None
         swapped = False
+        busy = 0
         for attempt in range(7):
             try:
                 if self.provider == "anthropic":
@@ -136,6 +137,15 @@ class LLM:
                     raise RuntimeError(f"LLM call failed (check the API key): {e}") from e
                 if status in (400, 404) or "not found" in msg:
                     raise RuntimeError(f"LLM call failed: {e}") from e
+                # model overloaded twice in a row: a lighter sibling (e.g. flash-lite) usually has capacity
+                busy = busy + 1 if status in (500, 502, 503, 504) else 0
+                if busy >= 2 and self.provider == "openai" and not getattr(self, "_fell_back", False):
+                    self._fell_back = True
+                    alt = self._pick_model(exclude=self.model, prefer_lite=True)
+                    if alt and alt != self.model:
+                        self.log(f"{self.model} overloaded; falling back to {alt}")
+                        self.model, busy = alt, 0
+                        continue
                 # rate limit / overload / network: back off (free tiers allow ~10-15 calls a minute)
                 wait = 5 * 2 ** min(attempt, 4)
                 ra = getattr(resp, "headers", {}) or {}
@@ -161,7 +171,9 @@ class LLM:
         if self.preset == "gemini":
             flash = [i for i in ids if "flash" in i and i != exclude and not any(
                 k in i for k in ("image", "tts", "live", "audio", "embed"))]
-            if not prefer_lite:
+            if prefer_lite:
+                flash = [i for i in flash if "lite" in i] or flash
+            else:
                 flash = [i for i in flash if "lite" not in i] or flash
             stable = [i for i in flash if "preview" not in i and "exp" not in i]
             pool = stable or flash
