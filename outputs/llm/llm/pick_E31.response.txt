@@ -1,0 +1,20 @@
+{"episode": 31,
+  "promos": [
+    {"title": "Hot iron burns mother's book",
+      "segments": [{"start_beat": "E31.B007", "end_beat": "E31.B010"}, {"start_beat": "E31.B064", "end_beat": "E31.B086"}],
+      "hook": "Catherine's face lit by a red-hot branding iron: 'The great Lady Juliana Ashcroft... chained in a dungeon like a common criminal.'",
+      "cliffhanger": "Catherine swings the glowing iron to stop inches from Juliana's eye - we cut on the ember reflected in her trembling eye.",
+      "why": "Chained heroine, sadistic noblewoman, a red-hot poker and a burned keepsake of a dead mother - clear villain, clear victim, and a physical threat left hanging.",
+      "needs_context": "Who Catherine is and why Juliana is imprisoned; the book's importance is stated in-clip.",
+      "scores": {"hook": 8, "cliffhanger": 9, "standalone": 8}
+    },
+    {"title": "Chained wife defends scarred husband",
+      "segments": [{"start_beat": "E31.B032", "end_beat": "E31.B057"}],
+      "hook": "Chained on a dungeon floor, Juliana: 'Gerald chose money. Clarissa chose a coward. I chose myself.'",
+      "cliffhanger": "Catherine, enraged, demands 'I have beauty, money, family, status! What do you have?' - cut before Juliana answers.",
+      "why": "Rapid-fire defiance from a shackled heroine standing up for her 'scarred nobody' husband is a satisfying archetype clash.",
+      "needs_context": "Gerald and Clarissa are name-dropped without explanation; mostly talk, less visual peril.",
+      "scores": {"hook": 6, "cliffhanger": 6, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

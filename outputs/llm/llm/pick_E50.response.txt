@@ -1,0 +1,12 @@
+{"episode": 50,
+  "promos": [
+    {"title": "Priest's Forbidden Affair Gets Witnessed",
+      "segments": [{"start_beat": "E50.B000", "end_beat": "E50.B016"}, {"start_beat": "E50.B032", "end_beat": "E50.B039"}],
+      "hook": "Overhead shot of a priest lying breathless in bed with a noblewoman, who teases 'A man in your collar isn't supposed to have that much left in him, Thomas.'",
+      "cliffhanger": "A maid with a lantern sees the priest and her mistress through the open door, gasps and stumbles back into the dark. We cut before anyone knows she saw.",
+      "why": "A scandalous forbidden affair plus a bribe ('Discretion has a price') ends with a witness who could bring it all down. It is a clean secret-discovered open loop.",
+      "needs_context": "Who Catherine is and what the priest's silence is buying (a rigged hearing). The affair and the witness work without it.",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

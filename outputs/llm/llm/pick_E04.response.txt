@@ -1,0 +1,20 @@
+{"episode": 4,
+  "promos": [
+    {"title": "Penniless nobody's ring: will she?",
+      "segments": [{"start_beat": "E04.B003", "end_beat": "E04.B011"}, {"start_beat": "E04.B036", "end_beat": "E04.B049"}],
+      "hook": "Ex-groom sneers at a kneeling scarred man holding out a ring: 'A penniless nobody for a discarded bride' - her sister laughs",
+      "cliffhanger": "Juliana, ring in front of her: 'I don't know this man. I don't know what waits beyond these doors' - we cut before her answer",
+      "why": "Public mockery plus a mysterious scarred suitor's vow, ending on the yes/no decision",
+      "needs_context": "Why she is a 'discarded bride' is only implied by the insults",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 7}
+    },
+    {"title": "Wed to a stranger, then disowned",
+      "segments": [{"start_beat": "E04.B080", "end_beat": "E04.B100"}],
+      "hook": "Priest pronounces the bride and the scarred stranger husband and wife; the ex-groom lunges: 'You have thrown yourself away!'",
+      "cliffhanger": "Her mother screams 'You are disowned!' and Juliana fights back tears as her new husband stands beside her",
+      "why": "Shock marriage, enraged ex and a disowning in under 30 seconds",
+      "needs_context": "Who the stranger is and why she married him are not shown",
+      "scores": {"hook": 7, "cliffhanger": 5, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

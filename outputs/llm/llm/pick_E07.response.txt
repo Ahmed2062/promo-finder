@@ -1,0 +1,12 @@
+{"episode": 7,
+  "promos": [
+    {"title": "Ex mocks her, husband arrives",
+      "segments": [{"start_beat": "E07.B008", "end_beat": "E07.B016"}, {"start_beat": "E07.B025", "end_beat": "E07.B041"}],
+      "hook": "A rich woman under a parasol sneers at Juliana's mud-stained hands: 'This is where you live now? ... You look like a servant'",
+      "cliffhanger": "Gerald threatens to make her 'beggar husband' disappear - and the towering scarred husband drops his firewood and stares him down as Gerald freezes in terror",
+      "why": "Snobs humiliating the poor wife, then the silent scarred husband looming over the bully - a satisfying power flip with the payoff held back",
+      "needs_context": "Who Gerald is to her (the ex who jilted her) is only implied by 'when you walked away'",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

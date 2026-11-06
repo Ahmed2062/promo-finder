@@ -1,0 +1,22 @@
+{"order": [
+{"id": "E03-P1", "reason": "Strongest hook and cliff of the set: a bride dragged from the church, then a scarred stranger kneels with a ring. Pays off within minutes of landing on episode 1."},
+{"id": "E12-P1", "reason": "Switches to the cruel-sister angle with a chilling 'I want to see you crawl' hook. It ends on her accepting the ordeal, so the viewer needs to see what happens next."},
+{"id": "E15-P1", "reason": "Protector romance: she is shoved into the mud and the veteran husband steps in against three thugs. Easy for a stranger to follow, and still early in the show."},
+{"id": "X-01", "reason": "A tight 33s version of the jilted-at-the-altar premise for viewers who missed slot 1. It hooks on the betrayal from E1 and cuts on the stranger kneeling."},
+{"id": "E26-P1", "reason": "Adds mystery: a dying Duchess recognizes the ring and demands to know where it came from. It plants the hidden-Duke question without answering it."},
+{"id": "E02-P1", "reason": "Humiliation into defiance: 'too plain to marry' turns into a steely 'Dignity?' comeback. Very clear archetype from the opening episodes."},
+{"id": "E31-P1", "reason": "Peak villain menace for the darker-drama audience: a red-hot iron stops inches from her eye. Its 0.77 auto score beats the near-duplicate E32."},
+{"id": "X-02", "reason": "Pairs a mud-and-ledger humiliation with the rumor that her beggar husband carries the late Duke's scar. A mystery hook from early episodes."},
+{"id": "E10-P1", "reason": "A pure romance beat for variety: her blood-soaked husband, faces inches apart, almost a kiss. Lands in the first ten episodes."},
+{"id": "X-05", "reason": "Revenge promise: she is condemned as a witch and he vows their dead Duke will return before the wedding. It teases the payoff without showing the reveal."}
+],
+"strategy": "Open with the early, unmistakable premise (jilted bride and a scarred stranger's proposal), because viewers land on episode 1 and E1-E3 promos pay off fastest. Then rotate the angles (cruel sister, protector romance, ring mystery, villain menace, slow-burn romance, revenge tease) so that no two wedding-scene promos run back to back. Late-episode material is held to teases that hint at the Duke reveal without spoiling it.",
+"weak": [
+{"id": "E32-P1", "problem": "Same branding-iron scene as E31-P1. Posting both splits the audience, so keep only E31."},
+{"id": "X-03", "problem": "Reuses the E12 crawl hook. Its lower auto score (0.69) does not justify a second slot for the same scene."},
+{"id": "E42-P1", "problem": "Shows the scarred man proclaimed the rightful Duke, which spoils the show's central reveal 42 episodes early."},
+{"id": "E43-P1", "problem": "Also reveals the Duke's identity and needs 43 episodes of patience. It is spoiler-heavy and weak for acquisition."},
+{"id": "E23-P1", "problem": "Lowest stand-alone score (6): a stranger cannot tell who the poisoned woman is or why Juliana is disguised."},
+{"id": "E21-P1", "problem": "Weakest cliffhanger (6): it ends on begging with no clear unresolved threat."},
+{"id": "E01-P1", "problem": "Overlaps X-01, which opens with the same 'Gerald?' hook and has a stronger cliff, so E01-P1 is redundant."}
+]}

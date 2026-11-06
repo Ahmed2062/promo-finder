@@ -1,0 +1,14 @@
+{"clips": [
+{"id": "E03-P1", "stop": 7, "clear": 6, "next": 8, "confusing": "Why she is being thrown out of the chapel in the first place - what 'they took' from her is never shown", "would_click": true},
+{"id": "E12-P1", "stop": 7, "clear": 6, "next": 6, "confusing": "The ring is in briars at Ashworth Manor but she asks 'where the garden is', and the charges against the husband are never explained", "would_click": true},
+{"id": "E15-P1", "stop": 6, "clear": 5, "next": 6, "confusing": "Why thugs are smashing her mother's plants and why she is already bleeding through bandages", "would_click": false},
+{"id": "X-01", "stop": 4, "clear": 5, "next": 6, "confusing": "A 'bearded stranger' proposes out of nowhere - he never appears before the proposal, so the jump from being dragged out to 'accept my hand' feels like a missing scene", "would_click": false},
+{"id": "E26-P1", "stop": 6, "clear": 4, "next": 6, "confusing": "Why the ring matters so much - no idea whose ring it is or who Juliana is to the Duchess", "would_click": false},
+{"id": "E02-P1", "stop": 6, "clear": 8, "next": 5, "confusing": "Who the off-screen scolding voice is; otherwise clear, but it ends on a flat 'Dignity?' with no payoff", "would_click": false},
+{"id": "E31-P1", "stop": 6, "clear": 5, "next": 6, "confusing": "It's about burning a book, then suddenly a searing iron is inches from her eyes - the iron comes from nowhere, and why she is chained is unexplained", "would_click": false},
+{"id": "X-02", "stop": 5, "clear": 2, "next": 3, "confusing": "Three unrelated scenes stitched together: Barbara never appears, the bearded man, the war veteran and the late Duke are all unexplained", "would_click": false},
+{"id": "E10-P1", "stop": 3, "clear": 4, "next": 3, "confusing": "How he got hurt and who these two are; mostly long pauses with flirty lines and no stakes", "would_click": false},
+{"id": "X-05", "stop": 6, "clear": 3, "next": 6, "confusing": "Who 'she' is, who all these nobles are, and who the 'dead Duke' is - too many names and no faces to anchor them", "would_click": false},
+{"id": "E32-P1", "stop": 6, "clear": 5, "next": 6, "confusing": "Why she is chained and who Catherine is to her; the speech is generic until the iron appears", "would_click": false},
+{"id": "E23-P1", "stop": 6, "clear": 4, "next": 5, "confusing": "Who is being poisoned and who Juliana is; long silent gaps and it ends on just a door opening", "would_click": false}
+]}

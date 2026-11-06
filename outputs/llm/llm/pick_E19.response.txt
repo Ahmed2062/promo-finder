@@ -1,0 +1,12 @@
+{"episode": 19,
+  "promos": [
+    {"title": "Beggar soldier is secretly duke",
+      "segments": [{"start_beat": "E19.B026", "end_beat": "E19.B049"}],
+      "hook": "A scarred stranger steps out of the misty woods, bows to the 'beggar' soldier and says 'Your Grace.'",
+      "cliffhanger": "Told his mother is a prisoner and everyone thinks he is dead, Alexander vows 'Then Ashburg will remember who it belongs to', and the return is still to come",
+      "why": "The show's title promise (the broken soldier is a duke) revealed on screen, with usurpers, a captive mother and a coming reckoning",
+      "needs_context": "That his wife does not know; and who Rupert, Lord Sterling and Lady Catherine are (the informant explains them only quickly)",
+      "scores": {"hook": 8, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

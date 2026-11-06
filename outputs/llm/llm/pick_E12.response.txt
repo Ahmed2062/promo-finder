@@ -1,0 +1,20 @@
+{"episode": 12,
+  "promos": [
+    {"title": "Bare hands in the thorns",
+      "segments": [{"start_beat": "E12.B031", "end_beat": "E12.B054"}],
+      "hook": "Clarissa, smiling: 'I want to see you crawl, sister.'",
+      "cliffhanger": "Juliana accepts the ordeal, 'Tell me where the garden is', and we freeze on her face before she reaches the thorns",
+      "why": "Cruel-sister ultimatum with life-or-death stakes (bare hands in frozen briars or her husband hangs), and the heroine's sacrifice is still to come",
+      "needs_context": "Why the husband faces hanging (a planted theft charge); Clarissa's 'we withdraw the charges' mostly covers it",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 8}
+    },
+    {"title": "Arrested, wife shields her soldier",
+      "segments": [{"start_beat": "E12.B000", "end_beat": "E12.B029"}],
+      "hook": "Constable raises iron cuffs: 'Put out your hands, veteran. You are under arrest for theft.'",
+      "cliffhanger": "Juliana faces her sister: 'What do you want?', and the price is not yet named",
+      "why": "Arrest, wife throwing herself in front of her husband, smug ex and venomous sister, ending on an open bargain",
+      "needs_context": "That the watch was planted; Juliana says so outright",
+      "scores": {"hook": 7, "cliffhanger": 6, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,20 @@
+{"episode": 45,
+  "promos": [
+    {"title": "Duchess Proclaimed, Marriage Declared Invalid",
+      "segments": [{"start_beat": "E45.B039", "end_beat": "E45.B042"}, {"start_beat": "E45.B050", "end_beat": "E45.B052"}, {"start_beat": "E45.B056", "end_beat": "E45.B073"}],
+      "hook": "The Duke towers over a bride in a wrecked wedding gown: 'You poisoned my mother. You tortured my wife.'",
+      "cliffhanger": "A bishop storms in and declares the marriage void ('You are not Alexander Ashburton's lawful wife'). Juliana clutches his hand in panic while the villainess smirks, and we cut before anyone answers.",
+      "why": "We see the triumph (raised hand, 'Duchess of Ashburton!') and it is torn away seconds later. Snatching the win back with a smug rival watching is a strong reason to keep watching.",
+      "needs_context": "Why the first wedding lacked a licence. A stranger only needs to know she was just crowned and is now being stripped of it.",
+      "scores": {"hook": 8, "cliffhanger": 9, "standalone": 7}
+    },
+    {"title": "Duke Kneels, Unchains His Wife",
+      "segments": [{"start_beat": "E45.B004", "end_beat": "E45.B022"}],
+      "hook": "A man in ducal regalia drops to one knee before a shackled woman in a prison dress and says 'Look at me.'",
+      "cliffhanger": "She realises her humble husband is the Duke and whispers 'All this time?' We cut before he explains.",
+      "why": "A secret-billionaire style identity reveal works well for romance audiences.",
+      "needs_context": "Why she is in chains and how they married. The cliffhanger is emotional rather than a threat, so it is a softer ad.",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,20 @@
+{"episode": 43,
+  "promos": [
+    {"title": "Guards Refuse Fake Duke's Order",
+      "segments": [{"start_beat": "E43.B004", "end_beat": "E43.B030"}],
+      "hook": "A hysterical groom at the altar screams 'This man is an imposter! Arrest him!'",
+      "cliffhanger": "Alexander hands over a sealed War Office top-secret dossier and says 'Read the first.' The conspirator goes pale and we cut before a word is read.",
+      "why": "The usurper's power collapses in real time when the guard says 'No. He is your Duke.' A sealed secret file is a strong open loop to end on.",
+      "needs_context": "Who Alexander is and why he was thought dead. The clip makes it clear he is the true Duke.",
+      "scores": {"hook": 7, "cliffhanger": 8, "standalone": 7}
+    },
+    {"title": "Traitor Exposed, Escape Blocked",
+      "segments": [{"start_beat": "E43.B056", "end_beat": "E43.B086"}],
+      "hook": "Alexander, scarred and furious, towers over Rupert: 'You sold my men to the enemy.'",
+      "cliffhanger": "Rupert gives up Sterling, who bolts for a side door, opens it onto a constable ('Going somewhere, Lord Sterling?') and freezes in terror. We cut before the arrest.",
+      "why": "A betrayal accusation as the opening line, a coward turning on his partner and a blocked escape give it a fast run of escalations.",
+      "needs_context": "Who Sterling is. The crown-report lines about the ambush and the faked death fill in most of the rest.",
+      "scores": {"hook": 8, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

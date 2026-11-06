@@ -1,0 +1,12 @@
+{"episode": 37,
+  "promos": [
+    {"title": "Execution as wedding entertainment",
+      "segments": [{"start_beat": "E37.B010", "end_beat": "E37.B015"}, {"start_beat": "E37.B050", "end_beat": "E37.B062"}, {"start_beat": "E37.B074", "end_beat": "E37.B075"}],
+      "hook": "Rupert leans in: 'No one will question what happened to the woman who tried to stop us.' Catherine: 'Juliana's execution comes after the wedding... a feast for our guests.'",
+      "cliffhanger": "After the starving, chained Juliana swears they cannot take who she is, Clarissa sips wine: 'Let them see what happens when a woman forgets her place.' - the execution still looms.",
+      "why": "Gloating aristocrats turning a woman's execution into wedding entertainment, intercut with her defiance in chains - clear villains and stakes.",
+      "needs_context": "Why Juliana is condemned and who Clarissa is; the episode is mostly talk with no confrontation, so the promo leans on stakes rather than action.",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

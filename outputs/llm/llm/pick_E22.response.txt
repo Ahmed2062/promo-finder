@@ -1,0 +1,20 @@
+{"episode": 22,
+  "promos": [
+    {"title": "Disguised Maid Finds Poisoned Duchess",
+      "segments": [{"start_beat": "E22.B004", "end_beat": "E22.B006"}, {"start_beat": "E22.B062", "end_beat": "E22.B080"}],
+      "hook": "'Keep your head down. If anyone recognizes you, everything is over.' - a lady disguised as a maid sneaking into a manor",
+      "cliffhanger": "Juliana realizes 'This isn't ordinary fever', the Duchess convulses, and Juliana demands 'Who has been treating you?' - cut on the Duchess's terrified eyes",
+      "why": "Disguise-and-danger hook pays off with a secret bedchamber, a dying noblewoman and a clear poisoning mystery left hanging.",
+      "needs_context": "Who the Dowager Duchess is and why Juliana risks herself for her",
+      "scores": {"hook": 6, "cliffhanger": 8, "standalone": 6}
+    },
+    {"title": "Housekeeper Interrogates the New Maid",
+      "segments": [{"start_beat": "E22.B023", "end_beat": "E22.B042"}],
+      "hook": "A stern housekeeper blocks the corridor: 'Prudence. Who is this?'",
+      "cliffhanger": "The housekeeper steps into Juliana's face: 'And can you keep your eyes and ears where they belong?'",
+      "why": "Tense will-she-be-caught interrogation of a secret noblewoman in disguise.",
+      "needs_context": "That 'Julian' is really Lady Juliana in disguise and why she is there",
+      "scores": {"hook": 5, "cliffhanger": 5, "standalone": 4}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,12 @@
+{"episode": 30,
+  "promos": [
+    {"title": "Then Call It Witchcraft",
+      "segments": [{"start_beat": "E30.B016", "end_beat": "E30.B018"}, {"start_beat": "E30.B039", "end_beat": "E30.B048"}, {"start_beat": "E30.B065", "end_beat": "E30.B070"}],
+      "hook": "An elder nobleman pins Rupert to the wall with his cane: 'A peasant weed! You do not store weeds in your cellar, you burn them!'",
+      "cliffhanger": "'Tomorrow, she stops being a prisoner. She becomes a witch.' - cut to Juliana chained in a flooded cell, looking up in dread",
+      "why": "Villains openly plotting to manufacture evidence, buy the jury and hang an innocent healer, ending on her chained and unaware - strong injustice with a ticking clock.",
+      "needs_context": "Who Juliana is and what she did (saved a poisoned duchess); the plot dialogue fills in most of it",
+      "scores": {"hook": 7, "cliffhanger": 8, "standalone": 7}
+    }
+  ],
+  "skip_reason": "The episode is one continuous conspiracy scene; a second promo would overlap."}

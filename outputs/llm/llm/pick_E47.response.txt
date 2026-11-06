@@ -1,0 +1,12 @@
+{"episode": 47,
+  "promos": [
+    {"title": "Villainess Begs, Handed Scullery Apron",
+      "segments": [{"start_beat": "E47.B037", "end_beat": "E47.B066"}],
+      "hook": "A woman in a ruined gown collapses on rain-soaked cobblestones, screaming 'Please, Alexander! Have mercy!' as guards move to drag her out.",
+      "cliffhanger": "Juliana pushes a servant's apron and iron keys into her former tormentor's face: 'Take the apron, or leave the county.' We cut before Catherine chooses.",
+      "why": "A role reversal where the cruel rival who 'tried to destroy you' is offered a maid's apron gives viewers the revenge they want, and it ends on an ultimatum.",
+      "needs_context": "What exactly Catherine did. 'She tried to destroy you' and 'impostor' cover enough of it.",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

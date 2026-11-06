@@ -1,0 +1,12 @@
+{"episode": 44,
+  "promos": [
+    {"title": "Bride Begs Duke, He Chooses Prisoner",
+      "segments": [{"start_beat": "E44.B009", "end_beat": "E44.B012"}, {"start_beat": "E44.B016", "end_beat": "E44.B053"}],
+      "hook": "Guards slam the groom into the dust at his own wedding as he screams 'Get your hands off me! Catherine! Do something!'",
+      "cliffhanger": "The Duke rejects the weeping bride ('You were never my Duchess'), turns his back and walks to the chained prisoner at the door. Catherine gasps 'Her?!' and we cut there.",
+      "why": "A bride who drops her arrested groom to beg the Duke, gets coldly refused and then sees him pick the woman in shackles is a satisfying villain humiliation built on a love triangle.",
+      "needs_context": "Who the chained woman is (his wife) and the history between Catherine and Alexander. Her lines explain most of it.",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

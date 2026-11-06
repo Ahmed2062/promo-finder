@@ -1,0 +1,12 @@
+{"episode": 35,
+  "promos": [
+    {"title": "Mother finds presumed-dead son",
+      "segments": [{"start_beat": "E35.B018", "end_beat": "E35.B026"}, {"start_beat": "E35.B058", "end_beat": "E35.B067"}],
+      "hook": "A snow-dusted old woman bursts into tears at the sight of a scarred soldier: 'Alexander!' - 'Mother?'",
+      "cliffhanger": "'Someone ordered my men to die. Someone wanted me erased.' - his terrified mother gasps 'Who?' and we cut before he names them.",
+      "why": "A mother who buried her son finds him alive and learns his death was a conspiracy - emotional reunion plus a hanging question.",
+      "needs_context": "Who Alexander is (a hidden duke) and what Ashwood is; no Juliana, so it plays as a standalone mystery rather than the show's core romance.",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

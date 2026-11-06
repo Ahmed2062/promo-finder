@@ -1,0 +1,12 @@
+{"episode": 42,
+  "promos": [
+    {"title": "Dead Duke Returns, Guards Refuse",
+      "segments": [{"start_beat": "E42.B002", "end_beat": "E42.B022"}, {"start_beat": "E42.B032", "end_beat": "E42.B036"}],
+      "hook": "A terrified groom asks a scarred man in ducal regalia standing in the smoke 'Who are you?' He answers 'You already know.'",
+      "cliffhanger": "He is proclaimed the rightful Duke, puts his hand on his sabre and tells the cowering usurper 'And now, Rupert... we settle what you stole.' We cut before the reckoning.",
+      "why": "A man everyone believed dead comes back, the guards refuse the usurper's order and the public proclamation flips the room. It ends on a direct threat with the punishment still to come.",
+      "needs_context": "Who the elderly woman making the proclamation is (his mother) and what Rupert stole. Both can be inferred from the lines.",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

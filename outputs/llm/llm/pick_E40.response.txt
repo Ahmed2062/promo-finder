@@ -1,0 +1,3 @@
+{"episode": 40,
+  "promos": [],
+  "skip_reason": "Pure setup episode: guests arrive, villains gloat ('She won't be seeing anything for long', 'its witch will be dead') and the bride walks the aisle, but neither Juliana nor Alexander appears, nothing happens on screen, and it ends on the villains' smug smiles rather than an interruption or threat. A stranger would see a wedding with unexplained references to a witch; the lines work better as a hook bolted onto the next episode's payoff."}

@@ -1,0 +1,20 @@
+{"episode": 1,
+  "promos": [
+    {"title": "Jilted at altar for sister",
+      "segments": [{"start_beat": "E01.B022", "end_beat": "E01.B049"}],
+      "hook": "A bride in her mother's gown whispers 'Gerald? Why are you holding her hand?' as her groom grips another woman's hand at the altar",
+      "cliffhanger": "Juliana, learning her sister knew all along, asks 'How long?' - we cut before the answer",
+      "why": "Instantly legible jilted-bride betrayal with a smug sister, escalating lines, and a hanging question",
+      "needs_context": "nothing",
+      "scores": {"hook": 8, "cliffhanger": 7, "standalone": 9}
+    },
+    {"title": "The daughter they tolerate",
+      "segments": [{"start_beat": "E01.B072", "end_beat": "E01.B093"}],
+      "hook": "Humiliated bride demands 'And I am what?' and her sister answers 'You are the daughter people tolerate because they have to'",
+      "cliffhanger": "After the groom calls her plain and worthless and walks away, Juliana's tears harden into fury as an ominous drone swells - revenge is coming",
+      "why": "Vicious family cruelty plus a visible turn from victim to avenger is classic microdrama ad bait",
+      "needs_context": "Opens mid-confrontation; that this is her wedding is only clear from the gown and altar",
+      "scores": {"hook": 7, "cliffhanger": 6, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

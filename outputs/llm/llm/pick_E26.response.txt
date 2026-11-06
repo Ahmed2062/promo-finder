@@ -1,0 +1,12 @@
+{"episode": 26,
+  "promos": [
+    {"title": "Duchess Recognizes the Ring",
+      "segments": [{"start_beat": "E26.B024", "end_beat": "E26.B027"}, {"start_beat": "E26.B033", "end_beat": "E26.B050"}],
+      "hook": "A dying duchess whispers 'Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?'",
+      "cliffhanger": "The Duchess grips Juliana's hand - 'Do not move! Where did you get this ring? Speak to me!' - cut before Juliana answers",
+      "why": "A poisoning confession hook plus a sudden identity reveal over a family ring is a pure 'who is she really' mystery that demands the next episode.",
+      "needs_context": "Who gave Juliana the ring (her husband) and why it matters - deliberately withheld, works as intrigue",
+      "scores": {"hook": 8, "cliffhanger": 9, "standalone": 7}
+    }
+  ],
+  "skip_reason": "The opening antidote scene is slow and leads into the same reveal; one promo only."}

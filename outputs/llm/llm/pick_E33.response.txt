@@ -1,0 +1,12 @@
+{"episode": 33,
+  "promos": [
+    {"title": "Lord forces maid's witchcraft testimony",
+      "segments": [{"start_beat": "E33.B038", "end_beat": "E33.B042"}, {"start_beat": "E33.B073", "end_beat": "E33.B091"}],
+      "hook": "A cold lord to a weeping maid: 'One word from me, and the county gaol will take him before sunrise.' - 'Please, he is only seven!'",
+      "cliffhanger": "'She saved my brother...' - 'And now... you will save your brother.' Cut before she decides whether to betray the woman who saved him.",
+      "why": "Child-in-danger blackmail and a forced false witchcraft confession give a clear villain and an agonizing choice.",
+      "needs_context": "Who Lady Juliana is and that she is already imprisoned; she never appears in the clip, so the real victim is off-screen.",
+      "scores": {"hook": 6, "cliffhanger": 6, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

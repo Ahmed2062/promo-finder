@@ -1,0 +1,12 @@
+{"episode": 15,
+  "promos": [
+    {"title": "Thugs shove her, soldier arrives",
+      "segments": [{"start_beat": "E15.B029", "end_beat": "E15.B054"}],
+      "hook": "A thug snarls 'Get out of the way!', Juliana says 'No', and he shoves her hard onto the wet stone",
+      "cliffhanger": "Alexander stands between her and three armed thugs: 'What? You want to fight us, veteran?' and we cut before the first blow",
+      "why": "Clear bullies, a bleeding, sobbing heroine mocked over her mother's plants, then a rescuer showing up as the fight is about to start",
+      "needs_context": "Why her hands are bandaged and who sent the thugs; neither is needed to follow it",
+      "scores": {"hook": 7, "cliffhanger": 8, "standalone": 8}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,12 @@
+{"episode": 20,
+  "promos": [
+    {"title": "Usurpers slowly poisoning the Duchess",
+      "segments": [{"start_beat": "E20.B014", "end_beat": "E20.B026"}],
+      "hook": "Rupert, conspiratorial: 'Once my cousin Alexander's death is formally sealed by the Crown... the title is mine.'",
+      "cliffhanger": "Asked how long the old Duchess can survive, Rupert replies 'Not through the winter. I've ensured her quiet comfort', hinting he is killing her",
+      "why": "Two silky villains over tea casually plotting a murder and a stolen title; the 'baffled physicians' line makes it a poisoning",
+      "needs_context": "That Alexander is alive and living as a poor soldier; without that, the 'death' line carries less dramatic irony",
+      "scores": {"hook": 6, "cliffhanger": 7, "standalone": 5}
+    }
+  ],
+  "skip_reason": "Only the villains' plotting scene works; the barn scene with Seamus is resolve and dialogue with no confrontation."}

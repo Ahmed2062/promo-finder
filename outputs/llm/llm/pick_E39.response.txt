@@ -1,0 +1,12 @@
+{"episode": 39,
+  "promos": [
+    {"title": "Dead Duke dons his crest",
+      "segments": [{"start_beat": "E39.B020", "end_beat": "E39.B025"}, {"start_beat": "E39.B037", "end_beat": "E39.B058"}],
+      "hook": "A firewood driver suddenly leaps off his cart and tackles a royal sentry; a second guard is choked out - 'Sleep.'",
+      "cliffhanger": "In full ducal regalia, the scarred Duke marches through the snow: 'I am taking back my house. And I am bringing my wife home.' - cut before he reaches the chapel.",
+      "why": "Ambush action plus a presumed-dead husband revealed as a Duke ('They buried Alexander Ashwin three years ago. Today, he comes home.') is the show's core fantasy.",
+      "needs_context": "Why his wife needs rescuing (she is about to be executed) is never said in the clip; the ending is a vow, not a confrontation.",
+      "scores": {"hook": 7, "cliffhanger": 6, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

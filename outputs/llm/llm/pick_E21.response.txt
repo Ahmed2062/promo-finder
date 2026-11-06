@@ -1,0 +1,20 @@
+{"episode": 21,
+  "promos": [
+    {"title": "Dying Boy, No Silver",
+      "segments": [{"start_beat": "E21.B002", "end_beat": "E21.B021"}],
+      "hook": "Barn doors slam open and a girl screams 'Lady Juliana! Please! Toby is dying!'",
+      "cliffhanger": "Prudence on her knees begging 'You are his only hope' while Juliana, with nothing left, has not yet answered",
+      "why": "Instant panic and class injustice (doctors refused a poor child) make a stranger root for the bandaged heroine and want to see if she can save him.",
+      "needs_context": "Why Juliana's hands are bandaged and her cottage is ashes; who she is (a disowned lady)",
+      "scores": {"hook": 8, "cliffhanger": 6, "standalone": 7}
+    },
+    {"title": "The Duchess Is Dying",
+      "segments": [{"start_beat": "E21.B057", "end_beat": "E21.B072"}],
+      "hook": "'You saved him. The grand doctors left him to choke' - a peasant girl swears her life to Juliana",
+      "cliffhanger": "'She is fading to nothing, and no one can stop it' - the Dowager Duchess is dying of a mysterious illness",
+      "why": "Ominous whispered reveal about a powerful dying noblewoman sets up the healer heroine's next mission.",
+      "needs_context": "Who the Dowager Duchess is and why she matters to Juliana (her husband's mother); hook is soft",
+      "scores": {"hook": 4, "cliffhanger": 7, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

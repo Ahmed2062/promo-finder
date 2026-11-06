@@ -1,0 +1,12 @@
+{"episode": 24,
+  "promos": [
+    {"title": "Let Her Suffer, Riding Crop",
+      "segments": [{"start_beat": "E24.B019", "end_beat": "E24.B035"}, {"start_beat": "E24.B044", "end_beat": "E24.B045"}, {"start_beat": "E24.B063", "end_beat": "E24.B068"}],
+      "hook": "A sneering noblewoman says of a dying old woman 'Then let her suffer' - Juliana refuses and is struck with a riding crop",
+      "cliffhanger": "Soot-streaked Juliana secretly touches the hidden antidote and vows 'I will return. You cannot stop the healer.'",
+      "why": "Shocking cruelty and a public beating of a disguised lady, flipped by the secret that she holds the cure, makes viewers crave the comeuppance.",
+      "needs_context": "That the maid is secretly a noblewoman and the bedridden woman is being poisoned",
+      "scores": {"hook": 8, "cliffhanger": 6, "standalone": 7}
+    }
+  ],
+  "skip_reason": "Rest of the episode is the same confrontation; a second promo would overlap."}

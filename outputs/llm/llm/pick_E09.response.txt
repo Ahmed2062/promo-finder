@@ -1,0 +1,20 @@
+{"episode": 9,
+  "promos": [
+    {"title": "Dying boy at the door",
+      "segments": [{"start_beat": "E09.B002", "end_beat": "E09.B041"}],
+      "hook": "Frantic pounding on the cottage door at night; a soaked mother bursts in: 'Please! My boy is burning with fever!'",
+      "cliffhanger": "Juliana spoons in her mother's herbal remedy and the mother cries 'Why isn't it working?' - we cut before the fever breaks",
+      "why": "Life-or-death urgency with a ticking clock that any stranger understands instantly",
+      "needs_context": "Why Juliana knows herbs (her late mother's book) is only lightly shown; the show's betrayal premise is absent",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 8}
+    },
+    {"title": "Rumor: the late Duke lives",
+      "segments": [{"start_beat": "E09.B074", "end_beat": "E09.B088"}],
+      "hook": "Ex-groom tells a nobleman: 'About a war veteran. Some say he resembles the late Duke'",
+      "cliffhanger": "Told the man carries the Duke's scar, the nobleman demands 'Where?', then alone whispers 'Impossible' as firelight dances in his eye",
+      "why": "A secret-identity reveal and a frightened villain - plays directly into the show's title promise",
+      "needs_context": "The scarred husband never appears in the clip, so a stranger must rely on the show title to connect him to the Duke",
+      "scores": {"hook": 6, "cliffhanger": 8, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

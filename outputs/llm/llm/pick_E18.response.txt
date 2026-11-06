@@ -1,0 +1,20 @@
+{"episode": 18,
+  "promos": [
+    {"title": "Running into fire for ledger",
+      "segments": [{"start_beat": "E18.B030", "end_beat": "E18.B045"}],
+      "hook": "In a burning room Juliana screams 'The ledger!' and Alexander shouts 'Leave it!'",
+      "cliffhanger": "She grabs her mother's ledger, a burning rafter splits right above her, and she screams 'Alexander!' as it falls, cut before he reaches her",
+      "why": "Pure peril with a clear emotional motive ('It's my mother's!') and a man roaring her name, ending at the moment of impact",
+      "needs_context": "Why the house is on fire (arson); not needed for the peril to land",
+      "scores": {"hook": 8, "cliffhanger": 9, "standalone": 8}
+    },
+    {"title": "Home burned, husband vows vengeance",
+      "segments": [{"start_beat": "E18.B065", "end_beat": "E18.B067"}, {"start_beat": "E18.B073", "end_beat": "E18.B080"}],
+      "hook": "Their cottage engulfed in towering flames as Juliana sobs 'Our home... Everything we had is gone.'",
+      "cliffhanger": "Alexander stares into the inferno after 'They took our home. I will not let them take anything else'; Juliana asks 'What are you going to do?' and he does not answer",
+      "why": "Arson ('Someone wanted us out') plus a scarred soldier's cold fury sets up revenge with the answer withheld",
+      "needs_context": "Who 'they' are; deliberately left as the hook for the next episode",
+      "scores": {"hook": 6, "cliffhanger": 8, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

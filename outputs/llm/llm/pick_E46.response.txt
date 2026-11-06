@@ -1,0 +1,20 @@
+{"episode": 46,
+  "promos": [
+    {"title": "Paper Makes a Duchess, Not Love",
+      "segments": [{"start_beat": "E46.B037", "end_beat": "E46.B054"}],
+      "hook": "A smirking High Priest sneers at the new Duchess: 'Love doesn't make a Duchess, girl. Paper does.'",
+      "cliffhanger": "The priest climbs the altar steps waving the decree: 'I have the power to undo in one hearing what took you three years to steal!' The rival smirks and we cut before the hearing.",
+      "why": "A wronged woman shouting down a sneering church official ('God married us, Father!') is satisfying, and the threat to annul her marriage leaves the stakes hanging.",
+      "needs_context": "Why her marriage is legally in doubt (a secret marriage to a man later revealed as a Duke). The priest's lines only partly explain it.",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 6}
+    },
+    {"title": "Ten Days to Save Marriage",
+      "segments": [{"start_beat": "E46.B063", "end_beat": "E46.B074"}],
+      "hook": "The High Priest to the Duke: 'Ten days. And if the council rules against you, this county watches you lose her twice.'",
+      "cliffhanger": "The guards lower their halberds and the priest leaves, but the jilted bride whispers 'Ten days is plenty of time.' Her scheme is still to come.",
+      "why": "A ticking clock and a whispered villain threat give a clear open loop.",
+      "needs_context": "Who the bride in the gown is and what the council hearing decides. It is fairly dependent on earlier episodes.",
+      "scores": {"hook": 6, "cliffhanger": 7, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

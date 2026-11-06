@@ -1,0 +1,12 @@
+{"episode": 16,
+  "promos": [
+    {"title": "Soldier crushes thugs, names mastermind",
+      "segments": [{"start_beat": "E16.B011", "end_beat": "E16.B026"}, {"start_beat": "E16.B033", "end_beat": "E16.B045"}],
+      "hook": "A thug swings a club at the scarred soldier, who catches it bare-handed mid-air",
+      "cliffhanger": "Pinned by the throat, the thug screams 'Gerald Harrington paid us!' and Juliana whispers 'Gerald...' in devastated disbelief",
+      "why": "A fast, satisfying three-on-one beatdown, then an interrogation that unmasks a villain, cut before anyone can react",
+      "needs_context": "Who Gerald is (her ex-fiance); her heartbroken reaction signals he is personal",
+      "scores": {"hook": 8, "cliffhanger": 7, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

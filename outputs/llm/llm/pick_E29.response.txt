@@ -1,0 +1,20 @@
+{"episode": 29,
+  "promos": [
+    {"title": "Witchcraft Frame, Burn the Book",
+      "segments": [{"start_beat": "E29.B020", "end_beat": "E29.B047"}],
+      "hook": "Catherine tucks a dead mother's herb book under her arm: 'The magistrate will call it witchcraft.'",
+      "cliffhanger": "'My husband will find me.' - 'Your scarred soldier? What exactly do you think a penniless veteran can do against Ashbrook?'",
+      "why": "A villainess calmly threatening to burn a mother's legacy and hang the heroine, ending on a taunt that begs for the husband's revenge.",
+      "needs_context": "That the 'penniless veteran' is secretly powerful (implied by genre, not shown)",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 8}
+    },
+    {"title": "Thrown Into the Wet Cell",
+      "segments": [{"start_beat": "E29.B051", "end_beat": "E29.B073"}],
+      "hook": "Guards shove Juliana onto the wet stone floor of a dark cell - 'Please!' - and the iron door slams and bolts",
+      "cliffhanger": "Alone in the dungeon she rises: 'They took her locket. But they will not take Alexander from me.' as the portcullis crashes down",
+      "why": "Raw despair of an innocent healer locked away, turning into a defiant vow.",
+      "needs_context": "Who 'her' and the Duchess are, who Alexander is and why she was jailed",
+      "scores": {"hook": 7, "cliffhanger": 5, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

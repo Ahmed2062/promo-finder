@@ -1,0 +1,20 @@
+{"episode": 27,
+  "promos": [
+    {"title": "Framed for Poisoning the Duchess",
+      "segments": [{"start_beat": "E27.B064", "end_beat": "E27.B094"}],
+      "hook": "Juliana holds up the vial: 'It is an antidote.' - 'An antidote to what?' - 'Answer her.'",
+      "cliffhanger": "'Take her.' A guard drags Juliana away from the dying Duchess - close on her terrified eyes",
+      "why": "Telling the truth gets twisted into a confession by smug villains in real time - pure injustice that makes strangers need to see her vindicated.",
+      "needs_context": "That Catherine and the nobleman are the real poisoners (implied but not stated)",
+      "scores": {"hook": 7, "cliffhanger": 8, "standalone": 7}
+    },
+    {"title": "Ring of the Lost Son",
+      "segments": [{"start_beat": "E27.B010", "end_beat": "E27.B030"}],
+      "hook": "'That is no ordinary band. It bears the Ashbourne crest.' - the Duchess stares at a maid's wedding ring",
+      "cliffhanger": "'What is your husband's name?' - pounding on the doors, they burst open and Catherine demands what the maid is doing there, before the name is spoken",
+      "why": "Secret-heir reveal (her poor soldier husband may be the Duchess's lost son) interrupted at the exact moment of truth.",
+      "needs_context": "Who Juliana's husband is; the stranger only sees a poor soldier who might be nobility",
+      "scores": {"hook": 7, "cliffhanger": 9, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

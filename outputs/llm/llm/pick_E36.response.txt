@@ -1,0 +1,12 @@
+{"episode": 36,
+  "promos": [
+    {"title": "Dead Duke learns wife's execution",
+      "segments": [{"start_beat": "E36.B080", "end_beat": "E36.B099"}, {"start_beat": "E36.B115", "end_beat": "E36.B118"}],
+      "hook": "A weeping mother tells a scarred soldier 'They condemned her.' - 'No.' - 'She is to be executed.'",
+      "cliffhanger": "'They are marrying in two days... and killing my wife afterward.' Then, at the cabin door: 'Before that wedding begins... their dead Duke is coming home.'",
+      "why": "A ticking clock (two days), a condemned wife, and a presumed-dead husband vowing return - classic hidden-Duke revenge setup that ends on a threat.",
+      "needs_context": "Who Rupert and Catherine are and why he was thought dead; 'dead Duke' carries most of it.",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

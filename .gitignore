@@ -1,0 +1,13 @@
+# Kuku's input pack is confidential - never commit it
+data/
+__pycache__/
+*.pyc
+.env
+outputs_tmp/
+# full, unredacted outputs (contain script text) - shared privately, never pushed
+outputs_private/
+*.zip
+# prompts embed the full screenplay; replies (*.response.txt) are kept
+outputs/**/llm/*.prompt*.md
+outputs/**/llm/pending/
+.claude/

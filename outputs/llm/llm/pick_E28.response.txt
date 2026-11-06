@@ -1,0 +1,20 @@
+{"episode": 28,
+  "promos": [
+    {"title": "Mother's Locket, Identity Unmasked",
+      "segments": [{"start_beat": "E28.B051", "end_beat": "E28.B061"}, {"start_beat": "E28.B066", "end_beat": "E28.B081"}, {"start_beat": "E28.B092", "end_beat": "E28.B095"}],
+      "hook": "Catherine rips a silver locket off a restrained maid's neck - 'No!' - 'Where did a gutter rat like you find a silver locket?'",
+      "cliffhanger": "'Perhaps you can explain every page to the magistrate... before he sends you to the gallows' - Juliana dragged into the dark",
+      "why": "Heirloom cruelty, a disguised lady's identity exposed and mocked, a fierce defense of her husband and a gallows threat - every microdrama trigger in under 45 seconds.",
+      "needs_context": "Why Juliana is disguised as a maid and what she is accused of (poisoning) - the gallows line and 'witch' imply enough",
+      "scores": {"hook": 9, "cliffhanger": 8, "standalone": 8}
+    },
+    {"title": "Duchess Accuses Her Own Son",
+      "segments": [{"start_beat": "E28.B027", "end_beat": "E28.B050"}],
+      "hook": "The bedridden Duchess shouts 'I know what happened to me! I was poisoned! And you... you knew!'",
+      "cliffhanger": "Rupert gaslights her as 'confused' and orders 'Take her away before she poisons the rest of this house'",
+      "why": "A victim naming her poisoners only to be dismissed as mad, while the real healer is framed - strong injustice and villain hate.",
+      "needs_context": "Who Juliana is and that she has been treating the Duchess",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,12 @@
+{"episode": 48,
+  "promos": [
+    {"title": "Villainess Plots Ten-Day Revenge",
+      "segments": [{"start_beat": "E48.B002", "end_beat": "E48.B013"}, {"start_beat": "E48.B037", "end_beat": "E48.B040"}],
+      "hook": "Catherine turns from the window with a venomous smirk: 'Two words, and that healer's crown rolls right back into the gutter where it belongs.'",
+      "cliffhanger": "She presses a purse of gold into her maid's hands: 'Send for the priest. Tonight. And make sure no one sees him arrive.' The plan itself is never revealed.",
+      "why": "A theatrical villain monologue ('Ten days is not a wall... It's a door') and a bribed secret meeting. It works only as a mid-funnel teaser for viewers already following the story.",
+      "needs_context": "A lot: who the healer is, what the ten days and the council are, and who the priest is. There is no victim on screen and no confrontation, so a stranger has little reason to care.",
+      "scores": {"hook": 5, "cliffhanger": 5, "standalone": 3}
+    }
+  ],
+  "skip_reason": ""}

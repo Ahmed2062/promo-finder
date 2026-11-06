@@ -1,0 +1,20 @@
+{"episode": 11,
+  "promos": [
+    {"title": "Planted watch in soldier's coat",
+      "segments": [{"start_beat": "E11.B067", "end_beat": "E11.B084"}],
+      "hook": "Gerald baits the scarred soldier: 'What is it, soldier? Going to strike a gentleman in front of his wife?'",
+      "cliffhanger": "The constable pulls Gerald's gold watch from Alexander's coat; Gerald gloats and the watch dangles, leaving Alexander framed",
+      "why": "Restraint under provocation, then a planted-evidence twist with a gloating villain, cut before anyone can answer",
+      "needs_context": "That Gerald accused Alexander of stealing the watch; the gloat and the constable make it mostly clear",
+      "scores": {"hook": 7, "cliffhanger": 8, "standalone": 7}
+    },
+    {"title": "Ex accuses husband of theft",
+      "segments": [{"start_beat": "E11.B014", "end_beat": "E11.B046"}],
+      "hook": "Gerald points and snarls: 'Your husband stole my gold pocket watch!'",
+      "cliffhanger": "Alexander lets the constable search their home: 'Search it. Let them.' The search is about to start",
+      "why": "Clear villain, a wife defending her husband ('You married a beggar!'), and a threat from the soldier, ending on a search we know is a trap",
+      "needs_context": "Who Gerald is (her ex who jilted her); his arrogance carries it",
+      "scores": {"hook": 7, "cliffhanger": 6, "standalone": 8}
+    }
+  ],
+  "skip_reason": ""}

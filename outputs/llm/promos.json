@@ -1,0 +1,4993 @@
+{
+ "show": "I Married a Broken Soldier. He was a Duke",
+ "episodes": 50,
+ "provider": "manual",
+ "model": "manual",
+ "generated_at": "2026-11-06 16:59:16",
+ "seconds": 7.7,
+ "strategy": "Open with the early, unmistakable premise (jilted bride and a scarred stranger's proposal), because viewers land on episode 1 and E1-E3 promos pay off fastest. Then rotate the angles (cruel sister, protector romance, ring mystery, villain menace, slow-burn romance, revenge tease) so that no two wedding-scene promos run back to back. Late-episode material is held to teases that hint at the Duke reveal without spoiling it.",
+ "weak": [
+  {
+   "id": "E32-P1",
+   "problem": "Same branding-iron scene as E31-P1. Posting both splits the audience, so keep only E31."
+  },
+  {
+   "id": "X-03",
+   "problem": "Reuses the E12 crawl hook. Its lower auto score (0.69) does not justify a second slot for the same scene."
+  },
+  {
+   "id": "E42-P1",
+   "problem": "Shows the scarred man proclaimed the rightful Duke, which spoils the show's central reveal 42 episodes early."
+  },
+  {
+   "id": "E43-P1",
+   "problem": "Also reveals the Duke's identity and needs 43 episodes of patience. It is spoiler-heavy and weak for acquisition."
+  },
+  {
+   "id": "E23-P1",
+   "problem": "Lowest stand-alone score (6): a stranger cannot tell who the poisoned woman is or why Juliana is disguised."
+  },
+  {
+   "id": "E21-P1",
+   "problem": "Weakest cliffhanger (6): it ends on begging with no clear unresolved threat."
+  },
+  {
+   "id": "E01-P1",
+   "problem": "Overlaps X-01, which opens with the same 'Gerald?' hook and has a stronger cliff, so E01-P1 is redundant."
+  }
+ ],
+ "ranked": [
+  {
+   "id": "E03-P1",
+   "segments": [
+    {
+     "episode": 3,
+     "start": "00:58.30",
+     "end": "01:25.40",
+     "start_sec": 58.3,
+     "end_sec": 85.4,
+     "duration": 27.1
+    },
+    {
+     "episode": 3,
+     "start": "01:59.20",
+     "end": "02:25.75",
+     "start_sec": 119.2,
+     "end_sec": 145.75,
+     "duration": 26.55
+    }
+   ],
+   "title": "Scarred stranger stops guards, proposes",
+   "hook": "Matriarch screams 'Guards! Remove her!' and guards drag the bride from the church as she begs 'Please! Someone!'",
+   "cliffhanger": "The scarred stranger kneels in the aisle with a ring - 'Lady Juliana... accept my hand' - and we cut on her tearful face before she answers",
+   "why": "Humiliation, a one-punch rescue by a mysterious scarred man, and a shock proposal with the answer withheld - the full microdrama fantasy in under a minute",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 9.0,
+    "cliffhanger": 9.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.691,
+    "cliff": 0.737,
+    "intensity": 0.571,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.691,
+    "cliff_strength": 0.737,
+    "hook_beat": "E03.B046",
+    "cliff_beat": "E03.B117",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8385,
+   "rank": 1,
+   "rank_reason": "Strongest hook and cliff of the set: a bride dragged from the church, then a scarred stranger kneels with a ring. Pays off within minutes of landing on episode 1.",
+   "judge": {
+    "id": "E03-P1",
+    "stop": 7,
+    "clear": 6,
+    "next": 8,
+    "confusing": "Why she is being thrown out of the chapel in the first place - what 'they took' from her is never shown",
+    "would_click": true
+   },
+   "notes": "Why he has a ring ready is unexplained, which works as intrigue",
+   "duration": 53.65,
+   "episodes": [
+    3
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E12-P1",
+   "segments": [
+    {
+     "episode": 12,
+     "start": "00:44.00",
+     "end": "01:27.21",
+     "start_sec": 44.0,
+     "end_sec": 87.21,
+     "duration": 43.21
+    }
+   ],
+   "title": "Bare hands in the thorns",
+   "hook": "Clarissa, smiling: 'I want to see you crawl, sister.'",
+   "cliffhanger": "Juliana accepts the ordeal, 'Tell me where the garden is', and we freeze on her face before she reaches the thorns",
+   "why": "Cruel-sister ultimatum with life-or-death stakes (bare hands in frozen briars or her husband hangs), and the heroine's sacrifice is still to come",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.593,
+    "cliff": 0.75,
+    "intensity": 0.498,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.593,
+    "cliff_strength": 0.75,
+    "hook_beat": "E12.B033",
+    "cliff_beat": "E12.B054",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E12 00:44.00-01:27.21 -> 00:44.00-01:27.21 (no mid-line cuts)"
+   ],
+   "score": 0.77,
+   "rank": 2,
+   "rank_reason": "Switches to the cruel-sister angle with a chilling 'I want to see you crawl' hook. It ends on her accepting the ordeal, so the viewer needs to see what happens next.",
+   "judge": {
+    "id": "E12-P1",
+    "stop": 7,
+    "clear": 6,
+    "next": 6,
+    "confusing": "The ring is in briars at Ashworth Manor but she asks 'where the garden is', and the charges against the husband are never explained",
+    "would_click": true
+   },
+   "notes": "Why the husband faces hanging (a planted theft charge); Clarissa's 'we withdraw the charges' mostly covers it",
+   "duration": 43.21,
+   "episodes": [
+    12
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E15-P1",
+   "segments": [
+    {
+     "episode": 15,
+     "start": "00:44.20",
+     "end": "01:26.00",
+     "start_sec": 44.2,
+     "end_sec": 86.0,
+     "duration": 41.8
+    }
+   ],
+   "title": "Thugs shove her, soldier arrives",
+   "hook": "A thug snarls 'Get out of the way!', Juliana says 'No', and he shoves her hard onto the wet stone",
+   "cliffhanger": "Alexander stands between her and three armed thugs: 'What? You want to fight us, veteran?' and we cut before the first blow",
+   "why": "Clear bullies, a bleeding, sobbing heroine mocked over her mother's plants, then a rescuer showing up as the fight is about to start",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.478,
+    "cliff": 0.787,
+    "intensity": 0.496,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.478,
+    "cliff_strength": 0.787,
+    "hook_beat": "E15.B030",
+    "cliff_beat": "E15.B054",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7361,
+   "rank": 3,
+   "rank_reason": "Protector romance: she is shoved into the mud and the veteran husband steps in against three thugs. Easy for a stranger to follow, and still early in the show.",
+   "judge": {
+    "id": "E15-P1",
+    "stop": 6,
+    "clear": 5,
+    "next": 6,
+    "confusing": "Why thugs are smashing her mother's plants and why she is already bleeding through bandages",
+    "would_click": false
+   },
+   "notes": "Why her hands are bandaged and who sent the thugs; neither is needed to follow it",
+   "duration": 41.8,
+   "episodes": [
+    15
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "X-01",
+   "segments": [
+    {
+     "episode": 1,
+     "start": "00:33.80",
+     "end": "00:50.00",
+     "start_sec": 33.8,
+     "end_sec": 50.0,
+     "duration": 16.2
+    },
+    {
+     "episode": 3,
+     "start": "00:58.30",
+     "end": "01:04.50",
+     "start_sec": 58.3,
+     "end_sec": 64.5,
+     "duration": 6.2
+    },
+    {
+     "episode": 3,
+     "start": "02:14.80",
+     "end": "02:25.75",
+     "start_sec": 134.8,
+     "end_sec": 145.75,
+     "duration": 10.95
+    }
+   ],
+   "title": "Jilted at the altar, then a stranger kneels",
+   "hook": "A bride in her mother's gown whispers 'Gerald? Why are you holding her hand?' as her groom stands at the altar with her sister.",
+   "cliffhanger": "The whole congregation gasps as a rugged scarred stranger kneels before the dragged-out bride; she stares down at him, her answer unspoken.",
+   "why": "Classic jilted-bride humiliation pays off into the shock proposal across two episodes; betrayal, family cruelty (guards ordered to drag her out) and a mysterious rescuer in about 33 s.",
+   "source": "llm-cross",
+   "llm_scores": {
+    "hook": 9.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.469,
+    "cliff": 0.737,
+    "intensity": 0.56,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.469,
+    "cliff_strength": 0.737,
+    "hook_beat": "E01.B021",
+    "cliff_beat": "E03.B117",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7978,
+   "rank": 4,
+   "rank_reason": "A tight 33s version of the jilted-at-the-altar premise for viewers who missed slot 1. It hooks on the betrayal from E1 and cuts on the stranger kneeling.",
+   "judge": {
+    "id": "X-01",
+    "stop": 4,
+    "clear": 5,
+    "next": 6,
+    "confusing": "A 'bearded stranger' proposes out of nowhere - he never appears before the proposal, so the jump from being dragged out to 'accept my hand' feels like a missing scene",
+    "would_click": false
+   },
+   "notes": "None; the sister/groom betrayal and the guards are self-explanatory.",
+   "duration": 33.35,
+   "episodes": [
+    1,
+    3
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E26-P1",
+   "segments": [
+    {
+     "episode": 26,
+     "start": "00:56.00",
+     "end": "01:06.70",
+     "start_sec": 56.0,
+     "end_sec": 66.7,
+     "duration": 10.7
+    },
+    {
+     "episode": 26,
+     "start": "01:26.50",
+     "end": "02:00.88",
+     "start_sec": 86.5,
+     "end_sec": 120.88,
+     "duration": 34.38
+    }
+   ],
+   "title": "Duchess Recognizes the Ring",
+   "hook": "A dying duchess whispers 'Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?'",
+   "cliffhanger": "The Duchess grips Juliana's hand - 'Do not move! Where did you get this ring? Speak to me!' - cut before Juliana answers",
+   "why": "A poisoning confession hook plus a sudden identity reveal over a family ring is a pure 'who is she really' mystery that demands the next episode.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.605,
+    "cliff": 0.75,
+    "intensity": 0.603,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.605,
+    "cliff_strength": 0.75,
+    "hook_beat": "E26.B025",
+    "cliff_beat": "E26.B050",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E26 00:55.80-01:06.70 -> 00:56.00-01:06.70 (no mid-line cuts)"
+   ],
+   "score": 0.7694,
+   "rank": 5,
+   "rank_reason": "Adds mystery: a dying Duchess recognizes the ring and demands to know where it came from. It plants the hidden-Duke question without answering it.",
+   "judge": {
+    "id": "E26-P1",
+    "stop": 6,
+    "clear": 4,
+    "next": 6,
+    "confusing": "Why the ring matters so much - no idea whose ring it is or who Juliana is to the Duchess",
+    "would_click": false
+   },
+   "notes": "Who gave Juliana the ring (her husband) and why it matters - deliberately withheld, works as intrigue",
+   "duration": 45.08,
+   "episodes": [
+    26
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E02-P1",
+   "segments": [
+    {
+     "episode": 2,
+     "start": "00:00.00",
+     "end": "00:12.00",
+     "start_sec": 0.0,
+     "end_sec": 12.0,
+     "duration": 12.0
+    },
+    {
+     "episode": 2,
+     "start": "00:47.80",
+     "end": "01:16.40",
+     "start_sec": 47.8,
+     "end_sec": 76.4,
+     "duration": 28.6
+    }
+   ],
+   "title": "Too plain to marry, then Dignity",
+   "hook": "Groom at the altar tells his bride 'I cannot marry you, Juliana. You are far too plain...'",
+   "cliffhanger": "Told to 'go home quietly with some dignity', Juliana turns back with a steely smile: 'Dignity?' - we cut before her comeback",
+   "why": "Pure public-humiliation pile-on from groom, sister and matriarch, ending on the exact moment the underdog is about to fight back",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.555,
+    "cliff": 0.422,
+    "intensity": 0.336,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.555,
+    "cliff_strength": 0.422,
+    "hook_beat": "E02.B003",
+    "cliff_beat": "E02.B054",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E2 00:47.60-01:16.40 -> 00:47.80-01:16.40 (no mid-line cuts)"
+   ],
+   "score": 0.7361,
+   "rank": 6,
+   "rank_reason": "Humiliation into defiance: 'too plain to marry' turns into a steely 'Dignity?' comeback. Very clear archetype from the opening episodes.",
+   "judge": {
+    "id": "E02-P1",
+    "stop": 6,
+    "clear": 8,
+    "next": 5,
+    "confusing": "Who the off-screen scolding voice is; otherwise clear, but it ends on a flat 'Dignity?' with no payoff",
+    "would_click": false
+   },
+   "notes": "That the woman in gold is her sister is only stated by 'sister' in the mockery; otherwise nothing",
+   "duration": 40.6,
+   "episodes": [
+    2
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E31-P1",
+   "segments": [
+    {
+     "episode": 31,
+     "start": "00:10.50",
+     "end": "00:17.60",
+     "start_sec": 10.5,
+     "end_sec": 17.6,
+     "duration": 7.1
+    },
+    {
+     "episode": 31,
+     "start": "01:58.40",
+     "end": "02:40.00",
+     "start_sec": 118.4,
+     "end_sec": 160.0,
+     "duration": 41.6
+    }
+   ],
+   "title": "Hot iron burns mother's book",
+   "hook": "Catherine's face lit by a red-hot branding iron: 'The great Lady Juliana Ashcroft... chained in a dungeon like a common criminal.'",
+   "cliffhanger": "Catherine swings the glowing iron to stop inches from Juliana's eye - we cut on the ember reflected in her trembling eye.",
+   "why": "Chained heroine, sadistic noblewoman, a red-hot poker and a burned keepsake of a dead mother - clear villain, clear victim, and a physical threat left hanging.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.562,
+    "cliff": 0.75,
+    "intensity": 0.62,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.562,
+    "cliff_strength": 0.75,
+    "hook_beat": "E31.B007",
+    "cliff_beat": "E31.B085",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E31 01:58.20-02:40.00 -> 01:58.40-02:40.00 (no mid-line cuts)"
+   ],
+   "score": 0.7745,
+   "rank": 7,
+   "rank_reason": "Peak villain menace for the darker-drama audience: a red-hot iron stops inches from her eye. Its 0.77 auto score beats the near-duplicate E32.",
+   "judge": {
+    "id": "E31-P1",
+    "stop": 6,
+    "clear": 5,
+    "next": 6,
+    "confusing": "It's about burning a book, then suddenly a searing iron is inches from her eyes - the iron comes from nowhere, and why she is chained is unexplained",
+    "would_click": false
+   },
+   "notes": "Who Catherine is and why Juliana is imprisoned; the book's importance is stated in-clip.",
+   "duration": 48.7,
+   "episodes": [
+    31
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "X-02",
+   "segments": [
+    {
+     "episode": 5,
+     "start": "00:55.50",
+     "end": "01:04.60",
+     "start_sec": 55.5,
+     "end_sec": 64.6,
+     "duration": 9.1
+    },
+    {
+     "episode": 5,
+     "start": "01:33.00",
+     "end": "01:40.80",
+     "start_sec": 93.0,
+     "end_sec": 100.8,
+     "duration": 7.8
+    },
+    {
+     "episode": 9,
+     "start": "01:32.10",
+     "end": "01:41.90",
+     "start_sec": 92.1,
+     "end_sec": 101.9,
+     "duration": 9.8
+    }
+   ],
+   "title": "Beggar's wife, or a dead Duke's?",
+   "hook": "Juliana screams 'Barbara, don't!' as her late mother's ledger is hurled into the mud and her sister gloats.",
+   "cliffhanger": "A rumor that her 'beggar' husband carries the late Duke's war scar reaches a cold nobleman, who demands 'Where?'",
+   "why": "Humiliation of the jilted bride and her scarred husband's lethal warning set up the hidden-identity twist without confirming it; the threat of the nobleman hunting him leaves it open.",
+   "source": "llm-cross",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.564,
+    "cliff": 0.422,
+    "intensity": 0.499,
+    "standalone": 0.85
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.564,
+    "cliff_strength": 0.422,
+    "hook_beat": "E05.B032",
+    "cliff_beat": "E09.B080",
+    "dialogue_lines": 9,
+    "warnings": [
+     "blind_viewer_confused"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7233,
+   "rank": 8,
+   "rank_reason": "Pairs a mud-and-ledger humiliation with the rumor that her beggar husband carries the late Duke's scar. A mystery hook from early episodes.",
+   "judge": {
+    "id": "X-02",
+    "stop": 5,
+    "clear": 2,
+    "next": 3,
+    "confusing": "Three unrelated scenes stitched together: Barbara never appears, the bearded man, the war veteran and the late Duke are all unexplained",
+    "would_click": false
+   },
+   "notes": "Viewers infer the scarred man is her new husband from Gerald's 'beggar's wife' line.",
+   "duration": 26.7,
+   "episodes": [
+    5,
+    9
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E10-P1",
+   "segments": [
+    {
+     "episode": 10,
+     "start": "00:02.50",
+     "end": "00:11.45",
+     "start_sec": 2.5,
+     "end_sec": 11.45,
+     "duration": 8.95
+    },
+    {
+     "episode": 10,
+     "start": "00:33.20",
+     "end": "00:38.90",
+     "start_sec": 33.2,
+     "end_sec": 38.9,
+     "duration": 5.7
+    },
+    {
+     "episode": 10,
+     "start": "01:03.00",
+     "end": "01:34.00",
+     "start_sec": 63.0,
+     "end_sec": 94.0,
+     "duration": 31.0
+    }
+   ],
+   "title": "Bleeding husband, almost a kiss",
+   "hook": "The cottage door bangs open on a panting, blood-soaked scarred man; she cries 'Alexander! There is blood running down your arm'",
+   "cliffhanger": "Faces inches apart, he holds her hands: 'Your touch is the only medicine that has ever eased my pain' - we hold on her eyes before any kiss",
+   "why": "Blood, a shirtless reveal of a war-scarred body, and slow-burn tension that stops right before the kiss",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.531,
+    "cliff": 0.75,
+    "intensity": 0.402,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.531,
+    "cliff_strength": 0.75,
+    "hook_beat": "E10.B004",
+    "cliff_beat": "E10.B059",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E10 00:02.10-00:11.45 -> 00:02.20-00:11.45 (no mid-line cuts)",
+    "snapped E10 00:02.20-00:11.45 -> 00:02.50-00:11.45 (no mid-line cuts)"
+   ],
+   "score": 0.7098,
+   "rank": 9,
+   "rank_reason": "A pure romance beat for variety: her blood-soaked husband, faces inches apart, almost a kiss. Lands in the first ten episodes.",
+   "judge": {
+    "id": "E10-P1",
+    "stop": 3,
+    "clear": 4,
+    "next": 3,
+    "confusing": "How he got hurt and who these two are; mostly long pauses with flirty lines and no stakes",
+    "would_click": false
+   },
+   "notes": "Their relationship (newly married strangers) and how he was hurt are not explained",
+   "duration": 45.65,
+   "episodes": [
+    10
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "X-05",
+   "segments": [
+    {
+     "episode": 30,
+     "start": "02:05.50",
+     "end": "02:23.50",
+     "start_sec": 125.5,
+     "end_sec": 143.5,
+     "duration": 18.0
+    },
+    {
+     "episode": 36,
+     "start": "01:45.90",
+     "end": "02:02.50",
+     "start_sec": 105.9,
+     "end_sec": 122.5,
+     "duration": 16.6
+    },
+    {
+     "episode": 36,
+     "start": "03:09.50",
+     "end": "03:16.80",
+     "start_sec": 189.5,
+     "end_sec": 196.8,
+     "duration": 7.3
+    }
+   ],
+   "title": "Hanged as a witch? Her dead Duke is coming",
+   "hook": "Catherine exults: 'She will hang. The town will cheer as the witch's disgraced daughter faces the noose.'",
+   "cliffhanger": "Alexander, told his wife is condemned, vows 'before that wedding begins... their dead Duke is coming home.'",
+   "why": "Villains frame the heroine for witchcraft, the mother tells the presumed-dead son, and he vows return; one clear revenge line ending on a promise, not the payoff.",
+   "source": "llm-cross",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.912,
+    "cliff": 0.286,
+    "intensity": 0.66,
+    "standalone": 0.5
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.912,
+    "cliff_strength": 0.286,
+    "hook_beat": "E30.B062",
+    "cliff_beat": "E36.B116",
+    "dialogue_lines": 10,
+    "warnings": [
+     "ends_unresolved",
+     "blind_viewer_confused"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6868,
+   "rank": 10,
+   "rank_reason": "Revenge promise: she is condemned as a witch and he vows their dead Duke will return before the wedding. It teases the payoff without showing the reveal.",
+   "judge": {
+    "id": "X-05",
+    "stop": 6,
+    "clear": 3,
+    "next": 6,
+    "confusing": "Who 'she' is, who all these nobles are, and who the 'dead Duke' is - too many names and no faces to anchor them",
+    "would_click": false
+   },
+   "notes": "Slight: who Rupert/Catherine are; the mother's lines name them and the accusation.",
+   "duration": 41.9,
+   "episodes": [
+    30,
+    36
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E29-P1",
+   "segments": [
+    {
+     "episode": 29,
+     "start": "00:37.40",
+     "end": "01:18.10",
+     "start_sec": 37.4,
+     "end_sec": 78.1,
+     "duration": 40.7
+    }
+   ],
+   "title": "Witchcraft Frame, Burn the Book",
+   "hook": "Catherine tucks a dead mother's herb book under her arm: 'The magistrate will call it witchcraft.'",
+   "cliffhanger": "'My husband will find me.' - 'Your scarred soldier? What exactly do you think a penniless veteran can do against Ashbrook?'",
+   "why": "A villainess calmly threatening to burn a mother's legacy and hang the heroine, ending on a taunt that begs for the husband's revenge.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.67,
+    "cliff": 0.634,
+    "intensity": 0.545,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.67,
+    "cliff_strength": 0.634,
+    "hook_beat": "E29.B021",
+    "cliff_beat": "E29.B047",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7499,
+   "rank": 11,
+   "rank_reason": "composite 0.75: hook 0.67, cliff 0.63, from E29",
+   "judge": {},
+   "notes": "That the 'penniless veteran' is secretly powerful (implied by genre, not shown)",
+   "duration": 40.7,
+   "episodes": [
+    29
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E34-P1",
+   "segments": [
+    {
+     "episode": 34,
+     "start": "00:01.20",
+     "end": "00:14.80",
+     "start_sec": 1.2,
+     "end_sec": 14.8,
+     "duration": 13.6
+    },
+    {
+     "episode": 34,
+     "start": "02:37.00",
+     "end": "03:10.00",
+     "start_sec": 157.0,
+     "end_sec": 190.0,
+     "duration": 33.0
+    }
+   ],
+   "title": "Witch trial: she refuses to renounce",
+   "hook": "Judge booms: 'Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.'",
+   "cliffhanger": "The Judge rises, raises his hand over her - 'Lady Juliana Ashcroft...' - and we cut before the sentence is spoken.",
+   "why": "A bruised, chained noblewoman on trial for witchcraft who chooses death over calling healing evil, cut right on the verdict.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 9.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.777,
+    "cliff": 0.75,
+    "intensity": 0.421,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.777,
+    "cliff_strength": 0.75,
+    "hook_beat": "E34.B001",
+    "cliff_beat": "E34.B114",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E34 02:36.80-03:10.00 -> 02:37.00-03:10.00 (no mid-line cuts)"
+   ],
+   "score": 0.7392,
+   "rank": 12,
+   "rank_reason": "composite 0.74: hook 0.78, cliff 0.75, from E34",
+   "judge": {},
+   "notes": "Who framed her and why; the coerced maid's tears read but are not explained.",
+   "duration": 46.6,
+   "episodes": [
+    34
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E41-P1",
+   "segments": [
+    {
+     "episode": 41,
+     "start": "00:58.00",
+     "end": "01:36.09",
+     "start_sec": 58.0,
+     "end_sec": 96.09,
+     "duration": 38.09
+    }
+   ],
+   "title": "Chained Bride Defies, Doors Explode",
+   "hook": "A chained, bruised Juliana stares down the bride at the altar: 'You needed an entire chapel to feel powerful over one chained woman?'",
+   "cliffhanger": "The cathedral doors explode, armed silhouettes walk out of the smoke and Juliana turns toward them in awe. We cut before we see who it is.",
+   "why": "A defiant line from a chained heroine, then the villains' smug vows, then a huge explosion and a rescuer we never see. The audience gets the hope and none of the payoff.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 9.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.553,
+    "cliff": 0.75,
+    "intensity": 0.439,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.553,
+    "cliff_strength": 0.75,
+    "hook_beat": "E41.B033",
+    "cliff_beat": "E41.B051",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7105,
+   "rank": 13,
+   "rank_reason": "composite 0.71: hook 0.55, cliff 0.75, from E41",
+   "judge": {},
+   "notes": "Who the armed figures are (her husband, secretly a duke) and why she is in chains. The clip only shows she was publicly disgraced.",
+   "duration": 38.09,
+   "episodes": [
+    41
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "X-04",
+   "segments": [
+    {
+     "episode": 23,
+     "start": "01:19.00",
+     "end": "01:28.00",
+     "start_sec": 79.0,
+     "end_sec": 88.0,
+     "duration": 9.0
+    },
+    {
+     "episode": 27,
+     "start": "00:35.20",
+     "end": "00:55.60",
+     "start_sec": 35.2,
+     "end_sec": 55.6,
+     "duration": 20.4
+    }
+   ],
+   "title": "Poison, the lost son's ring, the door",
+   "hook": "Disguised as a maid at a dying Duchess's bedside, Juliana says coldly: 'Someone is poisoning her.' 'Poison?' 'Arsenic.'",
+   "cliffhanger": "The Duchess, asking her husband's name after recognizing her lost son's ring, is cut off as the doors burst open and Catherine demands what the maid is doing there.",
+   "why": "Two reveals (arsenic, the ring of the presumed-dead son) stacked into one storyline, ending on discovery by the villains before the name is spoken.",
+   "source": "llm-cross",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.65,
+    "cliff": 0.634,
+    "intensity": 0.547,
+    "standalone": 0.85
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.65,
+    "cliff_strength": 0.634,
+    "hook_beat": "E23.B042",
+    "cliff_beat": "E27.B030",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7535,
+   "rank": 14,
+   "rank_reason": "composite 0.75: hook 0.65, cliff 0.63, from E23",
+   "judge": {},
+   "notes": "Minor: that Juliana is a disguised lady and her husband wears the ring.",
+   "duration": 29.4,
+   "episodes": [
+    23,
+    27
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E30-P1",
+   "segments": [
+    {
+     "episode": 30,
+     "start": "00:33.60",
+     "end": "00:39.80",
+     "start_sec": 33.6,
+     "end_sec": 39.8,
+     "duration": 6.2
+    },
+    {
+     "episode": 30,
+     "start": "01:22.80",
+     "end": "01:41.80",
+     "start_sec": 82.8,
+     "end_sec": 101.8,
+     "duration": 19.0
+    },
+    {
+     "episode": 30,
+     "start": "02:16.80",
+     "end": "02:31.21",
+     "start_sec": 136.8,
+     "end_sec": 151.21,
+     "duration": 14.41
+    }
+   ],
+   "title": "Then Call It Witchcraft",
+   "hook": "An elder nobleman pins Rupert to the wall with his cane: 'A peasant weed! You do not store weeds in your cellar, you burn them!'",
+   "cliffhanger": "'Tomorrow, she stops being a prisoner. She becomes a witch.' - cut to Juliana chained in a flooded cell, looking up in dread",
+   "why": "Villains openly plotting to manufacture evidence, buy the jury and hang an innocent healer, ending on her chained and unaware - strong injustice with a ticking clock.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.585,
+    "cliff": 0.75,
+    "intensity": 0.52,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.585,
+    "cliff_strength": 0.75,
+    "hook_beat": "E30.B018",
+    "cliff_beat": "E30.B068",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E30 00:33.40-00:39.80 -> 00:33.60-00:39.80 (no mid-line cuts)"
+   ],
+   "score": 0.6915,
+   "rank": 15,
+   "rank_reason": "composite 0.69: hook 0.58, cliff 0.75, from E30",
+   "judge": {},
+   "notes": "Who Juliana is and what she did (saved a poisoned duchess); the plot dialogue fills in most of it",
+   "duration": 39.61,
+   "episodes": [
+    30
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  }
+ ],
+ "other_valid": [
+  {
+   "id": "E32-P1",
+   "segments": [
+    {
+     "episode": 32,
+     "start": "01:59.60",
+     "end": "02:34.38",
+     "start_sec": 119.6,
+     "end_sec": 154.38,
+     "duration": 34.78
+    }
+   ],
+   "title": "Branding iron at her eye",
+   "hook": "Catherine snaps, raising a glowing branding poker over a chained woman and screaming 'Silence! Silence!'",
+   "cliffhanger": "Catherine plunges the red-hot iron at Juliana's face and it stops millimeters from her eye - cut on the glow in her unblinking eye.",
+   "why": "Chained heroine humiliates her torturer with words until the villain goes for her face with a hot iron - pure escalation to a physical threat left hanging.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.573,
+    "cliff": 0.75,
+    "intensity": 0.546,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.573,
+    "cliff_strength": 0.75,
+    "hook_beat": "E32.B090",
+    "cliff_beat": "E32.B115",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E32 01:59.50-02:34.38 -> 01:59.60-02:34.38 (no mid-line cuts)"
+   ],
+   "score": 0.7684,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why Juliana is chained and who Catherine is; the power dynamic reads instantly.",
+   "duration": 34.78,
+   "episodes": [
+    32
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E23-P1",
+   "segments": [
+    {
+     "episode": 23,
+     "start": "01:19.00",
+     "end": "02:11.20",
+     "start_sec": 79.0,
+     "end_sec": 131.2,
+     "duration": 52.2
+    }
+   ],
+   "title": "Arsenic Antidote, Door Opens",
+   "hook": "Juliana, cold and certain: 'Someone is poisoning her.' Prudence gasps 'Poison?' - 'Arsenic.'",
+   "cliffhanger": "Footsteps outside, 'Juliana... someone is coming,' and the door latch turns and creaks open with the cure unfinished",
+   "why": "A poisoning reveal in the first seconds plus a race-against-time antidote and a caught-in-the-act door opening is classic must-watch tension.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.65,
+    "cliff": 0.75,
+    "intensity": 0.575,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.65,
+    "cliff_strength": 0.75,
+    "hook_beat": "E23.B042",
+    "cliff_beat": "E23.B066",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E23 01:19.00-02:11.50 -> 01:19.00-02:11.20 (no mid-line cuts)"
+   ],
+   "score": 0.7612,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the dying woman is and why Juliana is secretly in her room",
+   "duration": 52.2,
+   "episodes": [
+    23
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E01-P1",
+   "segments": [
+    {
+     "episode": 1,
+     "start": "00:33.80",
+     "end": "01:14.30",
+     "start_sec": 33.8,
+     "end_sec": 74.3,
+     "duration": 40.5
+    }
+   ],
+   "title": "Jilted at altar for sister",
+   "hook": "A bride in her mother's gown whispers 'Gerald? Why are you holding her hand?' as her groom grips another woman's hand at the altar",
+   "cliffhanger": "Juliana, learning her sister knew all along, asks 'How long?' - we cut before the answer",
+   "why": "Instantly legible jilted-bride betrayal with a smug sister, escalating lines, and a hanging question",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 7.0,
+    "standalone": 9.0
+   },
+   "heur": {
+    "hook": 0.469,
+    "cliff": 0.634,
+    "intensity": 0.423,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.469,
+    "cliff_strength": 0.634,
+    "hook_beat": "E01.B021",
+    "cliff_beat": "E01.B049",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7481,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "nothing",
+   "duration": 40.5,
+   "episodes": [
+    1
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E42-P1",
+   "segments": [
+    {
+     "episode": 42,
+     "start": "00:11.20",
+     "end": "00:39.80",
+     "start_sec": 11.2,
+     "end_sec": 39.8,
+     "duration": 28.6
+    },
+    {
+     "episode": 42,
+     "start": "01:04.20",
+     "end": "01:17.50",
+     "start_sec": 64.2,
+     "end_sec": 77.5,
+     "duration": 13.3
+    }
+   ],
+   "title": "Dead Duke Returns, Guards Refuse",
+   "hook": "A terrified groom asks a scarred man in ducal regalia standing in the smoke 'Who are you?' He answers 'You already know.'",
+   "cliffhanger": "He is proclaimed the rightful Duke, puts his hand on his sabre and tells the cowering usurper 'And now, Rupert... we settle what you stole.' We cut before the reckoning.",
+   "why": "A man everyone believed dead comes back, the guards refuse the usurper's order and the public proclamation flips the room. It ends on a direct threat with the punishment still to come.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.669,
+    "cliff": 0.75,
+    "intensity": 0.666,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.669,
+    "cliff_strength": 0.75,
+    "hook_beat": "E42.B002",
+    "cliff_beat": "E42.B036",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E42 01:04.00-01:17.50 -> 01:04.20-01:17.50 (no mid-line cuts)"
+   ],
+   "score": 0.74,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the elderly woman making the proclamation is (his mother) and what Rupert stole. Both can be inferred from the lines.",
+   "duration": 41.9,
+   "episodes": [
+    42
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E43-P1",
+   "segments": [
+    {
+     "episode": 43,
+     "start": "00:03.90",
+     "end": "00:35.00",
+     "start_sec": 3.9,
+     "end_sec": 35.0,
+     "duration": 31.1
+    }
+   ],
+   "title": "Guards Refuse Fake Duke's Order",
+   "hook": "A hysterical groom at the altar screams 'This man is an imposter! Arrest him!'",
+   "cliffhanger": "Alexander hands over a sealed War Office top-secret dossier and says 'Read the first.' The conspirator goes pale and we cut before a word is read.",
+   "why": "The usurper's power collapses in real time when the guard says 'No. He is your Duke.' A sealed secret file is a strong open loop to end on.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.835,
+    "cliff": 0.662,
+    "intensity": 0.635,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.835,
+    "cliff_strength": 0.662,
+    "hook_beat": "E43.B004",
+    "cliff_beat": "E43.B029",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7009,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Alexander is and why he was thought dead. The clip makes it clear he is the true Duke.",
+   "duration": 31.1,
+   "episodes": [
+    43
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E21-P1",
+   "segments": [
+    {
+     "episode": 21,
+     "start": "00:03.60",
+     "end": "00:35.80",
+     "start_sec": 3.6,
+     "end_sec": 35.8,
+     "duration": 32.2
+    }
+   ],
+   "title": "Dying Boy, No Silver",
+   "hook": "Barn doors slam open and a girl screams 'Lady Juliana! Please! Toby is dying!'",
+   "cliffhanger": "Prudence on her knees begging 'You are his only hope' while Juliana, with nothing left, has not yet answered",
+   "why": "Instant panic and class injustice (doctors refused a poor child) make a stranger root for the bandaged heroine and want to see if she can save him.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 6.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.564,
+    "cliff": 0.823,
+    "intensity": 0.418,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.564,
+    "cliff_strength": 0.823,
+    "hook_beat": "E21.B004",
+    "cliff_beat": "E21.B020",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E21 00:03.50-00:35.80 -> 00:03.60-00:35.80 (no mid-line cuts)"
+   ],
+   "score": 0.7004,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why Juliana's hands are bandaged and her cottage is ashes; who she is (a disowned lady)",
+   "duration": 32.2,
+   "episodes": [
+    21
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "X-03",
+   "segments": [
+    {
+     "episode": 12,
+     "start": "00:44.00",
+     "end": "01:09.20",
+     "start_sec": 44.0,
+     "end_sec": 69.2,
+     "duration": 25.2
+    },
+    {
+     "episode": 13,
+     "start": "01:11.40",
+     "end": "01:28.80",
+     "start_sec": 71.4,
+     "end_sec": 88.8,
+     "duration": 17.4
+    }
+   ],
+   "title": "Crawl for the ring or he hangs",
+   "hook": "Clarissa, smiling at her sister: 'I want to see you crawl, sister.'",
+   "cliffhanger": "Juliana is bleeding in the frozen blackthorn while her chained husband roars her name; the ring is still not found.",
+   "why": "The sadistic ultimatum (bare hands in the thorns or the gallows) cuts straight into the agonizing payoff; stakes and villain are clear, and we cut before she finds the ring.",
+   "source": "llm-cross",
+   "llm_scores": {
+    "hook": 9.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.593,
+    "cliff": 0.0,
+    "intensity": 0.597,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.593,
+    "cliff_strength": 0.0,
+    "hook_beat": "E12.B033",
+    "cliff_beat": "E13.B059",
+    "dialogue_lines": 12,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6928,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Light: the husband is arrested for a planted theft, implied by 'your husband hangs'.",
+   "duration": 42.6,
+   "episodes": [
+    12,
+    13
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E28-P1",
+   "segments": [
+    {
+     "episode": 28,
+     "start": "01:10.80",
+     "end": "01:22.30",
+     "start_sec": 70.8,
+     "end_sec": 82.3,
+     "duration": 11.5
+    },
+    {
+     "episode": 28,
+     "start": "01:31.20",
+     "end": "01:55.80",
+     "start_sec": 91.2,
+     "end_sec": 115.8,
+     "duration": 24.6
+    },
+    {
+     "episode": 28,
+     "start": "02:11.40",
+     "end": "02:18.50",
+     "start_sec": 131.4,
+     "end_sec": 138.5,
+     "duration": 7.1
+    }
+   ],
+   "title": "Mother's Locket, Identity Unmasked",
+   "hook": "Catherine rips a silver locket off a restrained maid's neck - 'No!' - 'Where did a gutter rat like you find a silver locket?'",
+   "cliffhanger": "'Perhaps you can explain every page to the magistrate... before he sends you to the gallows' - Juliana dragged into the dark",
+   "why": "Heirloom cruelty, a disguised lady's identity exposed and mocked, a fierce defense of her husband and a gallows threat - every microdrama trigger in under 45 seconds.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 9.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.295,
+    "cliff": 0.75,
+    "intensity": 0.581,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.295,
+    "cliff_strength": 0.75,
+    "hook_beat": "E28.B053",
+    "cliff_beat": "E28.B093",
+    "dialogue_lines": 15,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E28 01:10.50-01:22.40 -> 01:10.80-01:22.30 (no mid-line cuts)",
+    "snapped E28 01:31.00-01:55.80 -> 01:31.20-01:55.80 (no mid-line cuts)",
+    "snapped E28 02:11.20-02:18.50 -> 02:11.40-02:18.50 (no mid-line cuts)"
+   ],
+   "score": 0.6898,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why Juliana is disguised as a maid and what she is accused of (poisoning) - the gallows line and 'witch' imply enough",
+   "duration": 43.2,
+   "episodes": [
+    28
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E27-P1",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "01:47.80",
+     "end": "02:30.50",
+     "start_sec": 107.8,
+     "end_sec": 150.5,
+     "duration": 42.7
+    }
+   ],
+   "title": "Framed for Poisoning the Duchess",
+   "hook": "Juliana holds up the vial: 'It is an antidote.' - 'An antidote to what?' - 'Answer her.'",
+   "cliffhanger": "'Take her.' A guard drags Juliana away from the dying Duchess - close on her terrified eyes",
+   "why": "Telling the truth gets twisted into a confession by smug villains in real time - pure injustice that makes strangers need to see her vindicated.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.75,
+    "intensity": 0.589,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.75,
+    "hook_beat": "E27.B065",
+    "cliff_beat": "E27.B092",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6892,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That Catherine and the nobleman are the real poisoners (implied but not stated)",
+   "duration": 42.7,
+   "episodes": [
+    27
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E09-P1",
+   "segments": [
+    {
+     "episode": 9,
+     "start": "00:02.00",
+     "end": "00:54.00",
+     "start_sec": 2.0,
+     "end_sec": 54.0,
+     "duration": 52.0
+    }
+   ],
+   "title": "Dying boy at the door",
+   "hook": "Frantic pounding on the cottage door at night; a soaked mother bursts in: 'Please! My boy is burning with fever!'",
+   "cliffhanger": "Juliana spoons in her mother's herbal remedy and the mother cries 'Why isn't it working?' - we cut before the fever breaks",
+   "why": "Life-or-death urgency with a ticking clock that any stranger understands instantly",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.393,
+    "cliff": 0.634,
+    "intensity": 0.354,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.393,
+    "cliff_strength": 0.634,
+    "hook_beat": "E09.B002",
+    "cliff_beat": "E09.B041",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6891,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why Juliana knows herbs (her late mother's book) is only lightly shown; the show's betrayal premise is absent",
+   "duration": 52.0,
+   "episodes": [
+    9
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E16-P1",
+   "segments": [
+    {
+     "episode": 16,
+     "start": "00:14.40",
+     "end": "00:31.00",
+     "start_sec": 14.4,
+     "end_sec": 31.0,
+     "duration": 16.6
+    },
+    {
+     "episode": 16,
+     "start": "00:40.80",
+     "end": "00:54.40",
+     "start_sec": 40.8,
+     "end_sec": 54.4,
+     "duration": 13.6
+    }
+   ],
+   "title": "Soldier crushes thugs, names mastermind",
+   "hook": "A thug swings a club at the scarred soldier, who catches it bare-handed mid-air",
+   "cliffhanger": "Pinned by the throat, the thug screams 'Gerald Harrington paid us!' and Juliana whispers 'Gerald...' in devastated disbelief",
+   "why": "A fast, satisfying three-on-one beatdown, then an interrogation that unmasks a villain, cut before anyone can react",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 7.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.478,
+    "cliff": 0.333,
+    "intensity": 0.474,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.478,
+    "cliff_strength": 0.333,
+    "hook_beat": "E16.B012",
+    "cliff_beat": "E16.B041",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E16 00:14.30-00:31.00 -> 00:14.40-00:31.00 (no mid-line cuts)"
+   ],
+   "score": 0.6796,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Gerald is (her ex-fiance); her heartbroken reaction signals he is personal",
+   "duration": 30.2,
+   "episodes": [
+    16
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E45-P1",
+   "segments": [
+    {
+     "episode": 45,
+     "start": "00:54.00",
+     "end": "01:02.40",
+     "start_sec": 54.0,
+     "end_sec": 62.4,
+     "duration": 8.4
+    },
+    {
+     "episode": 45,
+     "start": "01:14.80",
+     "end": "01:20.40",
+     "start_sec": 74.8,
+     "end_sec": 80.4,
+     "duration": 5.6
+    },
+    {
+     "episode": 45,
+     "start": "01:26.50",
+     "end": "02:01.75",
+     "start_sec": 86.5,
+     "end_sec": 121.75,
+     "duration": 35.25
+    }
+   ],
+   "title": "Duchess Proclaimed, Marriage Declared Invalid",
+   "hook": "The Duke towers over a bride in a wrecked wedding gown: 'You poisoned my mother. You tortured my wife.'",
+   "cliffhanger": "A bishop storms in and declares the marriage void ('You are not Alexander Ashburton's lawful wife'). Juliana clutches his hand in panic while the villainess smirks, and we cut before anyone answers.",
+   "why": "We see the triumph (raised hand, 'Duchess of Ashburton!') and it is torn away seconds later. Snatching the win back with a smug rival watching is a strong reason to keep watching.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.823,
+    "cliff": 0.292,
+    "intensity": 0.518,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.823,
+    "cliff_strength": 0.292,
+    "hook_beat": "E45.B039",
+    "cliff_beat": "E45.B070",
+    "dialogue_lines": 9,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E45 01:14.50-01:20.40 -> 01:14.80-01:20.40 (no mid-line cuts)"
+   ],
+   "score": 0.6791,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why the first wedding lacked a licence. A stranger only needs to know she was just crowned and is now being stripped of it.",
+   "duration": 49.25,
+   "episodes": [
+    45
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E27-P2",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "00:16.80",
+     "end": "00:55.60",
+     "start_sec": 16.8,
+     "end_sec": 55.6,
+     "duration": 38.8
+    }
+   ],
+   "title": "Ring of the Lost Son",
+   "hook": "'That is no ordinary band. It bears the Ashbourne crest.' - the Duchess stares at a maid's wedding ring",
+   "cliffhanger": "'What is your husband's name?' - pounding on the doors, they burst open and Catherine demands what the maid is doing there, before the name is spoken",
+   "why": "Secret-heir reveal (her poor soldier husband may be the Duchess's lost son) interrupted at the exact moment of truth.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 9.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.467,
+    "cliff": 0.634,
+    "intensity": 0.477,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.467,
+    "cliff_strength": 0.634,
+    "hook_beat": "E27.B011",
+    "cliff_beat": "E27.B030",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.677,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Juliana's husband is; the stranger only sees a poor soldier who might be nobility",
+   "duration": 38.8,
+   "episodes": [
+    27
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E18-P1",
+   "segments": [
+    {
+     "episode": 18,
+     "start": "00:56.50",
+     "end": "01:26.20",
+     "start_sec": 56.5,
+     "end_sec": 86.2,
+     "duration": 29.7
+    }
+   ],
+   "title": "Running into fire for ledger",
+   "hook": "In a burning room Juliana screams 'The ledger!' and Alexander shouts 'Leave it!'",
+   "cliffhanger": "She grabs her mother's ledger, a burning rafter splits right above her, and she screams 'Alexander!' as it falls, cut before he reaches her",
+   "why": "Pure peril with a clear emotional motive ('It's my mother's!') and a man roaring her name, ending at the moment of impact",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 9.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.573,
+    "cliff": 0.0,
+    "intensity": 0.507,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.573,
+    "cliff_strength": 0.0,
+    "hook_beat": "E18.B034",
+    "cliff_beat": "E18.B045",
+    "dialogue_lines": 7,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E18 00:56.20-01:26.20 -> 00:56.50-01:26.20 (no mid-line cuts)"
+   ],
+   "score": 0.675,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why the house is on fire (arson); not needed for the peril to land",
+   "duration": 29.7,
+   "episodes": [
+    18
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E14-P1",
+   "segments": [
+    {
+     "episode": 14,
+     "start": "00:00.50",
+     "end": "00:25.00",
+     "start_sec": 0.5,
+     "end_sec": 25.0,
+     "duration": 24.5
+    },
+    {
+     "episode": 14,
+     "start": "01:16.00",
+     "end": "01:27.63",
+     "start_sec": 76.0,
+     "end_sec": 87.63,
+     "duration": 11.63
+    }
+   ],
+   "title": "Bloody ring, husband's vengeance vow",
+   "hook": "A blood-streaked hand uncurls among the thorns to reveal an emerald ring: 'I found it. Now release my husband.'",
+   "cliffhanger": "Alexander vows 'No one will ever hurt you for protecting me again' and clenches his scarred fist beside a bucket of bloody water; the revenge is still to come",
+   "why": "Opens on a striking bloody image and a freed husband, then skips the tender bandaging to end on a promise of revenge",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 6.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.849,
+    "cliff": 0.75,
+    "intensity": 0.584,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.849,
+    "cliff_strength": 0.75,
+    "hook_beat": "E14.B001",
+    "cliff_beat": "E14.B050",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6702,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who 'they' are and why she bled for the ring; the villains are absent from this episode",
+   "duration": 36.13,
+   "episodes": [
+    14
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E47-P1",
+   "segments": [
+    {
+     "episode": 47,
+     "start": "01:18.80",
+     "end": "02:07.20",
+     "start_sec": 78.8,
+     "end_sec": 127.2,
+     "duration": 48.4
+    }
+   ],
+   "title": "Villainess Begs, Handed Scullery Apron",
+   "hook": "A woman in a ruined gown collapses on rain-soaked cobblestones, screaming 'Please, Alexander! Have mercy!' as guards move to drag her out.",
+   "cliffhanger": "Juliana pushes a servant's apron and iron keys into her former tormentor's face: 'Take the apron, or leave the county.' We cut before Catherine chooses.",
+   "why": "A role reversal where the cruel rival who 'tried to destroy you' is offered a maid's apron gives viewers the revenge they want, and it ends on an ultimatum.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.667,
+    "cliff": 0.662,
+    "intensity": 0.501,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.667,
+    "cliff_strength": 0.662,
+    "hook_beat": "E47.B038",
+    "cliff_beat": "E47.B066",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6692,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "What exactly Catherine did. 'She tried to destroy you' and 'impostor' cover enough of it.",
+   "duration": 48.4,
+   "episodes": [
+    47
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E12-P2",
+   "segments": [
+    {
+     "episode": 12,
+     "start": "00:00.00",
+     "end": "00:43.50",
+     "start_sec": 0.0,
+     "end_sec": 43.5,
+     "duration": 43.5
+    }
+   ],
+   "title": "Arrested, wife shields her soldier",
+   "hook": "Constable raises iron cuffs: 'Put out your hands, veteran. You are under arrest for theft.'",
+   "cliffhanger": "Juliana faces her sister: 'What do you want?', and the price is not yet named",
+   "why": "Arrest, wife throwing herself in front of her husband, smug ex and venomous sister, ending on an open bargain",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 6.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.634,
+    "intensity": 0.484,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.634,
+    "hook_beat": "E12.B001",
+    "cliff_beat": "E12.B029",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6678,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That the watch was planted; Juliana says so outright",
+   "duration": 43.5,
+   "episodes": [
+    12
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E13-P2",
+   "segments": [
+    {
+     "episode": 13,
+     "start": "00:24.20",
+     "end": "00:55.80",
+     "start_sec": 24.2,
+     "end_sec": 55.8,
+     "duration": 31.6
+    }
+   ],
+   "title": "Chained husband begs her stop",
+   "hook": "Chained Alexander: 'I would rather face the gallows than watch you hurt yourself for me.'",
+   "cliffhanger": "Juliana crawls into the thorns and the first spines carve her hands as she gasps 'No...'",
+   "why": "Devotion in both directions plus sadistic onlookers, ending as the ordeal begins",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.67,
+    "cliff": 0.537,
+    "intensity": 0.497,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.67,
+    "cliff_strength": 0.537,
+    "hook_beat": "E13.B013",
+    "cliff_beat": "E13.B036",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6631,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "What she is crawling in for (the ring) is not stated in this stretch",
+   "duration": 31.6,
+   "episodes": [
+    13
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E44-P1",
+   "segments": [
+    {
+     "episode": 44,
+     "start": "00:14.00",
+     "end": "00:19.30",
+     "start_sec": 14.0,
+     "end_sec": 19.3,
+     "duration": 5.3
+    },
+    {
+     "episode": 44,
+     "start": "00:24.40",
+     "end": "01:10.40",
+     "start_sec": 24.4,
+     "end_sec": 70.4,
+     "duration": 46.0
+    }
+   ],
+   "title": "Bride Begs Duke, He Chooses Prisoner",
+   "hook": "Guards slam the groom into the dust at his own wedding as he screams 'Get your hands off me! Catherine! Do something!'",
+   "cliffhanger": "The Duke rejects the weeping bride ('You were never my Duchess'), turns his back and walks to the chained prisoner at the door. Catherine gasps 'Her?!' and we cut there.",
+   "why": "A bride who drops her arrested groom to beg the Duke, gets coldly refused and then sees him pick the woman in shackles is a satisfying villain humiliation built on a love triangle.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.423,
+    "cliff": 0.75,
+    "intensity": 0.57,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.423,
+    "cliff_strength": 0.75,
+    "hook_beat": "E44.B010",
+    "cliff_beat": "E44.B050",
+    "dialogue_lines": 17,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6629,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the chained woman is (his wife) and the history between Catherine and Alexander. Her lines explain most of it.",
+   "duration": 51.3,
+   "episodes": [
+    44
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E28-P2",
+   "segments": [
+    {
+     "episode": 28,
+     "start": "00:35.00",
+     "end": "01:10.20",
+     "start_sec": 35.0,
+     "end_sec": 70.2,
+     "duration": 35.2
+    }
+   ],
+   "title": "Duchess Accuses Her Own Son",
+   "hook": "The bedridden Duchess shouts 'I know what happened to me! I was poisoned! And you... you knew!'",
+   "cliffhanger": "Rupert gaslights her as 'confused' and orders 'Take her away before she poisons the rest of this house'",
+   "why": "A victim naming her poisoners only to be dismissed as mad, while the real healer is framed - strong injustice and villain hate.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.411,
+    "cliff": 0.662,
+    "intensity": 0.608,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.411,
+    "cliff_strength": 0.662,
+    "hook_beat": "E28.B028",
+    "cliff_beat": "E28.B050",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E28 00:34.90-01:10.20 -> 00:35.00-01:10.20 (no mid-line cuts)"
+   ],
+   "score": 0.6624,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Juliana is and that she has been treating the Duchess",
+   "duration": 35.2,
+   "episodes": [
+    28
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E09-P2",
+   "segments": [
+    {
+     "episode": 9,
+     "start": "01:32.10",
+     "end": "01:55.50",
+     "start_sec": 92.1,
+     "end_sec": 115.5,
+     "duration": 23.4
+    }
+   ],
+   "title": "Rumor: the late Duke lives",
+   "hook": "Ex-groom tells a nobleman: 'About a war veteran. Some say he resembles the late Duke'",
+   "cliffhanger": "Told the man carries the Duke's scar, the nobleman demands 'Where?', then alone whispers 'Impossible' as firelight dances in his eye",
+   "why": "A secret-identity reveal and a frightened villain - plays directly into the show's title promise",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 8.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.75,
+    "intensity": 0.335,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.75,
+    "hook_beat": "E09.B074",
+    "cliff_beat": "E09.B088",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6615,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "The scarred husband never appears in the clip, so a stranger must rely on the show title to connect him to the Duke",
+   "duration": 23.4,
+   "episodes": [
+    9
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E11-P1",
+   "segments": [
+    {
+     "episode": 11,
+     "start": "01:21.30",
+     "end": "01:52.75",
+     "start_sec": 81.3,
+     "end_sec": 112.75,
+     "duration": 31.45
+    }
+   ],
+   "title": "Planted watch in soldier's coat",
+   "hook": "Gerald baits the scarred soldier: 'What is it, soldier? Going to strike a gentleman in front of his wife?'",
+   "cliffhanger": "The constable pulls Gerald's gold watch from Alexander's coat; Gerald gloats and the watch dangles, leaving Alexander framed",
+   "why": "Restraint under provocation, then a planted-evidence twist with a gloating villain, cut before anyone can answer",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.295,
+    "cliff": 0.75,
+    "intensity": 0.422,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.295,
+    "cliff_strength": 0.75,
+    "hook_beat": "E11.B069",
+    "cliff_beat": "E11.B084",
+    "dialogue_lines": 6,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6601,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That Gerald accused Alexander of stealing the watch; the gloat and the constable make it mostly clear",
+   "duration": 31.45,
+   "episodes": [
+    11
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E01-P2",
+   "segments": [
+    {
+     "episode": 1,
+     "start": "01:45.40",
+     "end": "02:17.50",
+     "start_sec": 105.4,
+     "end_sec": 137.5,
+     "duration": 32.1
+    }
+   ],
+   "title": "The daughter they tolerate",
+   "hook": "Humiliated bride demands 'And I am what?' and her sister answers 'You are the daughter people tolerate because they have to'",
+   "cliffhanger": "After the groom calls her plain and worthless and walks away, Juliana's tears harden into fury as an ominous drone swells - revenge is coming",
+   "why": "Vicious family cruelty plus a visible turn from victim to avenger is classic microdrama ad bait",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 6.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.39,
+    "cliff": 0.942,
+    "intensity": 0.221,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.39,
+    "cliff_strength": 0.942,
+    "hook_beat": "E01.B071",
+    "cliff_beat": "E01.B093",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6597,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Opens mid-confrontation; that this is her wedding is only clear from the gown and altar",
+   "duration": 32.1,
+   "episodes": [
+    1
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E19-P1",
+   "segments": [
+    {
+     "episode": 19,
+     "start": "00:43.00",
+     "end": "01:28.90",
+     "start_sec": 43.0,
+     "end_sec": 88.9,
+     "duration": 45.9
+    }
+   ],
+   "title": "Beggar soldier is secretly duke",
+   "hook": "A scarred stranger steps out of the misty woods, bows to the 'beggar' soldier and says 'Your Grace.'",
+   "cliffhanger": "Told his mother is a prisoner and everyone thinks he is dead, Alexander vows 'Then Ashburg will remember who it belongs to', and the return is still to come",
+   "why": "The show's title promise (the broken soldier is a duke) revealed on screen, with usurpers, a captive mother and a coming reckoning",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.422,
+    "intensity": 0.327,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.422,
+    "hook_beat": "E19.B027",
+    "cliff_beat": "E19.B047",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6569,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That his wife does not know; and who Rupert, Lord Sterling and Lady Catherine are (the informant explains them only quickly)",
+   "duration": 45.9,
+   "episodes": [
+    19
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E43-P2",
+   "segments": [
+    {
+     "episode": 43,
+     "start": "01:09.00",
+     "end": "01:54.96",
+     "start_sec": 69.0,
+     "end_sec": 114.96,
+     "duration": 45.96
+    }
+   ],
+   "title": "Traitor Exposed, Escape Blocked",
+   "hook": "Alexander, scarred and furious, towers over Rupert: 'You sold my men to the enemy.'",
+   "cliffhanger": "Rupert gives up Sterling, who bolts for a side door, opens it onto a constable ('Going somewhere, Lord Sterling?') and freezes in terror. We cut before the arrest.",
+   "why": "A betrayal accusation as the opening line, a coward turning on his partner and a blocked escape give it a fast run of escalations.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.411,
+    "cliff": 0.75,
+    "intensity": 0.376,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.411,
+    "cliff_strength": 0.75,
+    "hook_beat": "E43.B058",
+    "cliff_beat": "E43.B085",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E43 01:09.00-01:54.96 -> 01:09.00-01:54.96 (no mid-line cuts)"
+   ],
+   "score": 0.6558,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Sterling is. The crown-report lines about the ambush and the faked death fill in most of the rest.",
+   "duration": 45.96,
+   "episodes": [
+    43
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "X-06",
+   "segments": [
+    {
+     "episode": 41,
+     "start": "00:45.00",
+     "end": "01:00.50",
+     "start_sec": 45.0,
+     "end_sec": 60.5,
+     "duration": 15.5
+    },
+    {
+     "episode": 41,
+     "start": "01:21.00",
+     "end": "01:33.50",
+     "start_sec": 81.0,
+     "end_sec": 93.5,
+     "duration": 12.5
+    },
+    {
+     "episode": 42,
+     "start": "00:01.00",
+     "end": "00:16.40",
+     "start_sec": 1.0,
+     "end_sec": 16.4,
+     "duration": 15.4
+    }
+   ],
+   "title": "Chained at their wedding, the doors explode",
+   "hook": "At a lavish wedding, the bride mocks a chained woman: 'This is the world you thought you belonged to.'",
+   "cliffhanger": "A scarred man in ducal regalia strides through the smoke; the groom stammers 'Who are you?' and the chained woman whispers 'Alexander...'",
+   "why": "Public humiliation, defiant comeback and a cathedral-shattering entrance; cuts before the confrontation resolves and does not reveal the later marriage and council arcs.",
+   "source": "llm-cross",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 9.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.93,
+    "intensity": 0.552,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.93,
+    "hook_beat": "E41.B027",
+    "cliff_beat": "E42.B002",
+    "dialogue_lines": 6,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6515,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "None needed to feel it; who Alexander is stays a hook.",
+   "duration": 43.4,
+   "episodes": [
+    41,
+    42
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E29-P2",
+   "segments": [
+    {
+     "episode": 29,
+     "start": "01:23.00",
+     "end": "01:56.69",
+     "start_sec": 83.0,
+     "end_sec": 116.69,
+     "duration": 33.69
+    }
+   ],
+   "title": "Thrown Into the Wet Cell",
+   "hook": "Guards shove Juliana onto the wet stone floor of a dark cell - 'Please!' - and the iron door slams and bolts",
+   "cliffhanger": "Alone in the dungeon she rises: 'They took her locket. But they will not take Alexander from me.' as the portcullis crashes down",
+   "why": "Raw despair of an innocent healer locked away, turning into a defiant vow.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 5.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.697,
+    "cliff": 0.75,
+    "intensity": 0.523,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.697,
+    "cliff_strength": 0.75,
+    "hook_beat": "E29.B052",
+    "cliff_beat": "E29.B069",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6338,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who 'her' and the Duchess are, who Alexander is and why she was jailed",
+   "duration": 33.69,
+   "episodes": [
+    29
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E35-P1",
+   "segments": [
+    {
+     "episode": 35,
+     "start": "00:36.50",
+     "end": "00:55.00",
+     "start_sec": 36.5,
+     "end_sec": 55.0,
+     "duration": 18.5
+    },
+    {
+     "episode": 35,
+     "start": "02:06.00",
+     "end": "02:25.00",
+     "start_sec": 126.0,
+     "end_sec": 145.0,
+     "duration": 19.0
+    }
+   ],
+   "title": "Mother finds presumed-dead son",
+   "hook": "A snow-dusted old woman bursts into tears at the sight of a scarred soldier: 'Alexander!' - 'Mother?'",
+   "cliffhanger": "'Someone ordered my men to die. Someone wanted me erased.' - his terrified mother gasps 'Who?' and we cut before he names them.",
+   "why": "A mother who buried her son finds him alive and learns his death was a conspiracy - emotional reunion plus a hanging question.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.407,
+    "cliff": 0.634,
+    "intensity": 0.362,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.407,
+    "cliff_strength": 0.634,
+    "hook_beat": "E35.B018",
+    "cliff_beat": "E35.B067",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6313,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Alexander is (a hidden duke) and what Ashwood is; no Juliana, so it plays as a standalone mystery rather than the show's core romance.",
+   "duration": 37.5,
+   "episodes": [
+    35
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E32-P2",
+   "segments": [
+    {
+     "episode": 32,
+     "start": "00:00.00",
+     "end": "00:39.10",
+     "start_sec": 0.0,
+     "end_sec": 39.1,
+     "duration": 39.1
+    }
+   ],
+   "title": "Burn it, says chained heiress",
+   "hook": "A red-hot iron sizzles into an open book as a chained woman weeps; Catherine savors 'There it is... Fear.'",
+   "cliffhanger": "Catherine leans in, trembling with rage: 'You think a few herbs make you better than me?' - cut before Juliana answers.",
+   "why": "Burning a dead mother's book is an instant villain marker, and the heroine's 'Burn it' reversal is a satisfying defiance beat.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 5.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.517,
+    "cliff": 0.422,
+    "intensity": 0.479,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.517,
+    "cliff_strength": 0.422,
+    "hook_beat": "E32.B002",
+    "cliff_beat": "E32.B028",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6302,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That the book is her late mother's ledger is only implied by 'Say goodbye to your mother'; the ending is a verbal standoff, not a physical threat.",
+   "duration": 39.1,
+   "episodes": [
+    32
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E25-P1",
+   "segments": [
+    {
+     "episode": 25,
+     "start": "00:18.80",
+     "end": "01:02.50",
+     "start_sec": 18.8,
+     "end_sec": 62.5,
+     "duration": 43.7
+    }
+   ],
+   "title": "Scarred Husband Sees Her Wound",
+   "hook": "Alexander pulls back her cloak to reveal a raw, bloody riding-crop welt across her shoulder - 'Who did this?'",
+   "cliffhanger": "She admits she secretly went to help the Dowager Duchess and Alexander freezes in shock: 'The Dowager?'",
+   "why": "Visible wound plus a dangerous protective husband demanding a name hits the revenge fantasy, then ends on a reveal that clearly means something huge to him.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.491,
+    "cliff": 0.422,
+    "intensity": 0.287,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.491,
+    "cliff_strength": 0.422,
+    "hook_beat": "E25.B013",
+    "cliff_beat": "E25.B038",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6265,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Lady Catherine is and why the Dowager matters to Alexander (his mother) - his shock implies it but does not explain it",
+   "duration": 43.7,
+   "episodes": [
+    25
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E13-P1",
+   "segments": [
+    {
+     "episode": 13,
+     "start": "00:56.00",
+     "end": "01:42.50",
+     "start_sec": 56.0,
+     "end_sec": 102.5,
+     "duration": 46.5
+    }
+   ],
+   "title": "Bleeding in the blackthorn briars",
+   "hook": "Blood wells from Juliana's bare hand on the frost while Clarissa sneers 'Look at her hands'",
+   "cliffhanger": "Torn and bleeding under the thorns, Juliana whispers 'Please, ring... you have to be here', and nothing has been found yet",
+   "why": "Visceral sacrifice, gloating villains on a balcony and a chained husband roaring her name; the stakes ('your husband's freedom is somewhere in that garden') are spoken outright",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.338,
+    "cliff": 0.0,
+    "intensity": 0.507,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.338,
+    "cliff_strength": 0.0,
+    "hook_beat": "E13.B037",
+    "cliff_beat": "E13.B065",
+    "dialogue_lines": 10,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6235,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why she is in the briars (a cruel bargain to free her husband); Gerald's taunt mostly explains it",
+   "duration": 46.5,
+   "episodes": [
+    13
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E46-P1",
+   "segments": [
+    {
+     "episode": 46,
+     "start": "01:06.80",
+     "end": "01:40.40",
+     "start_sec": 66.8,
+     "end_sec": 100.4,
+     "duration": 33.6
+    }
+   ],
+   "title": "Paper Makes a Duchess, Not Love",
+   "hook": "A smirking High Priest sneers at the new Duchess: 'Love doesn't make a Duchess, girl. Paper does.'",
+   "cliffhanger": "The priest climbs the altar steps waving the decree: 'I have the power to undo in one hearing what took you three years to steal!' The rival smirks and we cut before the hearing.",
+   "why": "A wronged woman shouting down a sneering church official ('God married us, Father!') is satisfying, and the threat to annul her marriage leaves the stakes hanging.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.603,
+    "cliff": 0.333,
+    "intensity": 0.457,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.603,
+    "cliff_strength": 0.333,
+    "hook_beat": "E46.B037",
+    "cliff_beat": "E46.B054",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6171,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why her marriage is legally in doubt (a secret marriage to a man later revealed as a Duke). The priest's lines only partly explain it.",
+   "duration": 33.6,
+   "episodes": [
+    46
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E24-P1",
+   "segments": [
+    {
+     "episode": 24,
+     "start": "00:29.00",
+     "end": "00:48.00",
+     "start_sec": 29.0,
+     "end_sec": 48.0,
+     "duration": 19.0
+    },
+    {
+     "episode": 24,
+     "start": "00:57.80",
+     "end": "01:03.50",
+     "start_sec": 57.8,
+     "end_sec": 63.5,
+     "duration": 5.7
+    },
+    {
+     "episode": 24,
+     "start": "01:21.50",
+     "end": "01:29.80",
+     "start_sec": 81.5,
+     "end_sec": 89.8,
+     "duration": 8.3
+    }
+   ],
+   "title": "Let Her Suffer, Riding Crop",
+   "hook": "A sneering noblewoman says of a dying old woman 'Then let her suffer' - Juliana refuses and is struck with a riding crop",
+   "cliffhanger": "Soot-streaked Juliana secretly touches the hidden antidote and vows 'I will return. You cannot stop the healer.'",
+   "why": "Shocking cruelty and a public beating of a disguised lady, flipped by the secret that she holds the cure, makes viewers crave the comeuppance.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 6.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.381,
+    "cliff": 0.333,
+    "intensity": 0.434,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.381,
+    "cliff_strength": 0.333,
+    "hook_beat": "E24.B020",
+    "cliff_beat": "E24.B068",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E24 00:28.80-00:48.00 -> 00:29.00-00:48.00 (no mid-line cuts)",
+    "snapped E24 01:21.20-01:29.80 -> 01:21.50-01:29.80 (no mid-line cuts)"
+   ],
+   "score": 0.6153,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That the maid is secretly a noblewoman and the bedridden woman is being poisoned",
+   "duration": 33.0,
+   "episodes": [
+    24
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E04-P1",
+   "segments": [
+    {
+     "episode": 4,
+     "start": "00:03.40",
+     "end": "00:14.20",
+     "start_sec": 3.4,
+     "end_sec": 14.2,
+     "duration": 10.8
+    },
+    {
+     "episode": 4,
+     "start": "00:50.00",
+     "end": "01:09.50",
+     "start_sec": 50.0,
+     "end_sec": 69.5,
+     "duration": 19.5
+    }
+   ],
+   "title": "Penniless nobody's ring: will she?",
+   "hook": "Ex-groom sneers at a kneeling scarred man holding out a ring: 'A penniless nobody for a discarded bride' - her sister laughs",
+   "cliffhanger": "Juliana, ring in front of her: 'I don't know this man. I don't know what waits beyond these doors' - we cut before her answer",
+   "why": "Public mockery plus a mysterious scarred suitor's vow, ending on the yes/no decision",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.57,
+    "intensity": 0.252,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.57,
+    "hook_beat": "E04.B004",
+    "cliff_beat": "E04.B049",
+    "dialogue_lines": 11,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E4 00:03.20-00:14.20 -> 00:03.40-00:14.20 (no mid-line cuts)",
+    "snapped E4 00:49.80-01:09.60 -> 00:50.00-01:09.50 (no mid-line cuts)"
+   ],
+   "score": 0.6054,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why she is a 'discarded bride' is only implied by the insults",
+   "duration": 30.3,
+   "episodes": [
+    4
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E36-P1",
+   "segments": [
+    {
+     "episode": 36,
+     "start": "02:12.20",
+     "end": "02:43.00",
+     "start_sec": 132.2,
+     "end_sec": 163.0,
+     "duration": 30.8
+    },
+    {
+     "episode": 36,
+     "start": "03:08.00",
+     "end": "03:16.80",
+     "start_sec": 188.0,
+     "end_sec": 196.8,
+     "duration": 8.8
+    }
+   ],
+   "title": "Dead Duke learns wife's execution",
+   "hook": "A weeping mother tells a scarred soldier 'They condemned her.' - 'No.' - 'She is to be executed.'",
+   "cliffhanger": "'They are marrying in two days... and killing my wife afterward.' Then, at the cabin door: 'Before that wedding begins... their dead Duke is coming home.'",
+   "why": "A ticking clock (two days), a condemned wife, and a presumed-dead husband vowing return - classic hidden-Duke revenge setup that ends on a threat.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.32,
+    "cliff": 0.286,
+    "intensity": 0.483,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.32,
+    "cliff_strength": 0.286,
+    "hook_beat": "E36.B083",
+    "cliff_beat": "E36.B116",
+    "dialogue_lines": 12,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E36 02:12.00-02:43.00 -> 02:12.20-02:43.00 (no mid-line cuts)"
+   ],
+   "score": 0.5964,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Rupert and Catherine are and why he was thought dead; 'dead Duke' carries most of it.",
+   "duration": 39.6,
+   "episodes": [
+    36
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E18-P2",
+   "segments": [
+    {
+     "episode": 18,
+     "start": "02:14.50",
+     "end": "02:22.50",
+     "start_sec": 134.5,
+     "end_sec": 142.5,
+     "duration": 8.0
+    },
+    {
+     "episode": 18,
+     "start": "02:38.00",
+     "end": "03:12.00",
+     "start_sec": 158.0,
+     "end_sec": 192.0,
+     "duration": 34.0
+    }
+   ],
+   "title": "Home burned, husband vows vengeance",
+   "hook": "Their cottage engulfed in towering flames as Juliana sobs 'Our home... Everything we had is gone.'",
+   "cliffhanger": "Alexander stares into the inferno after 'They took our home. I will not let them take anything else'; Juliana asks 'What are you going to do?' and he does not answer",
+   "why": "Arson ('Someone wanted us out') plus a scarred soldier's cold fury sets up revenge with the answer withheld",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 8.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.75,
+    "intensity": 0.295,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.75,
+    "hook_beat": null,
+    "cliff_beat": "E18.B080",
+    "dialogue_lines": 6,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5907,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who 'they' are; deliberately left as the hook for the next episode",
+   "duration": 42.0,
+   "episodes": [
+    18
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E07-P1",
+   "segments": [
+    {
+     "episode": 7,
+     "start": "00:22.00",
+     "end": "00:39.80",
+     "start_sec": 22.0,
+     "end_sec": 39.8,
+     "duration": 17.8
+    },
+    {
+     "episode": 7,
+     "start": "00:51.50",
+     "end": "01:24.00",
+     "start_sec": 51.5,
+     "end_sec": 84.0,
+     "duration": 32.5
+    }
+   ],
+   "title": "Ex mocks her, husband arrives",
+   "hook": "A rich woman under a parasol sneers at Juliana's mud-stained hands: 'This is where you live now? ... You look like a servant'",
+   "cliffhanger": "Gerald threatens to make her 'beggar husband' disappear - and the towering scarred husband drops his firewood and stares him down as Gerald freezes in terror",
+   "why": "Snobs humiliating the poor wife, then the silent scarred husband looming over the bully - a satisfying power flip with the payoff held back",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.538,
+    "intensity": 0.385,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.538,
+    "hook_beat": "E07.B008",
+    "cliff_beat": "E07.B041",
+    "dialogue_lines": 11,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5885,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Gerald is to her (the ex who jilted her) is only implied by 'when you walked away'",
+   "duration": 50.3,
+   "episodes": [
+    7
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E22-P1",
+   "segments": [
+    {
+     "episode": 22,
+     "start": "00:07.00",
+     "end": "00:14.20",
+     "start_sec": 7.0,
+     "end_sec": 14.2,
+     "duration": 7.2
+    },
+    {
+     "episode": 22,
+     "start": "01:42.00",
+     "end": "02:11.00",
+     "start_sec": 102.0,
+     "end_sec": 131.0,
+     "duration": 29.0
+    }
+   ],
+   "title": "Disguised Maid Finds Poisoned Duchess",
+   "hook": "'Keep your head down. If anyone recognizes you, everything is over.' - a lady disguised as a maid sneaking into a manor",
+   "cliffhanger": "Juliana realizes 'This isn't ordinary fever', the Duchess convulses, and Juliana demands 'Who has been treating you?' - cut on the Duchess's terrified eyes",
+   "why": "Disguise-and-danger hook pays off with a secret bedchamber, a dying noblewoman and a clear poisoning mystery left hanging.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 8.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.75,
+    "intensity": 0.471,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.75,
+    "hook_beat": null,
+    "cliff_beat": "E22.B079",
+    "dialogue_lines": 6,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5859,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the Dowager Duchess is and why Juliana risks herself for her",
+   "duration": 36.2,
+   "episodes": [
+    22
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E11-P2",
+   "segments": [
+    {
+     "episode": 11,
+     "start": "00:16.80",
+     "end": "00:53.60",
+     "start_sec": 16.8,
+     "end_sec": 53.6,
+     "duration": 36.8
+    }
+   ],
+   "title": "Ex accuses husband of theft",
+   "hook": "Gerald points and snarls: 'Your husband stole my gold pocket watch!'",
+   "cliffhanger": "Alexander lets the constable search their home: 'Search it. Let them.' The search is about to start",
+   "why": "Clear villain, a wife defending her husband ('You married a beggar!'), and a threat from the soldier, ending on a search we know is a trap",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 6.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.362,
+    "cliff": 0.0,
+    "intensity": 0.422,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.362,
+    "cliff_strength": 0.0,
+    "hook_beat": "E11.B015",
+    "cliff_beat": "E11.B046",
+    "dialogue_lines": 17,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5711,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Gerald is (her ex who jilted her); his arrogance carries it",
+   "duration": 36.8,
+   "episodes": [
+    11
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E05-P1",
+   "segments": [
+    {
+     "episode": 5,
+     "start": "00:52.00",
+     "end": "01:19.00",
+     "start_sec": 52.0,
+     "end_sec": 79.0,
+     "duration": 27.0
+    },
+    {
+     "episode": 5,
+     "start": "01:31.00",
+     "end": "01:40.80",
+     "start_sec": 91.0,
+     "end_sec": 100.8,
+     "duration": 9.8
+    }
+   ],
+   "title": "Mother's ledger thrown in mud",
+   "hook": "Stepmother sneers 'Then you should have guarded it better', rips the dead mother's ledger from the bride's hands and flings it into a puddle",
+   "cliffhanger": "Ex-groom mocks 'A noblewoman reduced to a beggar's wife!' and the scarred husband answers, lethally cold: 'Choose your next words carefully'",
+   "why": "Evil stepmother cruelty, a bride on her knees in the mud, and a quiet protector's threat that promises payback",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 8.0,
+    "cliffhanger": 8.0,
+    "standalone": 8.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.0,
+    "intensity": 0.481,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.0,
+    "hook_beat": "E05.B029",
+    "cliff_beat": "E05.B057",
+    "dialogue_lines": 8,
+    "warnings": [
+     "hook_in_3s",
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E5 00:51.80-01:19.00 -> 00:52.00-01:19.00 (no mid-line cuts)"
+   ],
+   "score": 0.5676,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That the bearded man is her new husband is only stated in Gerald's insult",
+   "duration": 36.8,
+   "episodes": [
+    5
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E25-P2",
+   "segments": [
+    {
+     "episode": 25,
+     "start": "01:19.50",
+     "end": "01:56.80",
+     "start_sec": 79.5,
+     "end_sec": 116.8,
+     "duration": 37.3
+    }
+   ],
+   "title": "Poison Confession in the Woods",
+   "hook": "Juliana whispers 'Poison.' then 'Arsenic.' as Alexander's scarred fist clenches",
+   "cliffhanger": "'Will you be going there again?' - 'I have to.' She chooses to walk back into the poisoner's house",
+   "why": "Slow-poisoning conspiracy and a heroine who refuses to back down despite danger.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 4.0
+   },
+   "heur": {
+    "hook": 0.65,
+    "cliff": 0.422,
+    "intensity": 0.334,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.65,
+    "cliff_strength": 0.422,
+    "hook_beat": "E25.B048",
+    "cliff_beat": "E25.B065",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5531,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who is being poisoned and where; why she was hurt",
+   "duration": 37.3,
+   "episodes": [
+    25
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E39-P1",
+   "segments": [
+    {
+     "episode": 39,
+     "start": "00:32.40",
+     "end": "00:42.20",
+     "start_sec": 32.4,
+     "end_sec": 42.2,
+     "duration": 9.8
+    },
+    {
+     "episode": 39,
+     "start": "01:01.20",
+     "end": "01:38.41",
+     "start_sec": 61.2,
+     "end_sec": 98.41,
+     "duration": 37.21
+    }
+   ],
+   "title": "Dead Duke dons his crest",
+   "hook": "A firewood driver suddenly leaps off his cart and tackles a royal sentry; a second guard is choked out - 'Sleep.'",
+   "cliffhanger": "In full ducal regalia, the scarred Duke marches through the snow: 'I am taking back my house. And I am bringing my wife home.' - cut before he reaches the chapel.",
+   "why": "Ambush action plus a presumed-dead husband revealed as a Duke ('They buried Alexander Ashwin three years ago. Today, he comes home.') is the show's core fantasy.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 6.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.75,
+    "intensity": 0.353,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.75,
+    "hook_beat": null,
+    "cliff_beat": "E39.B058",
+    "dialogue_lines": 10,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.536,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why his wife needs rescuing (she is about to be executed) is never said in the clip; the ending is a vow, not a confrontation.",
+   "duration": 47.01,
+   "episodes": [
+    39
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E50-P1",
+   "segments": [
+    {
+     "episode": 50,
+     "start": "00:00.00",
+     "end": "00:35.00",
+     "start_sec": 0.0,
+     "end_sec": 35.0,
+     "duration": 35.0
+    },
+    {
+     "episode": 50,
+     "start": "01:10.80",
+     "end": "01:20.00",
+     "start_sec": 70.8,
+     "end_sec": 80.0,
+     "duration": 9.2
+    }
+   ],
+   "title": "Priest's Forbidden Affair Gets Witnessed",
+   "hook": "Overhead shot of a priest lying breathless in bed with a noblewoman, who teases 'A man in your collar isn't supposed to have that much left in him, Thomas.'",
+   "cliffhanger": "A maid with a lantern sees the priest and her mistress through the open door, gasps and stumbles back into the dark. We cut before anyone knows she saw.",
+   "why": "A scandalous forbidden affair plus a bribe ('Discretion has a price') ends with a witness who could bring it all down. It is a clean secret-discovered open loop.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 7.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.201,
+    "cliff": 0.483,
+    "intensity": 0.311,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.201,
+    "cliff_strength": 0.483,
+    "hook_beat": "E50.B001",
+    "cliff_beat": "E50.B039",
+    "dialogue_lines": 7,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E50 01:10.50-01:20.00 -> 01:10.80-01:20.00 (no mid-line cuts)"
+   ],
+   "score": 0.5354,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Catherine is and what the priest's silence is buying (a rigged hearing). The affair and the witness work without it.",
+   "duration": 44.2,
+   "episodes": [
+    50
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E20-P1",
+   "segments": [
+    {
+     "episode": 20,
+     "start": "00:21.30",
+     "end": "00:42.40",
+     "start_sec": 21.3,
+     "end_sec": 42.4,
+     "duration": 21.1
+    }
+   ],
+   "title": "Usurpers slowly poisoning the Duchess",
+   "hook": "Rupert, conspiratorial: 'Once my cousin Alexander's death is formally sealed by the Crown... the title is mine.'",
+   "cliffhanger": "Asked how long the old Duchess can survive, Rupert replies 'Not through the winter. I've ensured her quiet comfort', hinting he is killing her",
+   "why": "Two silky villains over tea casually plotting a murder and a stolen title; the 'baffled physicians' line makes it a poisoning",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 7.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.634,
+    "intensity": 0.171,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.634,
+    "hook_beat": null,
+    "cliff_beat": "E20.B024",
+    "dialogue_lines": 9,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5189,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That Alexander is alive and living as a poor soldier; without that, the 'death' line carries less dramatic irony",
+   "duration": 21.1,
+   "episodes": [
+    20
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E41-P2",
+   "segments": [
+    {
+     "episode": 41,
+     "start": "00:04.90",
+     "end": "00:28.40",
+     "start_sec": 4.9,
+     "end_sec": 28.4,
+     "duration": 23.5
+    }
+   ],
+   "title": "Bride Parades Her Chained Rival",
+   "hook": "Mid-wedding, the bride turns on the congregation: 'Before I become Duchess... I want everyone to see what happens to a woman who dares defy this family.'",
+   "cliffhanger": "The doors creak open, a shackled Juliana is marched down the aisle and Catherine purrs 'There she is.' What she plans to do to her is left hanging.",
+   "why": "A cruel bride turning her own wedding into a public humiliation is an archetype people recognise at once, and the shackles shot sells the stakes.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 6.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.0,
+    "intensity": 0.197,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.0,
+    "hook_beat": "E41.B004",
+    "cliff_beat": "E41.B016",
+    "dialogue_lines": 5,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5122,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why Juliana is a prisoner and what she 'defied'. The cliffhanger is a menace, not a reveal.",
+   "duration": 23.5,
+   "episodes": [
+    41
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E31-P2",
+   "segments": [
+    {
+     "episode": 31,
+     "start": "00:59.20",
+     "end": "01:43.30",
+     "start_sec": 59.2,
+     "end_sec": 103.3,
+     "duration": 44.1
+    }
+   ],
+   "title": "Chained wife defends scarred husband",
+   "hook": "Chained on a dungeon floor, Juliana: 'Gerald chose money. Clarissa chose a coward. I chose myself.'",
+   "cliffhanger": "Catherine, enraged, demands 'I have beauty, money, family, status! What do you have?' - cut before Juliana answers.",
+   "why": "Rapid-fire defiance from a shackled heroine standing up for her 'scarred nobody' husband is a satisfying archetype clash.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 6.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.634,
+    "intensity": 0.3,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.634,
+    "hook_beat": null,
+    "cliff_beat": "E31.B057",
+    "dialogue_lines": 14,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E31 00:59.00-01:43.30 -> 00:59.20-01:43.30 (no mid-line cuts)"
+   ],
+   "score": 0.5087,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Gerald and Clarissa are name-dropped without explanation; mostly talk, less visual peril.",
+   "duration": 44.1,
+   "episodes": [
+    31
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E05-P2",
+   "segments": [
+    {
+     "episode": 5,
+     "start": "00:06.80",
+     "end": "00:48.80",
+     "start_sec": 6.8,
+     "end_sec": 48.8,
+     "duration": 42.0
+    }
+   ],
+   "title": "Father disowns her on the steps",
+   "hook": "Father, cold on the cathedral steps: 'You will not leave this church carrying the Ashcroft name'",
+   "cliffhanger": "Stepmother advances on her: 'And the ledger... that belongs to this family' - we cut before she takes it",
+   "why": "Dowry and inheritance revoked, 'you are dead to this family' - strong disowned-daughter stakes",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 6.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.286,
+    "intensity": 0.345,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.286,
+    "hook_beat": "E05.B006",
+    "cliff_beat": "E05.B024",
+    "dialogue_lines": 13,
+    "warnings": [
+     "hook_in_3s",
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E5 00:06.60-00:48.80 -> 00:06.80-00:48.80 (no mid-line cuts)"
+   ],
+   "score": 0.5027,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why she married the silent bearded man is not explained",
+   "duration": 42.0,
+   "episodes": [
+    5
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E45-P2",
+   "segments": [
+    {
+     "episode": 45,
+     "start": "00:05.20",
+     "end": "00:29.60",
+     "start_sec": 5.2,
+     "end_sec": 29.6,
+     "duration": 24.4
+    }
+   ],
+   "title": "Duke Kneels, Unchains His Wife",
+   "hook": "A man in ducal regalia drops to one knee before a shackled woman in a prison dress and says 'Look at me.'",
+   "cliffhanger": "She realises her humble husband is the Duke and whispers 'All this time?' We cut before he explains.",
+   "why": "A secret-billionaire style identity reveal works well for romance audiences.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.422,
+    "intensity": 0.284,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.422,
+    "hook_beat": null,
+    "cliff_beat": "E45.B022",
+    "dialogue_lines": 7,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E45 00:05.00-00:29.60 -> 00:05.20-00:29.60 (no mid-line cuts)"
+   ],
+   "score": 0.4642,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why she is in chains and how they married. The cliffhanger is emotional rather than a threat, so it is a softer ad.",
+   "duration": 24.4,
+   "episodes": [
+    45
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E33-P1",
+   "segments": [
+    {
+     "episode": 33,
+     "start": "01:04.40",
+     "end": "01:13.00",
+     "start_sec": 64.4,
+     "end_sec": 73.0,
+     "duration": 8.6
+    },
+    {
+     "episode": 33,
+     "start": "02:03.50",
+     "end": "02:36.00",
+     "start_sec": 123.5,
+     "end_sec": 156.0,
+     "duration": 32.5
+    }
+   ],
+   "title": "Lord forces maid's witchcraft testimony",
+   "hook": "A cold lord to a weeping maid: 'One word from me, and the county gaol will take him before sunrise.' - 'Please, he is only seven!'",
+   "cliffhanger": "'She saved my brother...' - 'And now... you will save your brother.' Cut before she decides whether to betray the woman who saved him.",
+   "why": "Child-in-danger blackmail and a forced false witchcraft confession give a clear villain and an agonizing choice.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 6.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.286,
+    "intensity": 0.578,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.286,
+    "hook_beat": "E33.B039",
+    "cliff_beat": "E33.B089",
+    "dialogue_lines": 12,
+    "warnings": [
+     "hook_in_3s",
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E33 01:04.20-01:13.00 -> 01:04.40-01:13.00 (no mid-line cuts)"
+   ],
+   "score": 0.459,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who Lady Juliana is and that she is already imprisoned; she never appears in the clip, so the real victim is off-screen.",
+   "duration": 41.1,
+   "episodes": [
+    33
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E38-P1",
+   "segments": [
+    {
+     "episode": 38,
+     "start": "00:39.50",
+     "end": "01:18.50",
+     "start_sec": 39.5,
+     "end_sec": 78.5,
+     "duration": 39.0
+    }
+   ],
+   "title": "Wedding bells toll her execution",
+   "hook": "A chained, tear-stained woman looks up through a dungeon grate: 'Do you even know what happened to me? Do you know they condemned me?'",
+   "cliffhanger": "Church bells start tolling; she grips the bars: 'The wedding. It's beginning. Then I suppose I'm next.' - cut before anyone comes for her.",
+   "why": "Wedding bells doubling as an execution countdown is a strong, simple ticking-clock ending.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 4.0,
+    "cliffhanger": 7.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.302,
+    "cliff": 0.0,
+    "intensity": 0.428,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.302,
+    "cliff_strength": 0.0,
+    "hook_beat": "E38.B026",
+    "cliff_beat": "E38.B051",
+    "dialogue_lines": 14,
+    "warnings": [
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.4445,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Whose wedding it is and who Alexander is; the opening is a quiet lament rather than a thumb-stopping event, so the hook is soft.",
+   "duration": 39.0,
+   "episodes": [
+    38
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E37-P1",
+   "segments": [
+    {
+     "episode": 37,
+     "start": "00:19.00",
+     "end": "00:29.80",
+     "start_sec": 19.0,
+     "end_sec": 29.8,
+     "duration": 10.8
+    },
+    {
+     "episode": 37,
+     "start": "01:32.00",
+     "end": "01:56.20",
+     "start_sec": 92.0,
+     "end_sec": 116.2,
+     "duration": 24.2
+    },
+    {
+     "episode": 37,
+     "start": "02:21.50",
+     "end": "02:26.50",
+     "start_sec": 141.5,
+     "end_sec": 146.5,
+     "duration": 5.0
+    }
+   ],
+   "title": "Execution as wedding entertainment",
+   "hook": "Rupert leans in: 'No one will question what happened to the woman who tried to stop us.' Catherine: 'Juliana's execution comes after the wedding... a feast for our guests.'",
+   "cliffhanger": "After the starving, chained Juliana swears they cannot take who she is, Clarissa sips wine: 'Let them see what happens when a woman forgets her place.' - the execution still looms.",
+   "why": "Gloating aristocrats turning a woman's execution into wedding entertainment, intercut with her defiance in chains - clear villains and stakes.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.333,
+    "intensity": 0.451,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.333,
+    "hook_beat": null,
+    "cliff_beat": "E37.B075",
+    "dialogue_lines": 9,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": true
+   },
+   "repairs": [
+    "snapped E37 00:18.80-00:29.80 -> 00:19.00-00:29.80 (no mid-line cuts)"
+   ],
+   "score": 0.4444,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Why Juliana is condemned and who Clarissa is; the episode is mostly talk with no confrontation, so the promo leans on stakes rather than action.",
+   "duration": 40.0,
+   "episodes": [
+    37
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E46-P2",
+   "segments": [
+    {
+     "episode": 46,
+     "start": "01:58.80",
+     "end": "02:23.80",
+     "start_sec": 118.8,
+     "end_sec": 143.8,
+     "duration": 25.0
+    }
+   ],
+   "title": "Ten Days to Save Marriage",
+   "hook": "The High Priest to the Duke: 'Ten days. And if the council rules against you, this county watches you lose her twice.'",
+   "cliffhanger": "The guards lower their halberds and the priest leaves, but the jilted bride whispers 'Ten days is plenty of time.' Her scheme is still to come.",
+   "why": "A ticking clock and a whispered villain threat give a clear open loop.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 7.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.0,
+    "intensity": 0.49,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.0,
+    "hook_beat": null,
+    "cliff_beat": "E46.B074",
+    "dialogue_lines": 5,
+    "warnings": [
+     "hook_in_3s",
+     "ends_unresolved"
+    ],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.4155,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the bride in the gown is and what the council hearing decides. It is fairly dependent on earlier episodes.",
+   "duration": 25.0,
+   "episodes": [
+    46
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  }
+ ],
+ "failed_checks": [
+  {
+   "id": "E03-P2",
+   "segments": [
+    {
+     "episode": 3,
+     "start": "00:23.10",
+     "end": "00:58.20",
+     "start_sec": 23.1,
+     "end_sec": 58.2,
+     "duration": 35.1
+    }
+   ],
+   "title": "Family disowns the jilted bride",
+   "hook": "Matriarch in a tiara snaps 'Enough, Juliana. You have humiliated this family enough for one day'",
+   "cliffhanger": "'Your father has chosen his family... and it isn't you' - Juliana is cast out with nowhere to go",
+   "why": "Clean evil-matriarch cruelty that makes a stranger want to see the underdog avenged",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.555,
+    "cliff": 0.286,
+    "intensity": 0.411,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.555,
+    "cliff_strength": 0.286,
+    "hook_beat": "E03.B020",
+    "cliff_beat": "E03.B042",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.4869,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That she was just jilted at the altar is implied by the gown and church, not stated",
+   "duration": 35.1,
+   "episodes": [
+    3
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E04-P2",
+   "segments": [
+    {
+     "episode": 4,
+     "start": "01:50.00",
+     "end": "02:18.80",
+     "start_sec": 110.0,
+     "end_sec": 138.8,
+     "duration": 28.8
+    }
+   ],
+   "title": "Wed to a stranger, then disowned",
+   "hook": "Priest pronounces the bride and the scarred stranger husband and wife; the ex-groom lunges: 'You have thrown yourself away!'",
+   "cliffhanger": "Her mother screams 'You are disowned!' and Juliana fights back tears as her new husband stands beside her",
+   "why": "Shock marriage, enraged ex and a disowning in under 30 seconds",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 7.0,
+    "cliffhanger": 5.0,
+    "standalone": 6.0
+   },
+   "heur": {
+    "hook": 0.573,
+    "cliff": 0.0,
+    "intensity": 0.418,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.573,
+    "cliff_strength": 0.0,
+    "hook_beat": "E04.B083",
+    "cliff_beat": "E04.B100",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.4706,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the stranger is and why she married him are not shown",
+   "duration": 28.8,
+   "episodes": [
+    4
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E02-P2",
+   "segments": [
+    {
+     "episode": 2,
+     "start": "00:18.20",
+     "end": "00:47.40",
+     "start_sec": 18.2,
+     "end_sec": 47.4,
+     "duration": 29.2
+    }
+   ],
+   "title": "Father refuses to save her",
+   "hook": "Jilted bride: 'You gave me your word before both our families' - groom: 'Promises change when a better choice appears'",
+   "cliffhanger": "Her own father orders her not to disgrace them; she whispers 'You won't even look at me' and is left alone",
+   "why": "Betrayal by fiancé and then by her own father raises the injustice for a stranger",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 7.0
+   },
+   "heur": {
+    "hook": 0.302,
+    "cliff": 0.0,
+    "intensity": 0.273,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.302,
+    "cliff_strength": 0.0,
+    "hook_beat": "E02.B014",
+    "cliff_beat": "E02.B031",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.427,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who 'she' (the better choice) is is never named in the clip",
+   "duration": 29.2,
+   "episodes": [
+    2
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E21-P2",
+   "segments": [
+    {
+     "episode": 21,
+     "start": "01:19.80",
+     "end": "01:48.40",
+     "start_sec": 79.8,
+     "end_sec": 108.4,
+     "duration": 28.6
+    }
+   ],
+   "title": "The Duchess Is Dying",
+   "hook": "'You saved him. The grand doctors left him to choke' - a peasant girl swears her life to Juliana",
+   "cliffhanger": "'She is fading to nothing, and no one can stop it' - the Dowager Duchess is dying of a mysterious illness",
+   "why": "Ominous whispered reveal about a powerful dying noblewoman sets up the healer heroine's next mission.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 4.0,
+    "cliffhanger": 7.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.333,
+    "intensity": 0.224,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.333,
+    "hook_beat": null,
+    "cliff_beat": "E21.B072",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.37,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who the Dowager Duchess is and why she matters to Juliana (her husband's mother); hook is soft",
+   "duration": 28.6,
+   "episodes": [
+    21
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E34-P2",
+   "segments": [
+    {
+     "episode": 34,
+     "start": "01:21.30",
+     "end": "01:52.60",
+     "start_sec": 81.3,
+     "end_sec": 112.6,
+     "duration": 31.3
+    }
+   ],
+   "title": "Rigged witnesses turn the court",
+   "hook": "The smug Lord announces 'the witness has confirmed the ritual' and Juliana slams her cuffed hands on the dock: 'It was not a ritual!'",
+   "cliffhanger": "The Lord turns to the gallery: 'She calls it healing. The people call it poisoning!' - cut with the crowd against her and no answer yet.",
+   "why": "Clear rigged-trial injustice with a gavel-banging judge and coached witnesses piling on the accused.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 5.0
+   },
+   "heur": {
+    "hook": 0.302,
+    "cliff": 0.0,
+    "intensity": 0.371,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.302,
+    "cliff_strength": 0.0,
+    "hook_beat": "E34.B046",
+    "cliff_beat": "E34.B068",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [
+    "snapped E34 01:21.00-01:52.60 -> 01:21.30-01:52.60 (no mid-line cuts)"
+   ],
+   "score": 0.3677,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "What she is accused of is not restated; the witnesses being coached is implied, not shown.",
+   "duration": 31.3,
+   "episodes": [
+    34
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E22-P2",
+   "segments": [
+    {
+     "episode": 22,
+     "start": "00:43.00",
+     "end": "01:09.50",
+     "start_sec": 43.0,
+     "end_sec": 69.5,
+     "duration": 26.5
+    }
+   ],
+   "title": "Housekeeper Interrogates the New Maid",
+   "hook": "A stern housekeeper blocks the corridor: 'Prudence. Who is this?'",
+   "cliffhanger": "The housekeeper steps into Juliana's face: 'And can you keep your eyes and ears where they belong?'",
+   "why": "Tense will-she-be-caught interrogation of a secret noblewoman in disguise.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 5.0,
+    "cliffhanger": 5.0,
+    "standalone": 4.0
+   },
+   "heur": {
+    "hook": 0.219,
+    "cliff": 0.422,
+    "intensity": 0.149,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.219,
+    "cliff_strength": 0.422,
+    "hook_beat": "E22.B024",
+    "cliff_beat": "E22.B042",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.3582,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "That 'Julian' is really Lady Juliana in disguise and why she is there",
+   "duration": 26.5,
+   "episodes": [
+    22
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E49-P1",
+   "segments": [
+    {
+     "episode": 49,
+     "start": "00:33.50",
+     "end": "00:41.50",
+     "start_sec": 33.5,
+     "end_sec": 41.5,
+     "duration": 8.0
+    },
+    {
+     "episode": 49,
+     "start": "01:44.20",
+     "end": "02:24.75",
+     "start_sec": 104.2,
+     "end_sec": 144.75,
+     "duration": 40.55
+    }
+   ],
+   "title": "Priest and Villainess Seal Treason",
+   "hook": "A hooded priest by candlelight: 'A priest and a disgraced bride meeting before dawn in her bedchamber...' It reveals a forbidden secret straight away.",
+   "cliffhanger": "He warns 'Careful men still hang... when the crime is treason against a Duke.' She promises a Duchess's gratitude, they clasp hands and he cups her cheek. We cut on the sealed secret pact.",
+   "why": "A corrupt priest secretly involved with the villainess and conspiring against a Duke is a scandalous secret that pulls in viewers who like palace intrigue.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 6.0,
+    "cliffhanger": 5.0,
+    "standalone": 4.0
+   },
+   "heur": {
+    "hook": 0.0,
+    "cliff": 0.0,
+    "intensity": 0.388,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.0,
+    "cliff_strength": 0.0,
+    "hook_beat": null,
+    "cliff_beat": "E49.B062",
+    "dialogue_lines": 9,
+    "warnings": [
+     "hook_in_3s"
+    ],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.2677,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "Who 'her' and the Duke are, what hearing is being rigged, and why it matters. There is no hero on screen and it is all dialogue.",
+   "duration": 48.55,
+   "episodes": [
+    49
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "E48-P1",
+   "segments": [
+    {
+     "episode": 48,
+     "start": "00:02.40",
+     "end": "00:26.50",
+     "start_sec": 2.4,
+     "end_sec": 26.5,
+     "duration": 24.1
+    },
+    {
+     "episode": 48,
+     "start": "01:06.90",
+     "end": "01:13.40",
+     "start_sec": 66.9,
+     "end_sec": 73.4,
+     "duration": 6.5
+    }
+   ],
+   "title": "Villainess Plots Ten-Day Revenge",
+   "hook": "Catherine turns from the window with a venomous smirk: 'Two words, and that healer's crown rolls right back into the gutter where it belongs.'",
+   "cliffhanger": "She presses a purse of gold into her maid's hands: 'Send for the priest. Tonight. And make sure no one sees him arrive.' The plan itself is never revealed.",
+   "why": "A theatrical villain monologue ('Ten days is not a wall... It's a door') and a bribed secret meeting. It works only as a mid-funnel teaser for viewers already following the story.",
+   "source": "llm",
+   "llm_scores": {
+    "hook": 5.0,
+    "cliffhanger": 5.0,
+    "standalone": 3.0
+   },
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.0,
+    "intensity": 0.126,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.0,
+    "hook_beat": "E48.B002",
+    "cliff_beat": "E48.B040",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.1474,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "A lot: who the healer is, what the ten days and the council are, and who the priest is. There is no victim on screen and no confrontation, so a stranger has little reason to care.",
+   "duration": 30.6,
+   "episodes": [
+    48
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  }
+ ],
+ "rejected_llm_output": [],
+ "quality": {
+  "candidates_after_dedupe": 75,
+  "pass_rate": 0.893,
+  "check_fail_counts": {
+   "length_ok": 0,
+   "hook_in_3s": 3,
+   "ends_unresolved": 6,
+   "clean_cuts": 0,
+   "has_dialogue": 0,
+   "segments_ok": 0
+  },
+  "review_warnings": {
+   "hook_in_3s": 18,
+   "ends_unresolved": 13
+  },
+  "ranked_with_warnings": 2,
+  "auto_repaired": 28,
+  "repairs": {
+   "E31-P1": [
+    "snapped E31 01:58.20-02:40.00 -> 01:58.40-02:40.00 (no mid-line cuts)"
+   ],
+   "E12-P1": [
+    "snapped E12 00:44.00-01:27.21 -> 00:44.00-01:27.21 (no mid-line cuts)"
+   ],
+   "E26-P1": [
+    "snapped E26 00:55.80-01:06.70 -> 00:56.00-01:06.70 (no mid-line cuts)"
+   ],
+   "E32-P1": [
+    "snapped E32 01:59.50-02:34.38 -> 01:59.60-02:34.38 (no mid-line cuts)"
+   ],
+   "E23-P1": [
+    "snapped E23 01:19.00-02:11.50 -> 01:19.00-02:11.20 (no mid-line cuts)"
+   ],
+   "E42-P1": [
+    "snapped E42 01:04.00-01:17.50 -> 01:04.20-01:17.50 (no mid-line cuts)"
+   ],
+   "E34-P1": [
+    "snapped E34 02:36.80-03:10.00 -> 02:37.00-03:10.00 (no mid-line cuts)"
+   ],
+   "E02-P1": [
+    "snapped E2 00:47.60-01:16.40 -> 00:47.80-01:16.40 (no mid-line cuts)"
+   ],
+   "E10-P1": [
+    "snapped E10 00:02.10-00:11.45 -> 00:02.20-00:11.45 (no mid-line cuts)",
+    "snapped E10 00:02.20-00:11.45 -> 00:02.50-00:11.45 (no mid-line cuts)"
+   ],
+   "E21-P1": [
+    "snapped E21 00:03.50-00:35.80 -> 00:03.60-00:35.80 (no mid-line cuts)"
+   ],
+   "E30-P1": [
+    "snapped E30 00:33.40-00:39.80 -> 00:33.60-00:39.80 (no mid-line cuts)"
+   ],
+   "E28-P1": [
+    "snapped E28 01:10.50-01:22.40 -> 01:10.80-01:22.30 (no mid-line cuts)",
+    "snapped E28 01:31.00-01:55.80 -> 01:31.20-01:55.80 (no mid-line cuts)",
+    "snapped E28 02:11.20-02:18.50 -> 02:11.40-02:18.50 (no mid-line cuts)"
+   ],
+   "E16-P1": [
+    "snapped E16 00:14.30-00:31.00 -> 00:14.40-00:31.00 (no mid-line cuts)"
+   ],
+   "E45-P1": [
+    "snapped E45 01:14.50-01:20.40 -> 01:14.80-01:20.40 (no mid-line cuts)"
+   ],
+   "E18-P1": [
+    "snapped E18 00:56.20-01:26.20 -> 00:56.50-01:26.20 (no mid-line cuts)"
+   ],
+   "E28-P2": [
+    "snapped E28 00:34.90-01:10.20 -> 00:35.00-01:10.20 (no mid-line cuts)"
+   ],
+   "E43-P2": [
+    "snapped E43 01:09.00-01:54.96 -> 01:09.00-01:54.96 (no mid-line cuts)"
+   ],
+   "E24-P1": [
+    "snapped E24 00:28.80-00:48.00 -> 00:29.00-00:48.00 (no mid-line cuts)",
+    "snapped E24 01:21.20-01:29.80 -> 01:21.50-01:29.80 (no mid-line cuts)"
+   ],
+   "E04-P1": [
+    "snapped E4 00:03.20-00:14.20 -> 00:03.40-00:14.20 (no mid-line cuts)",
+    "snapped E4 00:49.80-01:09.60 -> 00:50.00-01:09.50 (no mid-line cuts)"
+   ],
+   "E36-P1": [
+    "snapped E36 02:12.00-02:43.00 -> 02:12.20-02:43.00 (no mid-line cuts)"
+   ],
+   "E05-P1": [
+    "snapped E5 00:51.80-01:19.00 -> 00:52.00-01:19.00 (no mid-line cuts)"
+   ],
+   "E50-P1": [
+    "snapped E50 01:10.50-01:20.00 -> 01:10.80-01:20.00 (no mid-line cuts)"
+   ],
+   "E31-P2": [
+    "snapped E31 00:59.00-01:43.30 -> 00:59.20-01:43.30 (no mid-line cuts)"
+   ],
+   "E05-P2": [
+    "snapped E5 00:06.60-00:48.80 -> 00:06.80-00:48.80 (no mid-line cuts)"
+   ],
+   "E45-P2": [
+    "snapped E45 00:05.00-00:29.60 -> 00:05.20-00:29.60 (no mid-line cuts)"
+   ],
+   "E33-P1": [
+    "snapped E33 01:04.20-01:13.00 -> 01:04.40-01:13.00 (no mid-line cuts)"
+   ],
+   "E37-P1": [
+    "snapped E37 00:18.80-00:29.80 -> 00:19.00-00:29.80 (no mid-line cuts)"
+   ],
+   "E34-P2": [
+    "snapped E34 01:21.00-01:52.60 -> 01:21.30-01:52.60 (no mid-line cuts)"
+   ]
+  },
+  "rejected_llm_items": 0,
+  "avg_duration_ranked": 41.0,
+  "ranked_from_first_10_episodes": 5,
+  "llm_usage": {
+   "calls": 0,
+   "cached": 53,
+   "input_chars": 1031330,
+   "output_chars": 67967
+  },
+  "llm_vs_heuristic_top2_agreement": 0.812,
+  "blind_viewer_confused_in_ranked": 2,
+  "approx_tokens": {
+   "input": 257832,
+   "output": 16991
+  },
+  "blind_judge": {
+   "stop": 5.6,
+   "clear": 4.8,
+   "next": 5.5,
+   "would_click_rate": 0.2
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{"episode": 23,
+  "promos": [
+    {"title": "Arsenic Antidote, Door Opens",
+      "segments": [{"start_beat": "E23.B039", "end_beat": "E23.B066"}],
+      "hook": "Juliana, cold and certain: 'Someone is poisoning her.' Prudence gasps 'Poison?' - 'Arsenic.'",
+      "cliffhanger": "Footsteps outside, 'Juliana... someone is coming,' and the door latch turns and creaks open with the cure unfinished",
+      "why": "A poisoning reveal in the first seconds plus a race-against-time antidote and a caught-in-the-act door opening is classic must-watch tension.",
+      "needs_context": "Who the dying woman is and why Juliana is secretly in her room",
+      "scores": {"hook": 8, "cliffhanger": 9, "standalone": 6}
+    }
+  ],
+  "skip_reason": "Only one strong moment; the earlier examination scenes are slow and lead to the same reveal."}

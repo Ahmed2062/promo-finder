@@ -1,0 +1,20 @@
+{"episode": 34,
+  "promos": [
+    {"title": "Witch trial: she refuses to renounce",
+      "segments": [{"start_beat": "E34.B001", "end_beat": "E34.B007"}, {"start_beat": "E34.B098", "end_beat": "E34.B115"}],
+      "hook": "Judge booms: 'Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.'",
+      "cliffhanger": "The Judge rises, raises his hand over her - 'Lady Juliana Ashcroft...' - and we cut before the sentence is spoken.",
+      "why": "A bruised, chained noblewoman on trial for witchcraft who chooses death over calling healing evil, cut right on the verdict.",
+      "needs_context": "Who framed her and why; the coerced maid's tears read but are not explained.",
+      "scores": {"hook": 7, "cliffhanger": 9, "standalone": 7}
+    },
+    {"title": "Rigged witnesses turn the court",
+      "segments": [{"start_beat": "E34.B045", "end_beat": "E34.B068"}],
+      "hook": "The smug Lord announces 'the witness has confirmed the ritual' and Juliana slams her cuffed hands on the dock: 'It was not a ritual!'",
+      "cliffhanger": "The Lord turns to the gallery: 'She calls it healing. The people call it poisoning!' - cut with the crowd against her and no answer yet.",
+      "why": "Clear rigged-trial injustice with a gavel-banging judge and coached witnesses piling on the accused.",
+      "needs_context": "What she is accused of is not restated; the witnesses being coached is implied, not shown.",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

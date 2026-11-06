@@ -1,0 +1,12 @@
+{"episode": 49,
+  "promos": [
+    {"title": "Priest and Villainess Seal Treason",
+      "segments": [{"start_beat": "E49.B017", "end_beat": "E49.B017"}, {"start_beat": "E49.B045", "end_beat": "E49.B062"}],
+      "hook": "A hooded priest by candlelight: 'A priest and a disgraced bride meeting before dawn in her bedchamber...' It reveals a forbidden secret straight away.",
+      "cliffhanger": "He warns 'Careful men still hang... when the crime is treason against a Duke.' She promises a Duchess's gratitude, they clasp hands and he cups her cheek. We cut on the sealed secret pact.",
+      "why": "A corrupt priest secretly involved with the villainess and conspiring against a Duke is a scandalous secret that pulls in viewers who like palace intrigue.",
+      "needs_context": "Who 'her' and the Duke are, what hearing is being rigged, and why it matters. There is no hero on screen and it is all dialogue.",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 4}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,20 @@
+{"episode": 3,
+  "promos": [
+    {"title": "Scarred stranger stops guards, proposes",
+      "segments": [{"start_beat": "E03.B046", "end_beat": "E03.B071"}, {"start_beat": "E03.B099", "end_beat": "E03.B117"}],
+      "hook": "Matriarch screams 'Guards! Remove her!' and guards drag the bride from the church as she begs 'Please! Someone!'",
+      "cliffhanger": "The scarred stranger kneels in the aisle with a ring - 'Lady Juliana... accept my hand' - and we cut on her tearful face before she answers",
+      "why": "Humiliation, a one-punch rescue by a mysterious scarred man, and a shock proposal with the answer withheld - the full microdrama fantasy in under a minute",
+      "needs_context": "Why he has a ring ready is unexplained, which works as intrigue",
+      "scores": {"hook": 9, "cliffhanger": 9, "standalone": 8}
+    },
+    {"title": "Family disowns the jilted bride",
+      "segments": [{"start_beat": "E03.B018", "end_beat": "E03.B044"}],
+      "hook": "Matriarch in a tiara snaps 'Enough, Juliana. You have humiliated this family enough for one day'",
+      "cliffhanger": "'Your father has chosen his family... and it isn't you' - Juliana is cast out with nowhere to go",
+      "why": "Clean evil-matriarch cruelty that makes a stranger want to see the underdog avenged",
+      "needs_context": "That she was just jilted at the altar is implied by the gown and church, not stated",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

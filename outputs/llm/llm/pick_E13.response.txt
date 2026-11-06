@@ -1,0 +1,20 @@
+{"episode": 13,
+  "promos": [
+    {"title": "Bleeding in the blackthorn briars",
+      "segments": [{"start_beat": "E13.B037", "end_beat": "E13.B065"}],
+      "hook": "Blood wells from Juliana's bare hand on the frost while Clarissa sneers 'Look at her hands'",
+      "cliffhanger": "Torn and bleeding under the thorns, Juliana whispers 'Please, ring... you have to be here', and nothing has been found yet",
+      "why": "Visceral sacrifice, gloating villains on a balcony and a chained husband roaring her name; the stakes ('your husband's freedom is somewhere in that garden') are spoken outright",
+      "needs_context": "Why she is in the briars (a cruel bargain to free her husband); Gerald's taunt mostly explains it",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 7}
+    },
+    {"title": "Chained husband begs her stop",
+      "segments": [{"start_beat": "E13.B013", "end_beat": "E13.B036"}],
+      "hook": "Chained Alexander: 'I would rather face the gallows than watch you hurt yourself for me.'",
+      "cliffhanger": "Juliana crawls into the thorns and the first spines carve her hands as she gasps 'No...'",
+      "why": "Devotion in both directions plus sadistic onlookers, ending as the ordeal begins",
+      "needs_context": "What she is crawling in for (the ring) is not stated in this stretch",
+      "scores": {"hook": 6, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

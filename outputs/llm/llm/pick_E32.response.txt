@@ -1,0 +1,20 @@
+{"episode": 32,
+  "promos": [
+    {"title": "Branding iron at her eye",
+      "segments": [{"start_beat": "E32.B089", "end_beat": "E32.B116"}],
+      "hook": "Catherine snaps, raising a glowing branding poker over a chained woman and screaming 'Silence! Silence!'",
+      "cliffhanger": "Catherine plunges the red-hot iron at Juliana's face and it stops millimeters from her eye - cut on the glow in her unblinking eye.",
+      "why": "Chained heroine humiliates her torturer with words until the villain goes for her face with a hot iron - pure escalation to a physical threat left hanging.",
+      "needs_context": "Why Juliana is chained and who Catherine is; the power dynamic reads instantly.",
+      "scores": {"hook": 8, "cliffhanger": 9, "standalone": 8}
+    },
+    {"title": "Burn it, says chained heiress",
+      "segments": [{"start_beat": "E32.B000", "end_beat": "E32.B028"}],
+      "hook": "A red-hot iron sizzles into an open book as a chained woman weeps; Catherine savors 'There it is... Fear.'",
+      "cliffhanger": "Catherine leans in, trembling with rage: 'You think a few herbs make you better than me?' - cut before Juliana answers.",
+      "why": "Burning a dead mother's book is an instant villain marker, and the heroine's 'Burn it' reversal is a satisfying defiance beat.",
+      "needs_context": "That the book is her late mother's ledger is only implied by 'Say goodbye to your mother'; the ending is a verbal standoff, not a physical threat.",
+      "scores": {"hook": 8, "cliffhanger": 5, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

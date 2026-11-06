@@ -1,0 +1,20 @@
+{"episode": 41,
+  "promos": [
+    {"title": "Chained Bride Defies, Doors Explode",
+      "segments": [{"start_beat": "E41.B033", "end_beat": "E41.B052"}],
+      "hook": "A chained, bruised Juliana stares down the bride at the altar: 'You needed an entire chapel to feel powerful over one chained woman?'",
+      "cliffhanger": "The cathedral doors explode, armed silhouettes walk out of the smoke and Juliana turns toward them in awe. We cut before we see who it is.",
+      "why": "A defiant line from a chained heroine, then the villains' smug vows, then a huge explosion and a rescuer we never see. The audience gets the hope and none of the payoff.",
+      "needs_context": "Who the armed figures are (her husband, secretly a duke) and why she is in chains. The clip only shows she was publicly disgraced.",
+      "scores": {"hook": 7, "cliffhanger": 9, "standalone": 7}
+    },
+    {"title": "Bride Parades Her Chained Rival",
+      "segments": [{"start_beat": "E41.B004", "end_beat": "E41.B016"}],
+      "hook": "Mid-wedding, the bride turns on the congregation: 'Before I become Duchess... I want everyone to see what happens to a woman who dares defy this family.'",
+      "cliffhanger": "The doors creak open, a shackled Juliana is marched down the aisle and Catherine purrs 'There she is.' What she plans to do to her is left hanging.",
+      "why": "A cruel bride turning her own wedding into a public humiliation is an archetype people recognise at once, and the shackles shot sells the stakes.",
+      "needs_context": "Why Juliana is a prisoner and what she 'defied'. The cliffhanger is a menace, not a reveal.",
+      "scores": {"hook": 7, "cliffhanger": 6, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

@@ -1,0 +1,12 @@
+{"episode": 38,
+  "promos": [
+    {"title": "Wedding bells toll her execution",
+      "segments": [{"start_beat": "E38.B025", "end_beat": "E38.B051"}],
+      "hook": "A chained, tear-stained woman looks up through a dungeon grate: 'Do you even know what happened to me? Do you know they condemned me?'",
+      "cliffhanger": "Church bells start tolling; she grips the bars: 'The wedding. It's beginning. Then I suppose I'm next.' - cut before anyone comes for her.",
+      "why": "Wedding bells doubling as an execution countdown is a strong, simple ticking-clock ending.",
+      "needs_context": "Whose wedding it is and who Alexander is; the opening is a quiet lament rather than a thumb-stopping event, so the hook is soft.",
+      "scores": {"hook": 4, "cliffhanger": 7, "standalone": 5}
+    }
+  ],
+  "skip_reason": ""}

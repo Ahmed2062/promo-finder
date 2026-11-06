@@ -1,0 +1,20 @@
+{"episode": 5,
+  "promos": [
+    {"title": "Mother's ledger thrown in mud",
+      "segments": [{"start_beat": "E05.B028", "end_beat": "E05.B044"}, {"start_beat": "E05.B053", "end_beat": "E05.B057"}],
+      "hook": "Stepmother sneers 'Then you should have guarded it better', rips the dead mother's ledger from the bride's hands and flings it into a puddle",
+      "cliffhanger": "Ex-groom mocks 'A noblewoman reduced to a beggar's wife!' and the scarred husband answers, lethally cold: 'Choose your next words carefully'",
+      "why": "Evil stepmother cruelty, a bride on her knees in the mud, and a quiet protector's threat that promises payback",
+      "needs_context": "That the bearded man is her new husband is only stated in Gerald's insult",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 8}
+    },
+    {"title": "Father disowns her on the steps",
+      "segments": [{"start_beat": "E05.B005", "end_beat": "E05.B026"}],
+      "hook": "Father, cold on the cathedral steps: 'You will not leave this church carrying the Ashcroft name'",
+      "cliffhanger": "Stepmother advances on her: 'And the ledger... that belongs to this family' - we cut before she takes it",
+      "why": "Dowry and inheritance revoked, 'you are dead to this family' - strong disowned-daughter stakes",
+      "needs_context": "Why she married the silent bearded man is not explained",
+      "scores": {"hook": 6, "cliffhanger": 6, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

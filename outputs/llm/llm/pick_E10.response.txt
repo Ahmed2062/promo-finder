@@ -1,0 +1,12 @@
+{"episode": 10,
+  "promos": [
+    {"title": "Bleeding husband, almost a kiss",
+      "segments": [{"start_beat": "E10.B002", "end_beat": "E10.B010"}, {"start_beat": "E10.B026", "end_beat": "E10.B029"}, {"start_beat": "E10.B046", "end_beat": "E10.B059"}],
+      "hook": "The cottage door bangs open on a panting, blood-soaked scarred man; she cries 'Alexander! There is blood running down your arm'",
+      "cliffhanger": "Faces inches apart, he holds her hands: 'Your touch is the only medicine that has ever eased my pain' - we hold on her eyes before any kiss",
+      "why": "Blood, a shirtless reveal of a war-scarred body, and slow-burn tension that stops right before the kiss",
+      "needs_context": "Their relationship (newly married strangers) and how he was hurt are not explained",
+      "scores": {"hook": 8, "cliffhanger": 7, "standalone": 6}
+    }
+  ],
+  "skip_reason": ""}

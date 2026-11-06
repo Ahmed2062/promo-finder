@@ -1,0 +1,20 @@
+{"episode": 25,
+  "promos": [
+    {"title": "Scarred Husband Sees Her Wound",
+      "segments": [{"start_beat": "E25.B013", "end_beat": "E25.B038"}],
+      "hook": "Alexander pulls back her cloak to reveal a raw, bloody riding-crop welt across her shoulder - 'Who did this?'",
+      "cliffhanger": "She admits she secretly went to help the Dowager Duchess and Alexander freezes in shock: 'The Dowager?'",
+      "why": "Visible wound plus a dangerous protective husband demanding a name hits the revenge fantasy, then ends on a reveal that clearly means something huge to him.",
+      "needs_context": "Who Lady Catherine is and why the Dowager matters to Alexander (his mother) - his shock implies it but does not explain it",
+      "scores": {"hook": 7, "cliffhanger": 7, "standalone": 6}
+    },
+    {"title": "Poison Confession in the Woods",
+      "segments": [{"start_beat": "E25.B047", "end_beat": "E25.B067"}],
+      "hook": "Juliana whispers 'Poison.' then 'Arsenic.' as Alexander's scarred fist clenches",
+      "cliffhanger": "'Will you be going there again?' - 'I have to.' She chooses to walk back into the poisoner's house",
+      "why": "Slow-poisoning conspiracy and a heroine who refuses to back down despite danger.",
+      "needs_context": "Who is being poisoned and where; why she was hurt",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 4}
+    }
+  ],
+  "skip_reason": ""}

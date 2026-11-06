@@ -1,0 +1,12 @@
+{"episode": 14,
+  "promos": [
+    {"title": "Bloody ring, husband's vengeance vow",
+      "segments": [{"start_beat": "E14.B001", "end_beat": "E14.B016"}, {"start_beat": "E14.B045", "end_beat": "E14.B050"}],
+      "hook": "A blood-streaked hand uncurls among the thorns to reveal an emerald ring: 'I found it. Now release my husband.'",
+      "cliffhanger": "Alexander vows 'No one will ever hurt you for protecting me again' and clenches his scarred fist beside a bucket of bloody water; the revenge is still to come",
+      "why": "Opens on a striking bloody image and a freed husband, then skips the tender bandaging to end on a promise of revenge",
+      "needs_context": "Who 'they' are and why she bled for the ring; the villains are absent from this episode",
+      "scores": {"hook": 6, "cliffhanger": 6, "standalone": 5}
+    }
+  ],
+  "skip_reason": "Mostly a quiet aftermath episode (rescue, bandaging, embrace); only one promo built around the bloody ring and the closing vengeance vow."}

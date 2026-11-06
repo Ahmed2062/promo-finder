@@ -1,0 +1,20 @@
+{"episode": 2,
+  "promos": [
+    {"title": "Too plain to marry, then Dignity",
+      "segments": [{"start_beat": "E02.B000", "end_beat": "E02.B009"}, {"start_beat": "E02.B032", "end_beat": "E02.B054"}],
+      "hook": "Groom at the altar tells his bride 'I cannot marry you, Juliana. You are far too plain...'",
+      "cliffhanger": "Told to 'go home quietly with some dignity', Juliana turns back with a steely smile: 'Dignity?' - we cut before her comeback",
+      "why": "Pure public-humiliation pile-on from groom, sister and matriarch, ending on the exact moment the underdog is about to fight back",
+      "needs_context": "That the woman in gold is her sister is only stated by 'sister' in the mockery; otherwise nothing",
+      "scores": {"hook": 8, "cliffhanger": 8, "standalone": 8}
+    },
+    {"title": "Father refuses to save her",
+      "segments": [{"start_beat": "E02.B014", "end_beat": "E02.B031"}],
+      "hook": "Jilted bride: 'You gave me your word before both our families' - groom: 'Promises change when a better choice appears'",
+      "cliffhanger": "Her own father orders her not to disgrace them; she whispers 'You won't even look at me' and is left alone",
+      "why": "Betrayal by fiancé and then by her own father raises the injustice for a stranger",
+      "needs_context": "Who 'she' (the better choice) is is never named in the clip",
+      "scores": {"hook": 6, "cliffhanger": 5, "standalone": 7}
+    }
+  ],
+  "skip_reason": ""}

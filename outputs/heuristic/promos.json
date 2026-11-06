@@ -1,0 +1,5469 @@
+{
+ "show": "I Married a Broken Soldier. He was a Duke",
+ "episodes": 50,
+ "provider": "none",
+ "model": "none",
+ "generated_at": "2026-11-06 16:59:08",
+ "seconds": 7.0,
+ "strategy": "",
+ "weak": [],
+ "ranked": [
+  {
+   "id": "HX-08",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "02:02.60",
+     "end": "02:12.60",
+     "start_sec": 122.6,
+     "end_sec": 132.6,
+     "duration": 10.0
+    },
+    {
+     "episode": 28,
+     "start": "01:31.00",
+     "end": "02:18.50",
+     "start_sec": 91.0,
+     "end_sec": 138.5,
+     "duration": 47.5
+    }
+   ],
+   "title": "E27 02:02.60 (stitched)",
+   "hook": "Lady Catherine: \"She admits she has been giving the Duchess poison in secret!\"",
+   "cliffhanger": "Catherine: \"Then perhaps you can explain every page to the magistrate...\"",
+   "why": "Opens on a high-intensity beat (poison, duchess, secret) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.918,
+    "cliff": 0.75,
+    "intensity": 0.66,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.918,
+    "cliff_strength": 0.75,
+    "hook_beat": "E27.B080",
+    "cliff_beat": "E28.B093",
+    "dialogue_lines": 20,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8397,
+   "rank": 1,
+   "rank_reason": "composite 0.84: hook 0.92, cliff 0.75, from E27",
+   "judge": {},
+   "notes": "",
+   "duration": 57.5,
+   "episodes": [
+    27,
+    28
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "HX-07",
+   "segments": [
+    {
+     "episode": 14,
+     "start": "00:00.00",
+     "end": "00:10.50",
+     "start_sec": 0.0,
+     "end_sec": 10.5,
+     "duration": 10.5
+    },
+    {
+     "episode": 15,
+     "start": "00:47.80",
+     "end": "01:26.00",
+     "start_sec": 47.8,
+     "end_sec": 86.0,
+     "duration": 38.2
+    }
+   ],
+   "title": "E14 00:00.00 (stitched)",
+   "hook": "Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.",
+   "cliffhanger": "Tense, low dramatic cello swell holding into an abrupt cliffhanger cut.",
+   "why": "Opens on a high-intensity beat (blood, mud, ring) and cuts on an unresolved moment (cliffhanger, swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.849,
+    "cliff": 0.787,
+    "intensity": 0.557,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.849,
+    "cliff_strength": 0.787,
+    "hook_beat": "E14.B001",
+    "cliff_beat": "E15.B054",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8364,
+   "rank": 2,
+   "rank_reason": "composite 0.84: hook 0.85, cliff 0.79, from E14",
+   "judge": {},
+   "notes": "",
+   "duration": 48.7,
+   "episodes": [
+    14,
+    15
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "HX-02",
+   "segments": [
+    {
+     "episode": 42,
+     "start": "00:15.00",
+     "end": "00:26.50",
+     "start_sec": 15.0,
+     "end_sec": 26.5,
+     "duration": 11.5
+    },
+    {
+     "episode": 44,
+     "start": "00:46.40",
+     "end": "01:10.50",
+     "start_sec": 46.4,
+     "end_sec": 70.5,
+     "duration": 24.1
+    }
+   ],
+   "title": "E42 00:15.00 (stitched)",
+   "hook": "Blond Nobleman: \"Guards! Arrest this imposter!\"",
+   "cliffhanger": "Alexander walks away from Catherine toward Juliana, who waits solemnly by the cathedral entrance.",
+   "why": "Opens on a high-intensity beat (arrest, guards, imposter) and cuts on an unresolved moment (who, wait).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.934,
+    "cliff": 0.75,
+    "intensity": 0.693,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.934,
+    "cliff_strength": 0.75,
+    "hook_beat": "E42.B009",
+    "cliff_beat": "E44.B050",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8291,
+   "rank": 3,
+   "rank_reason": "composite 0.83: hook 0.93, cliff 0.75, from E42",
+   "judge": {},
+   "notes": "",
+   "duration": 35.6,
+   "episodes": [
+    42,
+    44
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H12-055",
+   "segments": [
+    {
+     "episode": 12,
+     "start": "01:03.10",
+     "end": "01:27.21",
+     "start_sec": 63.1,
+     "end_sec": 87.21,
+     "duration": 24.11
+    }
+   ],
+   "title": "E12 01:03.10",
+   "hook": "Clarissa: \"Fail, or refuse, and your husband hangs from the gallows.\"",
+   "cliffhanger": "Juliana locks eyes with Clarissa without flinching as the scene freezes on her brave, sacrificial defiance.",
+   "why": "Opens on a high-intensity beat (gallows, hang, husband) and cuts on an unresolved moment (freeze).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.871,
+    "cliff": 0.75,
+    "intensity": 0.298,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.871,
+    "cliff_strength": 0.75,
+    "hook_beat": "E12.B044",
+    "cliff_beat": "E12.B054",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8141,
+   "rank": 4,
+   "rank_reason": "composite 0.81: hook 0.87, cliff 0.75, from E12",
+   "judge": {},
+   "notes": "",
+   "duration": 24.11,
+   "episodes": [
+    12
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H03-012",
+   "segments": [
+    {
+     "episode": 3,
+     "start": "00:58.20",
+     "end": "01:21.80",
+     "start_sec": 58.2,
+     "end_sec": 81.8,
+     "duration": 23.6
+    }
+   ],
+   "title": "E03 00:58.20",
+   "hook": "Noble Matriarch: \"Guards! Remove her!\"",
+   "cliffhanger": "Noble Matriarch: \"And who are you to give orders in my family's chapel?!\"",
+   "why": "Opens on a high-intensity beat (guards) and cuts on an unresolved moment (who are you, who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.691,
+    "cliff": 0.804,
+    "intensity": 0.56,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.691,
+    "cliff_strength": 0.804,
+    "hook_beat": "E03.B046",
+    "cliff_beat": "E03.B061",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8047,
+   "rank": 5,
+   "rank_reason": "composite 0.80: hook 0.69, cliff 0.80, from E3",
+   "judge": {},
+   "notes": "",
+   "duration": 23.6,
+   "episodes": [
+    3
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "HX-04",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "02:02.60",
+     "end": "02:12.60",
+     "start_sec": 122.6,
+     "end_sec": 132.6,
+     "duration": 10.0
+    },
+    {
+     "episode": 29,
+     "start": "01:24.00",
+     "end": "01:56.69",
+     "start_sec": 84.0,
+     "end_sec": 116.69,
+     "duration": 32.69
+    }
+   ],
+   "title": "E27 02:02.60 (stitched)",
+   "hook": "Lady Catherine: \"She admits she has been giving the Duchess poison in secret!\"",
+   "cliffhanger": "Front medium shot of Juliana slowly rising to her feet, crossing her arms firmly across her chest as her tears stop and her expression hardens into steely resolve.",
+   "why": "Opens on a high-intensity beat (poison, duchess, secret) and cuts on an unresolved moment (stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.918,
+    "cliff": 0.75,
+    "intensity": 0.653,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.918,
+    "cliff_strength": 0.75,
+    "hook_beat": "E27.B080",
+    "cliff_beat": "E29.B069",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8392,
+   "rank": 6,
+   "rank_reason": "composite 0.84: hook 0.92, cliff 0.75, from E27",
+   "judge": {},
+   "notes": "",
+   "duration": 42.69,
+   "episodes": [
+    27,
+    29
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H28-135",
+   "segments": [
+    {
+     "episode": 28,
+     "start": "00:15.30",
+     "end": "01:04.80",
+     "start_sec": 15.3,
+     "end_sec": 64.8,
+     "duration": 49.5
+    }
+   ],
+   "title": "E28 00:15.30",
+   "hook": "Juliana: \"I did not poison her! Look at her eyes, the fever has broken!\"",
+   "cliffhanger": "Catherine: \"How convenient that the only person who can prove the poison exists...\"",
+   "why": "Opens on a high-intensity beat (poison, furious, defiant) and cuts on an unresolved moment (how, who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.804,
+    "cliff": 0.714,
+    "intensity": 0.681,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.804,
+    "cliff_strength": 0.714,
+    "hook_beat": "E28.B014",
+    "cliff_beat": "E28.B047",
+    "dialogue_lines": 21,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7929,
+   "rank": 7,
+   "rank_reason": "composite 0.79: hook 0.80, cliff 0.71, from E28",
+   "judge": {},
+   "notes": "",
+   "duration": 49.5,
+   "episodes": [
+    28
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "HX-06",
+   "segments": [
+    {
+     "episode": 26,
+     "start": "00:20.20",
+     "end": "00:28.40",
+     "start_sec": 20.2,
+     "end_sec": 28.4,
+     "duration": 8.2
+    },
+    {
+     "episode": 26,
+     "start": "01:30.20",
+     "end": "02:00.88",
+     "start_sec": 90.2,
+     "end_sec": 120.88,
+     "duration": 30.68
+    }
+   ],
+   "title": "E26 00:20.20 (stitched)",
+   "hook": "Juliana: \"Please, Your Grace. Drink the last of this antidote. Drink it slowly.\"",
+   "cliffhanger": "Tight close-up of the Dowager Duchess's two weathered hands tightly clasping Juliana's hand, holding the signet ring between them as a dramatic orchestral cliffhanger chord swells, cutting sharply to black.",
+   "why": "Opens on a high-intensity beat (your grace, antidote, please) and cuts on an unresolved moment (cliffhanger, swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.777,
+    "cliff": 0.75,
+    "intensity": 0.614,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.777,
+    "cliff_strength": 0.75,
+    "hook_beat": "E26.B009",
+    "cliff_beat": "E26.B050",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7921,
+   "rank": 8,
+   "rank_reason": "composite 0.79: hook 0.78, cliff 0.75, from E26",
+   "judge": {},
+   "notes": "",
+   "duration": 38.88,
+   "episodes": [
+    26
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H42-211",
+   "segments": [
+    {
+     "episode": 42,
+     "start": "00:18.00",
+     "end": "01:17.50",
+     "start_sec": 18.0,
+     "end_sec": 77.5,
+     "duration": 59.5
+    }
+   ],
+   "title": "E42 00:18.00",
+   "hook": "Blond Nobleman: \"Guards! Arrest this imposter!\"",
+   "cliffhanger": "Alexander: \"And now, Rupert... we settle what you stole.\"",
+   "why": "Opens on a high-intensity beat (arrest, guards, imposter) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.934,
+    "cliff": 0.75,
+    "intensity": 0.685,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.934,
+    "cliff_strength": 0.75,
+    "hook_beat": "E42.B009",
+    "cliff_beat": "E42.B036",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8285,
+   "rank": 9,
+   "rank_reason": "composite 0.83: hook 0.93, cliff 0.75, from E42",
+   "judge": {},
+   "notes": "",
+   "duration": 59.5,
+   "episodes": [
+    42
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H33-164",
+   "segments": [
+    {
+     "episode": 33,
+     "start": "02:20.50",
+     "end": "02:54.04",
+     "start_sec": 140.5,
+     "end_sec": 174.04,
+     "duration": 33.54
+    }
+   ],
+   "title": "E33 02:20.50",
+   "hook": "Maid: \"I never said she was a witch!\"",
+   "cliffhanger": "The heartbroken maid weeps silently in the shadow of the desk, consumed by guilt and powerlessness.",
+   "why": "Opens on a high-intensity beat (witch, never) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.788,
+    "cliff": 0.75,
+    "intensity": 0.404,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.788,
+    "cliff_strength": 0.75,
+    "hook_beat": "E33.B084",
+    "cliff_beat": "E33.B098",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7703,
+   "rank": 10,
+   "rank_reason": "composite 0.77: hook 0.79, cliff 0.75, from E33",
+   "judge": {},
+   "notes": "",
+   "duration": 33.54,
+   "episodes": [
+    33
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H01-001",
+   "segments": [
+    {
+     "episode": 1,
+     "start": "01:26.00",
+     "end": "02:17.00",
+     "start_sec": 86.0,
+     "end_sec": 137.0,
+     "duration": 51.0
+    }
+   ],
+   "title": "E01 01:26.00",
+   "hook": "Lady Juliana: \"Father... please look at me.\"",
+   "cliffhanger": "Solemn low-pitched string drone swells to an ominous cliffhanger peak.",
+   "why": "Opens on a high-intensity beat (please, father, broken) and cuts on an unresolved moment (cliffhanger, ominous, drone).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.493,
+    "cliff": 0.942,
+    "intensity": 0.321,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.493,
+    "cliff_strength": 0.942,
+    "hook_beat": "E01.B059",
+    "cliff_beat": "E01.B093",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.766,
+   "rank": 11,
+   "rank_reason": "composite 0.77: hook 0.49, cliff 0.94, from E1",
+   "judge": {},
+   "notes": "",
+   "duration": 51.0,
+   "episodes": [
+    1
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H24-114",
+   "segments": [
+    {
+     "episode": 24,
+     "start": "01:06.20",
+     "end": "01:32.00",
+     "start_sec": 66.2,
+     "end_sec": 92.0,
+     "duration": 25.8
+    }
+   ],
+   "title": "E24 01:06.20",
+   "hook": "The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face.",
+   "cliffhanger": "Lady Juliana: \"I will return. You cannot stop the healer.\"",
+   "why": "Opens on a high-intensity beat (riding crop, whip) and cuts on an unresolved moment (stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.741,
+    "cliff": 0.75,
+    "intensity": 0.368,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.741,
+    "cliff_strength": 0.75,
+    "hook_beat": "E24.B051",
+    "cliff_beat": "E24.B068",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7634,
+   "rank": 12,
+   "rank_reason": "composite 0.76: hook 0.74, cliff 0.75, from E24",
+   "judge": {},
+   "notes": "",
+   "duration": 25.8,
+   "episodes": [
+    24
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H27-129",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "02:03.10",
+     "end": "02:30.50",
+     "start_sec": 123.1,
+     "end_sec": 150.5,
+     "duration": 27.4
+    }
+   ],
+   "title": "E27 02:03.10",
+   "hook": "Lady Catherine: \"She admits she has been giving the Duchess poison in secret!\"",
+   "cliffhanger": "The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip.",
+   "why": "Opens on a high-intensity beat (poison, duchess, secret) and cuts on an unresolved moment (doorway).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.918,
+    "cliff": 0.75,
+    "intensity": 0.46,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.918,
+    "cliff_strength": 0.75,
+    "hook_beat": "E27.B080",
+    "cliff_beat": "E27.B092",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8237,
+   "rank": 13,
+   "rank_reason": "composite 0.82: hook 0.92, cliff 0.75, from E27",
+   "judge": {},
+   "notes": "",
+   "duration": 27.4,
+   "episodes": [
+    27
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H11-050",
+   "segments": [
+    {
+     "episode": 11,
+     "start": "01:01.80",
+     "end": "01:52.75",
+     "start_sec": 61.8,
+     "end_sec": 112.75,
+     "duration": 50.95
+    }
+   ],
+   "title": "E11 01:01.80",
+   "hook": "Juliana: \"Please! There is nothing here!\"",
+   "cliffhanger": "Tight macro shot of the gold pocket watch dangling and swaying gently from the Constable's fingers on its long chain, with Gerald blurred in the background grinning with sinister triumph as the scene hangs in a devastating freeze-frame.",
+   "why": "Opens on a high-intensity beat (please, desperate) and cuts on an unresolved moment (freeze).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.625,
+    "cliff": 0.75,
+    "intensity": 0.475,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.625,
+    "cliff_strength": 0.75,
+    "hook_beat": "E11.B054",
+    "cliff_beat": "E11.B084",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7508,
+   "rank": 14,
+   "rank_reason": "composite 0.75: hook 0.62, cliff 0.75, from E11",
+   "judge": {},
+   "notes": "",
+   "duration": 50.95,
+   "episodes": [
+    11
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "HX-01",
+   "segments": [
+    {
+     "episode": 42,
+     "start": "00:15.00",
+     "end": "00:26.50",
+     "start_sec": 15.0,
+     "end_sec": 26.5,
+     "duration": 11.5
+    },
+    {
+     "episode": 43,
+     "start": "01:26.00",
+     "end": "01:54.96",
+     "start_sec": 86.0,
+     "end_sec": 114.96,
+     "duration": 28.96
+    }
+   ],
+   "title": "E42 00:15.00 (stitched)",
+   "hook": "Blond Nobleman: \"Guards! Arrest this imposter!\"",
+   "cliffhanger": "Police Constable: \"Going somewhere, Lord Sterling?\"",
+   "why": "Opens on a high-intensity beat (arrest, guards, imposter) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.934,
+    "cliff": 0.75,
+    "intensity": 0.577,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.934,
+    "cliff_strength": 0.75,
+    "hook_beat": "E42.B009",
+    "cliff_beat": "E43.B085",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8198,
+   "rank": 15,
+   "rank_reason": "composite 0.82: hook 0.93, cliff 0.75, from E42",
+   "judge": {},
+   "notes": "",
+   "duration": 40.46,
+   "episodes": [
+    42,
+    43
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  }
+ ],
+ "other_valid": [
+  {
+   "id": "HX-05",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "02:02.60",
+     "end": "02:12.60",
+     "start_sec": 122.6,
+     "end_sec": 132.6,
+     "duration": 10.0
+    },
+    {
+     "episode": 28,
+     "start": "00:45.60",
+     "end": "01:15.10",
+     "start_sec": 45.6,
+     "end_sec": 75.1,
+     "duration": 29.5
+    }
+   ],
+   "title": "E27 02:02.60 (stitched)",
+   "hook": "Lady Catherine: \"She admits she has been giving the Duchess poison in secret!\"",
+   "cliffhanger": "Blond Nobleman: \"Take her away before she poisons the rest of this house.\"",
+   "why": "Opens on a high-intensity beat (poison, duchess, secret) and cuts on an unresolved moment (take her).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.918,
+    "cliff": 0.662,
+    "intensity": 0.655,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.918,
+    "cliff_strength": 0.662,
+    "hook_beat": "E27.B080",
+    "cliff_beat": "E28.B050",
+    "dialogue_lines": 17,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8129,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 39.5,
+   "episodes": [
+    27,
+    28
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "HX-03",
+   "segments": [
+    {
+     "episode": 42,
+     "start": "00:15.00",
+     "end": "00:26.50",
+     "start_sec": 15.0,
+     "end_sec": 26.5,
+     "duration": 11.5
+    },
+    {
+     "episode": 43,
+     "start": "00:10.50",
+     "end": "00:37.80",
+     "start_sec": 10.5,
+     "end_sec": 37.8,
+     "duration": 27.3
+    }
+   ],
+   "title": "E42 00:15.00 (stitched)",
+   "hook": "Blond Nobleman: \"Guards! Arrest this imposter!\"",
+   "cliffhanger": "Alexander: \"Read the first.\"",
+   "why": "Opens on a high-intensity beat (arrest, guards, imposter) and cuts on an unresolved moment (read the first).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.934,
+    "cliff": 0.662,
+    "intensity": 0.706,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.934,
+    "cliff_strength": 0.662,
+    "hook_beat": "E42.B009",
+    "cliff_beat": "E43.B029",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.8038,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.8,
+   "episodes": [
+    42,
+    43
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H14-064",
+   "segments": [
+    {
+     "episode": 14,
+     "start": "00:00.50",
+     "end": "00:29.80",
+     "start_sec": 0.5,
+     "end_sec": 29.8,
+     "duration": 29.3
+    }
+   ],
+   "title": "E14 00:00.50",
+   "hook": "Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.",
+   "cliffhanger": "Alexander: \"What have they done to you?\"",
+   "why": "Opens on a high-intensity beat (blood, mud, ring) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.849,
+    "cliff": 0.634,
+    "intensity": 0.508,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.849,
+    "cliff_strength": 0.634,
+    "hook_beat": "E14.B001",
+    "cliff_beat": "E14.B016",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7866,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 29.3,
+   "episodes": [
+    14
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H03-013",
+   "segments": [
+    {
+     "episode": 3,
+     "start": "00:25.90",
+     "end": "01:16.80",
+     "start_sec": 25.9,
+     "end_sec": 76.8,
+     "duration": 50.9
+    }
+   ],
+   "title": "E03 00:25.90",
+   "hook": "Noble Matriarch: \"You have humiliated this family enough for one day.\"",
+   "cliffhanger": "Noble Matriarch: \"And who are you to give orders in my family's chapel?!\"",
+   "why": "Opens on a high-intensity beat (humiliat, cold, disgusted) and cuts on an unresolved moment (who are you, who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.555,
+    "cliff": 0.804,
+    "intensity": 0.578,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.555,
+    "cliff_strength": 0.804,
+    "hook_beat": "E03.B020",
+    "cliff_beat": "E03.B061",
+    "dialogue_lines": 18,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7626,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 50.9,
+   "episodes": [
+    3
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H26-125",
+   "segments": [
+    {
+     "episode": 26,
+     "start": "00:20.60",
+     "end": "00:47.50",
+     "start_sec": 20.6,
+     "end_sec": 47.5,
+     "duration": 26.9
+    }
+   ],
+   "title": "E26 00:20.60",
+   "hook": "Juliana: \"Please, Your Grace. Drink the last of this antidote. Drink it slowly.\"",
+   "cliffhanger": "Juliana: \"Rest now, Your Grace. You are safe tonight.\"",
+   "why": "Opens on a high-intensity beat (your grace, antidote, please) and cuts on an unresolved moment (your grace).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.777,
+    "cliff": 0.662,
+    "intensity": 0.493,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.777,
+    "cliff_strength": 0.662,
+    "hook_beat": "E26.B009",
+    "cliff_beat": "E26.B018",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7561,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 26.9,
+   "episodes": [
+    26
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H23-108",
+   "segments": [
+    {
+     "episode": 23,
+     "start": "01:26.00",
+     "end": "02:11.20",
+     "start_sec": 86.0,
+     "end_sec": 131.2,
+     "duration": 45.2
+    }
+   ],
+   "title": "E23 01:26.00",
+   "hook": "Lady Juliana: \"Arsenic.\"",
+   "cliffhanger": "Close-up on the brass door lever as it slowly rotates downward, and the heavy door cracks open inward into the room—cutting to an intense, heart-stopping cliffhanger.",
+   "why": "Opens on a high-intensity beat (arsenic, venomous) and cuts on an unresolved moment (cliffhanger, stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.65,
+    "cliff": 0.75,
+    "intensity": 0.482,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.65,
+    "cliff_strength": 0.75,
+    "hook_beat": "E23.B044",
+    "cliff_beat": "E23.B066",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7446,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 45.2,
+   "episodes": [
+    23
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H16-072",
+   "segments": [
+    {
+     "episode": 16,
+     "start": "00:48.00",
+     "end": "01:23.19",
+     "start_sec": 48.0,
+     "end_sec": 83.19,
+     "duration": 35.19
+    }
+   ],
+   "title": "E16 00:48.00",
+   "hook": "Thug With Cap: \"Harrington! Gerald Harrington paid us!\"",
+   "cliffhanger": "Slow, resonant emotional cello melody swelling to a dramatic cliffhanger hold.",
+   "why": "Opens on a high-intensity beat (screaming) and cuts on an unresolved moment (cliffhanger, swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.573,
+    "cliff": 0.787,
+    "intensity": 0.512,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.573,
+    "cliff_strength": 0.787,
+    "hook_beat": "E16.B043",
+    "cliff_beat": "E16.B063",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7421,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 35.19,
+   "episodes": [
+    16
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H05-023",
+   "segments": [
+    {
+     "episode": 5,
+     "start": "00:55.50",
+     "end": "01:50.50",
+     "start_sec": 55.5,
+     "end_sec": 110.5,
+     "duration": 55.0
+    }
+   ],
+   "title": "E05 00:55.50",
+   "hook": "Juliana: \"Barbara, don't!\"",
+   "cliffhanger": "Rain gently pattering on cobblestones beneath a sweeping, melancholic orchestral swell that slowly fades to black.",
+   "why": "Opens on a high-intensity beat (screaming, desperate) and cuts on an unresolved moment (swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.564,
+    "cliff": 0.75,
+    "intensity": 0.481,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.564,
+    "cliff_strength": 0.75,
+    "hook_beat": "E05.B032",
+    "cliff_beat": "E05.B061",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7391,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 55.0,
+   "episodes": [
+    5
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H21-098",
+   "segments": [
+    {
+     "episode": 21,
+     "start": "00:04.20",
+     "end": "00:40.50",
+     "start_sec": 4.2,
+     "end_sec": 40.5,
+     "duration": 36.3
+    }
+   ],
+   "title": "E21 00:04.20",
+   "hook": "Prudence: \"Lady Juliana! Please! You have to help me, Toby is dying!\"",
+   "cliffhanger": "Prudence: \"He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!\"",
+   "why": "Opens on a high-intensity beat (please, desperate) and cuts on an unresolved moment (will die, if you).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.564,
+    "cliff": 0.823,
+    "intensity": 0.421,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.564,
+    "cliff_strength": 0.823,
+    "hook_beat": "E21.B004",
+    "cliff_beat": "E21.B020",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7366,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 36.3,
+   "episodes": [
+    21
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H49-244",
+   "segments": [
+    {
+     "episode": 49,
+     "start": "01:58.20",
+     "end": "02:24.00",
+     "start_sec": 118.2,
+     "end_sec": 144.0,
+     "duration": 25.8
+    }
+   ],
+   "title": "E49 01:58.20",
+   "hook": "Father Thomas: \"Careful men still hang, my lady, when the crime is treason against a Duke the King himself just restored.\"",
+   "cliffhanger": "Father Thomas: \"The rest depends on how well you keep your part of this quiet.\"",
+   "why": "Opens on a high-intensity beat (hang, duke) and cuts on an unresolved moment (how).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.747,
+    "cliff": 0.75,
+    "intensity": 0.331,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.747,
+    "cliff_strength": 0.75,
+    "hook_beat": "E49.B049",
+    "cliff_beat": "E49.B056",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7317,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 25.8,
+   "episodes": [
+    49
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H36-182",
+   "segments": [
+    {
+     "episode": 36,
+     "start": "02:26.50",
+     "end": "03:20.75",
+     "start_sec": 146.5,
+     "end_sec": 200.75,
+     "duration": 54.25
+    }
+   ],
+   "title": "E36 02:26.50",
+   "hook": "Alexander: \"What wedding?\"",
+   "cliffhanger": "A heavy, ominous orchestral swell builds to a thunderous cliffhanger sting and reverberates into silence.",
+   "why": "Opens on a high-intensity beat (wedding, menacing, cold) and cuts on an unresolved moment (cliffhanger, ominous, swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.518,
+    "cliff": 0.889,
+    "intensity": 0.525,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.518,
+    "cliff_strength": 0.889,
+    "hook_beat": "E36.B090",
+    "cliff_beat": "E36.B120",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7316,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 54.25,
+   "episodes": [
+    36
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H31-152",
+   "segments": [
+    {
+     "episode": 31,
+     "start": "02:18.00",
+     "end": "02:40.00",
+     "start_sec": 138.0,
+     "end_sec": 160.0,
+     "duration": 22.0
+    }
+   ],
+   "title": "E31 02:18.00",
+   "hook": "Juliana: \"[gasping] Give it back!\"",
+   "cliffhanger": "Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes.",
+   "why": "Opens on a high-intensity beat (gasp, desperate) and cuts on an unresolved moment (gasp, stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.625,
+    "cliff": 0.75,
+    "intensity": 0.512,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.625,
+    "cliff_strength": 0.75,
+    "hook_beat": "E31.B077",
+    "cliff_beat": "E31.B085",
+    "dialogue_lines": 4,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7292,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 22.0,
+   "episodes": [
+    31
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H34-170",
+   "segments": [
+    {
+     "episode": 34,
+     "start": "00:01.20",
+     "end": "01:00.10",
+     "start_sec": 1.2,
+     "end_sec": 60.1,
+     "duration": 58.9
+    }
+   ],
+   "title": "E34 00:01.20",
+   "hook": "Judge: \"Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.\"",
+   "cliffhanger": "Judge: \"What did you see?\"",
+   "why": "Opens on a high-intensity beat (poison, witch) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.777,
+    "cliff": 0.634,
+    "intensity": 0.376,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.777,
+    "cliff_strength": 0.634,
+    "hook_beat": "E34.B001",
+    "cliff_beat": "E34.B034",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7285,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 58.9,
+   "episodes": [
+    34
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H04-017",
+   "segments": [
+    {
+     "episode": 4,
+     "start": "00:01.50",
+     "end": "00:36.50",
+     "start_sec": 1.5,
+     "end_sec": 36.5,
+     "duration": 35.0
+    }
+   ],
+   "title": "E04 00:01.50",
+   "hook": "Juliana's eyes widen, stunned breath catching in her throat.",
+   "cliffhanger": "Juliana: \"And what do you see?\"",
+   "why": "Opens on a high-intensity beat (throat, stunned) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.66,
+    "cliff": 0.634,
+    "intensity": 0.377,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.66,
+    "cliff_strength": 0.634,
+    "hook_beat": "E04.B002",
+    "cliff_beat": "E04.B026",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7279,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 35.0,
+   "episodes": [
+    4
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H13-060",
+   "segments": [
+    {
+     "episode": 13,
+     "start": "01:11.40",
+     "end": "01:58.88",
+     "start_sec": 71.4,
+     "end_sec": 118.88,
+     "duration": 47.48
+    }
+   ],
+   "title": "E13 01:11.40",
+   "hook": "Alexander: \"Please... enough!\"",
+   "cliffhanger": "Macro close-up holding on Juliana's bloodied fist firmly gripping the emerald ring against the frozen ground as the episode cuts to black.",
+   "why": "Opens on a high-intensity beat (please, desperate) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.542,
+    "cliff": 0.75,
+    "intensity": 0.546,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.542,
+    "cliff_strength": 0.75,
+    "hook_beat": "E13.B047",
+    "cliff_beat": "E13.B074",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7274,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 47.48,
+   "episodes": [
+    13
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H47-236",
+   "segments": [
+    {
+     "episode": 47,
+     "start": "01:18.80",
+     "end": "02:14.00",
+     "start_sec": 78.8,
+     "end_sec": 134.0,
+     "duration": 55.2
+    }
+   ],
+   "title": "E47 01:18.80",
+   "hook": "Catherine: \"Please, Alexander! Have mercy!\"",
+   "cliffhanger": "Catherine: \"I accept, Your Grace.\"",
+   "why": "Opens on a high-intensity beat (please, screaming) and cuts on an unresolved moment (your grace).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.667,
+    "cliff": 0.75,
+    "intensity": 0.532,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.667,
+    "cliff_strength": 0.75,
+    "hook_beat": "E47.B038",
+    "cliff_beat": "E47.B068",
+    "dialogue_lines": 16,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7247,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 55.2,
+   "episodes": [
+    47
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H02-007",
+   "segments": [
+    {
+     "episode": 2,
+     "start": "01:14.40",
+     "end": "01:50.00",
+     "start_sec": 74.4,
+     "end_sec": 110.0,
+     "duration": 35.6
+    }
+   ],
+   "title": "E02 01:14.40",
+   "hook": "Lady Juliana: \"You abandoned a woman who trusted you...\"",
+   "cliffhanger": "Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat.",
+   "why": "Opens on a high-intensity beat (abandon, accusing) and cuts on an unresolved moment (swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.553,
+    "cliff": 0.75,
+    "intensity": 0.282,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.553,
+    "cliff_strength": 0.75,
+    "hook_beat": "E02.B056",
+    "cliff_beat": "E02.B073",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7233,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 35.6,
+   "episodes": [
+    2
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H29-142",
+   "segments": [
+    {
+     "episode": 29,
+     "start": "00:44.40",
+     "end": "01:23.00",
+     "start_sec": 44.4,
+     "end_sec": 83.0,
+     "duration": 38.6
+    }
+   ],
+   "title": "E29 00:44.40",
+   "hook": "Juliana: \"You cannot just destroy it!\"",
+   "cliffhanger": "Catherine: \"What exactly do you think a penniless veteran can do against Ashbrook?\"",
+   "why": "Opens on a high-intensity beat (destroy, screaming, desperate) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.722,
+    "cliff": 0.634,
+    "intensity": 0.446,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.722,
+    "cliff_strength": 0.634,
+    "hook_beat": "E29.B027",
+    "cliff_beat": "E29.B047",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7226,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.6,
+   "episodes": [
+    29
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H37-188",
+   "segments": [
+    {
+     "episode": 37,
+     "start": "00:23.80",
+     "end": "01:14.20",
+     "start_sec": 23.8,
+     "end_sec": 74.2,
+     "duration": 50.4
+    }
+   ],
+   "title": "E37 00:23.80",
+   "hook": "Catherine: \"Juliana's execution comes after the wedding.\"",
+   "cliffhanger": "Nobleman: \"To whom?\"",
+   "why": "Opens on a high-intensity beat (execution, wedding, venomous) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.727,
+    "cliff": 0.634,
+    "intensity": 0.478,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.727,
+    "cliff_strength": 0.634,
+    "hook_beat": "E37.B013",
+    "cliff_beat": "E37.B043",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.717,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 50.4,
+   "episodes": [
+    37
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H35-176",
+   "segments": [
+    {
+     "episode": 35,
+     "start": "01:29.80",
+     "end": "02:10.50",
+     "start_sec": 89.8,
+     "end_sec": 130.5,
+     "duration": 40.7
+    }
+   ],
+   "title": "E35 01:29.80",
+   "hook": "Alexander'S Mother: \"A traitor?\"",
+   "cliffhanger": "Alexander'S Mother: \"Then why did they never tell us?\"",
+   "why": "Opens on a high-intensity beat (traitor, shocked) and cuts on an unresolved moment (why, never).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.603,
+    "cliff": 0.783,
+    "intensity": 0.361,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.603,
+    "cliff_strength": 0.783,
+    "hook_beat": "E35.B040",
+    "cliff_beat": "E35.B056",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7151,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 40.7,
+   "episodes": [
+    35
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H14-065",
+   "segments": [
+    {
+     "episode": 14,
+     "start": "00:43.50",
+     "end": "01:27.63",
+     "start_sec": 43.5,
+     "end_sec": 87.63,
+     "duration": 44.13
+    }
+   ],
+   "title": "E14 00:43.50",
+   "hook": "Warm interior wide shot in front of a roaring hearth fire. Juliana sits on a wooden chair while Alexander kneels on the floor before her, a washbasin of water between them.",
+   "cliffhanger": "Ominous, resonating low bass boom swelling into sudden silence as the screen cuts to black.",
+   "why": "Opens on a high-intensity beat (fire, kneel) and cuts on an unresolved moment (ominous, swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.531,
+    "cliff": 0.75,
+    "intensity": 0.446,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.531,
+    "cliff_strength": 0.75,
+    "hook_beat": "E14.B027",
+    "cliff_beat": "E14.B050",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7147,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 44.13,
+   "episodes": [
+    14
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H32-158",
+   "segments": [
+    {
+     "episode": 32,
+     "start": "01:59.60",
+     "end": "02:34.38",
+     "start_sec": 119.6,
+     "end_sec": 154.38,
+     "duration": 34.78
+    }
+   ],
+   "title": "E32 01:59.60",
+   "hook": "Catherine: \"Silence! Silence!\"",
+   "cliffhanger": "Juliana gasps, freezing as the glowing tip of the iron thrusts forward, stopping mere millimeters from her right eye.",
+   "why": "Opens on a high-intensity beat (screaming) and cuts on an unresolved moment (gasp, stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.573,
+    "cliff": 0.75,
+    "intensity": 0.546,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.573,
+    "cliff_strength": 0.75,
+    "hook_beat": "E32.B090",
+    "cliff_beat": "E32.B115",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7141,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 34.78,
+   "episodes": [
+    32
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H16-073",
+   "segments": [
+    {
+     "episode": 16,
+     "start": "00:11.20",
+     "end": "00:48.80",
+     "start_sec": 11.2,
+     "end_sec": 48.8,
+     "duration": 37.6
+    }
+   ],
+   "title": "E16 00:11.20",
+   "hook": "Close-up of Juliana kneeling in the mud against the ruined planter, clutching her bandaged hands to her chest in trembling fear.",
+   "cliffhanger": "Alexander: \"Who sent you?\"",
+   "why": "Opens on a high-intensity beat (kneel, mud, ruin) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.623,
+    "cliff": 0.634,
+    "intensity": 0.473,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.623,
+    "cliff_strength": 0.634,
+    "hook_beat": "E16.B008",
+    "cliff_beat": "E16.B035",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.709,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 37.6,
+   "episodes": [
+    16
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H32-159",
+   "segments": [
+    {
+     "episode": 32,
+     "start": "00:33.20",
+     "end": "01:17.80",
+     "start_sec": 33.2,
+     "end_sec": 77.8,
+     "duration": 44.6
+    }
+   ],
+   "title": "E32 00:33.20",
+   "hook": "Juliana: \"...you cannot destroy what my mother taught me.\"",
+   "cliffhanger": "Juliana: \"I was freed. And I found a man who never asked me what I was worth.\"",
+   "why": "Opens on a high-intensity beat (destroy, mother, defiant) and cuts on an unresolved moment (what, who, never).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.585,
+    "cliff": 0.738,
+    "intensity": 0.468,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.585,
+    "cliff_strength": 0.738,
+    "hook_beat": "E32.B025",
+    "cliff_beat": "E32.B056",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7081,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 44.6,
+   "episodes": [
+    32
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H20-094",
+   "segments": [
+    {
+     "episode": 20,
+     "start": "01:02.60",
+     "end": "01:54.75",
+     "start_sec": 62.6,
+     "end_sec": 114.75,
+     "duration": 52.15
+    }
+   ],
+   "title": "E20 01:02.60",
+   "hook": "Seamus: \"Your palms are still raw from the fire. You shouldn't be working in this freezing draft.\"",
+   "cliffhanger": "Tight close-up profile of Catherine gazing out the windowpane, her icy eyes burning with insatiable ambition as dramatic strings swell to a menacing cliffhanger hold.",
+   "why": "Opens on a high-intensity beat (fire) and cuts on an unresolved moment (cliffhanger, swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.528,
+    "cliff": 0.75,
+    "intensity": 0.405,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.528,
+    "cliff_strength": 0.75,
+    "hook_beat": "E20.B037",
+    "cliff_beat": "E20.B067",
+    "dialogue_lines": 18,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7031,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 52.15,
+   "episodes": [
+    20
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H22-102",
+   "segments": [
+    {
+     "episode": 22,
+     "start": "01:31.50",
+     "end": "01:59.80",
+     "start_sec": 91.5,
+     "end_sec": 119.8,
+     "duration": 28.3
+    }
+   ],
+   "title": "E22 01:31.50",
+   "hook": "Low-angle push-in on Lady Juliana looking up at the enormous portrait of the late Duke and Duchess hanging above the gallery.",
+   "cliffhanger": "Lady Juliana: \"Your Grace?\"",
+   "why": "Opens on a high-intensity beat (hang, duke, duchess) and cuts on an unresolved moment (your grace).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.667,
+    "cliff": 0.841,
+    "intensity": 0.405,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.667,
+    "cliff_strength": 0.841,
+    "hook_beat": "E22.B056",
+    "cliff_beat": "E22.B069",
+    "dialogue_lines": 4,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7024,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 28.3,
+   "episodes": [
+    22
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H13-061",
+   "segments": [
+    {
+     "episode": 13,
+     "start": "00:24.20",
+     "end": "00:58.80",
+     "start_sec": 24.2,
+     "end_sec": 58.8,
+     "duration": 34.6
+    }
+   ],
+   "title": "E13 00:24.20",
+   "hook": "Alexander: \"I would rather face the gallows than watch you hurt yourself for me.\"",
+   "cliffhanger": "Juliana: \"No...\"",
+   "why": "Opens on a high-intensity beat (gallows, desperate, fierce) and cuts on an unresolved moment (no...).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.67,
+    "cliff": 0.537,
+    "intensity": 0.497,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.67,
+    "cliff_strength": 0.537,
+    "hook_beat": "E13.B013",
+    "cliff_beat": "E13.B036",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7006,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 34.6,
+   "episodes": [
+    13
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H20-093",
+   "segments": [
+    {
+     "episode": 20,
+     "start": "00:12.80",
+     "end": "00:42.60",
+     "start_sec": 12.8,
+     "end_sec": 42.6,
+     "duration": 29.8
+    }
+   ],
+   "title": "E20 00:12.80",
+   "hook": "Catherine: \"'Practically' is a word for beggars. I do not marry a practical Duke.\"",
+   "cliffhanger": "Catherine: \"How much longer can the frail thing survive?\"",
+   "why": "Opens on a high-intensity beat (duke, beg, cold) and cuts on an unresolved moment (how).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.652,
+    "cliff": 0.634,
+    "intensity": 0.307,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.652,
+    "cliff_strength": 0.634,
+    "hook_beat": "E20.B010",
+    "cliff_beat": "E20.B024",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7001,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 29.8,
+   "episodes": [
+    20
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H36-183",
+   "segments": [
+    {
+     "episode": 36,
+     "start": "01:57.50",
+     "end": "02:33.00",
+     "start_sec": 117.5,
+     "end_sec": 153.0,
+     "duration": 35.5
+    }
+   ],
+   "title": "E36 01:57.50",
+   "hook": "Alexander: \"You told them the truth!\"",
+   "cliffhanger": "Alexander: \"What wedding?\"",
+   "why": "Opens on a high-intensity beat (truth, furious) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.667,
+    "cliff": 0.634,
+    "intensity": 0.491,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.667,
+    "cliff_strength": 0.634,
+    "hook_beat": "E36.B071",
+    "cliff_beat": "E36.B090",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.7001,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 35.5,
+   "episodes": [
+    36
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H25-118",
+   "segments": [
+    {
+     "episode": 25,
+     "start": "01:19.50",
+     "end": "02:07.50",
+     "start_sec": 79.5,
+     "end_sec": 127.5,
+     "duration": 48.0
+    }
+   ],
+   "title": "E25 01:19.50",
+   "hook": "Juliana: \"Poison.\"",
+   "cliffhanger": "Juliana: \"Alexander... why are you so angry?\"",
+   "why": "Opens on a high-intensity beat (poison, horrified) and cuts on an unresolved moment (why).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.65,
+    "cliff": 0.634,
+    "intensity": 0.385,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.65,
+    "cliff_strength": 0.634,
+    "hook_beat": "E25.B048",
+    "cliff_beat": "E25.B074",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6996,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 48.0,
+   "episodes": [
+    25
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H35-177",
+   "segments": [
+    {
+     "episode": 35,
+     "start": "00:56.50",
+     "end": "01:53.00",
+     "start_sec": 56.5,
+     "end_sec": 113.0,
+     "duration": 56.5
+    }
+   ],
+   "title": "E35 00:56.50",
+   "hook": "Alexander'S Mother: \"They told me you died. They told me your entire regiment was destroyed.\"",
+   "cliffhanger": "Alexander'S Mother: \"How did you escape?\"",
+   "why": "Opens on a high-intensity beat (destroy, die, accusing) and cuts on an unresolved moment (how).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.66,
+    "cliff": 0.634,
+    "intensity": 0.443,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.66,
+    "cliff_strength": 0.634,
+    "hook_beat": "E35.B028",
+    "cliff_beat": "E35.B051",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6952,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 56.5,
+   "episodes": [
+    35
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H27-130",
+   "segments": [
+    {
+     "episode": 27,
+     "start": "00:35.20",
+     "end": "01:20.50",
+     "start_sec": 35.2,
+     "end_sec": 80.5,
+     "duration": 45.3
+    }
+   ],
+   "title": "E27 00:35.20",
+   "hook": "Dowager Duchess: \"My lost son wore that ring!\"",
+   "cliffhanger": "Lady Catherine: \"Who permitted you to give medicine to the Duchess?\"",
+   "why": "Opens on a high-intensity beat (ring, desperate) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.625,
+    "cliff": 0.634,
+    "intensity": 0.439,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.625,
+    "cliff_strength": 0.634,
+    "hook_beat": "E27.B019",
+    "cliff_beat": "E27.B047",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6935,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 45.3,
+   "episodes": [
+    27
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H02-008",
+   "segments": [
+    {
+     "episode": 2,
+     "start": "00:02.80",
+     "end": "00:32.40",
+     "start_sec": 2.8,
+     "end_sec": 32.4,
+     "duration": 29.6
+    }
+   ],
+   "title": "E02 00:02.80",
+   "hook": "Juliana gasps softly in heartbreak, her eyes wide and brimming with tears.",
+   "cliffhanger": "Lady Juliana: \"A better choice? Is that what she is?\"",
+   "why": "Opens on a high-intensity beat (tears, gasp) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.555,
+    "cliff": 0.634,
+    "intensity": 0.328,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.555,
+    "cliff_strength": 0.634,
+    "hook_beat": "E02.B003",
+    "cliff_beat": "E02.B018",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6928,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 29.6,
+   "episodes": [
+    2
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H42-212",
+   "segments": [
+    {
+     "episode": 42,
+     "start": "00:15.00",
+     "end": "00:39.80",
+     "start_sec": 15.0,
+     "end_sec": 39.8,
+     "duration": 24.8
+    }
+   ],
+   "title": "E42 00:15.00",
+   "hook": "Blond Nobleman: \"Guards! Arrest this imposter!\"",
+   "cliffhanger": "Alexander: \"And yet, here I stand. That is the lie you built your life upon.\"",
+   "why": "Opens on a high-intensity beat (arrest, guards, imposter) and cuts on an unresolved moment (lie).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.934,
+    "cliff": 0.333,
+    "intensity": 0.547,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.934,
+    "cliff_strength": 0.333,
+    "hook_beat": "E42.B009",
+    "cliff_beat": "E42.B022",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6923,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 24.8,
+   "episodes": [
+    42
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H09-041",
+   "segments": [
+    {
+     "episode": 9,
+     "start": "01:30.30",
+     "end": "01:55.50",
+     "start_sec": 90.3,
+     "end_sec": 115.5,
+     "duration": 25.2
+    }
+   ],
+   "title": "E09 01:30.30",
+   "hook": "The Former Groom: \"About a war veteran. Some say he resembles the late Duke.\"",
+   "cliffhanger": "Extreme close-up macro shot of the Blond Nobleman's eye, the flickering fireplace flames dancing across his widening iris as dark dread paralyzes him, holding until the screen cuts to black.",
+   "why": "Opens on a high-intensity beat (duke) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.75,
+    "intensity": 0.335,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.75,
+    "hook_beat": "E09.B074",
+    "cliff_beat": "E09.B088",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6908,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 25.2,
+   "episodes": [
+    9
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H30-146",
+   "segments": [
+    {
+     "episode": 30,
+     "start": "02:05.50",
+     "end": "02:31.21",
+     "start_sec": 125.5,
+     "end_sec": 151.21,
+     "duration": 25.71
+    }
+   ],
+   "title": "E30 02:05.50",
+   "hook": "Catherine: \"She will hang. A perfect solution. The town will cheer as the witch's disgraced daughter faces the noose.\"",
+   "cliffhanger": "Echoing, hollow water droplets splashing into dark pools beneath stone vaults, accompanied by a somber orchestral swell.",
+   "why": "Opens on a high-intensity beat (noose, hang, witch) and cuts on an unresolved moment (swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.912,
+    "cliff": 0.75,
+    "intensity": 0.485,
+    "standalone": 0.35
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.912,
+    "cliff_strength": 0.75,
+    "hook_beat": "E30.B062",
+    "cliff_beat": "E30.B068",
+    "dialogue_lines": 3,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6901,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 25.71,
+   "episodes": [
+    30
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H41-207",
+   "segments": [
+    {
+     "episode": 41,
+     "start": "00:58.00",
+     "end": "01:36.09",
+     "start_sec": 58.0,
+     "end_sec": 96.09,
+     "duration": 38.09
+    }
+   ],
+   "title": "E41 00:58.00",
+   "hook": "Juliana: \"You needed an entire chapel to feel powerful over one chained woman?\"",
+   "cliffhanger": "Silhouetted armed figures emerge through the smoke and rubble of the breached doorway. Juliana slowly turns her head, glancing back toward the light.",
+   "why": "Opens on a high-intensity beat (chained, defiant) and cuts on an unresolved moment (doorway, silhouette).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.553,
+    "cliff": 0.75,
+    "intensity": 0.439,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.553,
+    "cliff_strength": 0.75,
+    "hook_beat": "E41.B033",
+    "cliff_beat": "E41.B051",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6881,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.09,
+   "episodes": [
+    41
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H38-194",
+   "segments": [
+    {
+     "episode": 38,
+     "start": "00:00.00",
+     "end": "00:50.50",
+     "start_sec": 0.0,
+     "end_sec": 50.5,
+     "duration": 50.5
+    }
+   ],
+   "title": "E38 00:00.00",
+   "hook": "Medium profile shot of Juliana slumped on the damp stone floor of her dark dungeon cell, her wrists bound in heavy iron shackles and chains draped over her lap.",
+   "cliffhanger": "Juliana: \"What if I never see you again?\"",
+   "why": "Opens on a high-intensity beat (chains, dungeon) and cuts on an unresolved moment (what, never).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.497,
+    "cliff": 0.783,
+    "intensity": 0.441,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.497,
+    "cliff_strength": 0.783,
+    "hook_beat": "E38.B000",
+    "cliff_beat": "E38.B030",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6839,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 50.5,
+   "episodes": [
+    38
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H07-032",
+   "segments": [
+    {
+     "episode": 7,
+     "start": "01:05.60",
+     "end": "01:35.00",
+     "start_sec": 65.6,
+     "end_sec": 95.0,
+     "duration": 29.4
+    }
+   ],
+   "title": "E07 01:05.60",
+   "hook": "Gerald: \"I have enough influence to make a beggar disappear.\"",
+   "cliffhanger": "Gerald: \"What are you staring at?\"",
+   "why": "Opens on a high-intensity beat (beg, furious, threatening) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.518,
+    "cliff": 0.634,
+    "intensity": 0.429,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.518,
+    "cliff_strength": 0.634,
+    "hook_beat": "E07.B031",
+    "cliff_beat": "E07.B044",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6829,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 29.4,
+   "episodes": [
+    7
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H10-047",
+   "segments": [
+    {
+     "episode": 10,
+     "start": "00:09.15",
+     "end": "01:06.10",
+     "start_sec": 9.15,
+     "end_sec": 66.1,
+     "duration": 56.95
+    }
+   ],
+   "title": "E10 00:09.15",
+   "hook": "Juliana: \"There is blood running down your arm.\"",
+   "cliffhanger": "Juliana: \"Why do you look at me like that?\"",
+   "why": "Opens on a high-intensity beat (blood) and cuts on an unresolved moment (why).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.528,
+    "cliff": 0.634,
+    "intensity": 0.391,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.528,
+    "cliff_strength": 0.634,
+    "hook_beat": "E10.B010",
+    "cliff_beat": "E10.B047",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6794,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 56.95,
+   "episodes": [
+    10
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H34-171",
+   "segments": [
+    {
+     "episode": 34,
+     "start": "02:37.00",
+     "end": "03:10.00",
+     "start_sec": 157.0,
+     "end_sec": 190.0,
+     "duration": 33.0
+    }
+   ],
+   "title": "E34 02:37.00",
+   "hook": "Judge: \"You understand that refusal may be treated as proof that you knowingly practiced witchcraft?\"",
+   "cliffhanger": "Over-the-shoulder shot from behind Lady Juliana in the prisoner's dock looking toward the Judge, who solemnly raises his right hand to pronounce the final sentence as the heavy silence hangs over the courtroom.",
+   "why": "Opens on a high-intensity beat (witch) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.528,
+    "cliff": 0.75,
+    "intensity": 0.32,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.528,
+    "cliff_strength": 0.75,
+    "hook_beat": "E34.B099",
+    "cliff_beat": "E34.B114",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6792,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 33.0,
+   "episodes": [
+    34
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H30-147",
+   "segments": [
+    {
+     "episode": 30,
+     "start": "01:05.30",
+     "end": "01:46.60",
+     "start_sec": 65.3,
+     "end_sec": 106.6,
+     "duration": 41.3
+    }
+   ],
+   "title": "E30 01:05.30",
+   "hook": "Elder Nobleman: \"A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber.\"",
+   "cliffhanger": "Elder Nobleman: \"Do not hide the evidence, manufacture it. Drag her before the magistrate tomorrow, frame the trial, buy the jury, and let the State hang her.\"",
+   "why": "Opens on a high-intensity beat (duchess, secret) and cuts on an unresolved moment (tomorrow).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.659,
+    "cliff": 0.537,
+    "intensity": 0.531,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.659,
+    "cliff_strength": 0.537,
+    "hook_beat": "E30.B034",
+    "cliff_beat": "E30.B048",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6789,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 41.3,
+   "episodes": [
+    30
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H10-046",
+   "segments": [
+    {
+     "episode": 10,
+     "start": "00:55.60",
+     "end": "01:34.00",
+     "start_sec": 55.6,
+     "end_sec": 94.0,
+     "duration": 38.4
+    }
+   ],
+   "title": "E10 00:55.60",
+   "hook": "Juliana: \"You are a terrible liar.\"",
+   "cliffhanger": "Close-up shot holding on Juliana's wide, luminous blue eyes, completely captivated and overwhelmed by his confession, the firelight dancing across their intertwined hands as the scene lingers and fades.",
+   "why": "Opens on a high-intensity beat (liar) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.75,
+    "intensity": 0.19,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.75,
+    "hook_beat": "E10.B043",
+    "cliff_beat": "E10.B059",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.678,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.4,
+   "episodes": [
+    10
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H47-237",
+   "segments": [
+    {
+     "episode": 47,
+     "start": "01:00.50",
+     "end": "01:39.20",
+     "start_sec": 60.5,
+     "end_sec": 99.2,
+     "duration": 38.7
+    }
+   ],
+   "title": "E47 01:00.50",
+   "hook": "Catherine: \"London closed its doors! My family disowned me!\"",
+   "cliffhanger": "Juliana: \"If you seek shelter in this house, Catherine, you earn it.\"",
+   "why": "Opens on a high-intensity beat (disowned, pleading) and cuts on an unresolved moment (if you).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.7,
+    "cliff": 0.537,
+    "intensity": 0.597,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.7,
+    "cliff_strength": 0.537,
+    "hook_beat": "E47.B030",
+    "cliff_beat": "E47.B048",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6765,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.7,
+   "episodes": [
+    47
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H01-002",
+   "segments": [
+    {
+     "episode": 1,
+     "start": "00:33.80",
+     "end": "01:18.50",
+     "start_sec": 33.8,
+     "end_sec": 78.5,
+     "duration": 44.7
+    }
+   ],
+   "title": "E01 00:33.80",
+   "hook": "Close-up on Juliana's trembling lips and shocked, tearful blue eyes.",
+   "cliffhanger": "Lady Juliana: \"How long?\"",
+   "why": "Opens on a high-intensity beat (shock, shocked, trembl) and cuts on an unresolved moment (how).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.469,
+    "cliff": 0.634,
+    "intensity": 0.442,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.469,
+    "cliff_strength": 0.634,
+    "hook_beat": "E01.B021",
+    "cliff_beat": "E01.B049",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6756,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 44.7,
+   "episodes": [
+    1
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H17-076",
+   "segments": [
+    {
+     "episode": 17,
+     "start": "00:00.00",
+     "end": "00:21.50",
+     "start_sec": 0.0,
+     "end_sec": 21.5,
+     "duration": 21.5
+    }
+   ],
+   "title": "E17 00:00.00",
+   "hook": "High angle wide shot looking down at the muddy, trampled garden. Broken wooden planters and splintered planks litter the ground as Juliana kneels amidst the ruined soil.",
+   "cliffhanger": "Alexander: \"For what?\"",
+   "why": "Opens on a high-intensity beat (kneel, mud, ruin) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.568,
+    "cliff": 0.634,
+    "intensity": 0.273,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.568,
+    "cliff_strength": 0.634,
+    "hook_beat": "E17.B000",
+    "cliff_beat": "E17.B012",
+    "dialogue_lines": 4,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6742,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 21.5,
+   "episodes": [
+    17
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H24-115",
+   "segments": [
+    {
+     "episode": 24,
+     "start": "00:32.50",
+     "end": "01:15.00",
+     "start_sec": 32.5,
+     "end_sec": 75.0,
+     "duration": 42.5
+    }
+   ],
+   "title": "E24 00:32.50",
+   "hook": "A sharp, stinging whip crack as the riding crop makes harsh contact.",
+   "cliffhanger": "Noblewoman: \"Do you want the same punishment?\"",
+   "why": "Opens on a high-intensity beat (riding crop, whip) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.699,
+    "cliff": 0.422,
+    "intensity": 0.548,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.699,
+    "cliff_strength": 0.422,
+    "hook_beat": "E24.B024",
+    "cliff_beat": "E24.B053",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.666,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 42.5,
+   "episodes": [
+    24
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H11-051",
+   "segments": [
+    {
+     "episode": 11,
+     "start": "00:23.00",
+     "end": "01:03.90",
+     "start_sec": 23.0,
+     "end_sec": 63.9,
+     "duration": 40.9
+    }
+   ],
+   "title": "E11 00:23.00",
+   "hook": "Juliana: \"You never even entered the cottage!\"",
+   "cliffhanger": "Juliana: \"Stop! Those are my mother's medicines!\"",
+   "why": "Opens on a high-intensity beat (never, outraged, contempt) and cuts on an unresolved moment (stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.722,
+    "cliff": 0.333,
+    "intensity": 0.519,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.722,
+    "cliff_strength": 0.333,
+    "hook_beat": "E11.B021",
+    "cliff_beat": "E11.B051",
+    "dialogue_lines": 16,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6602,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 40.9,
+   "episodes": [
+    11
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H09-042",
+   "segments": [
+    {
+     "episode": 9,
+     "start": "00:06.30",
+     "end": "00:54.00",
+     "start_sec": 6.3,
+     "end_sec": 54.0,
+     "duration": 47.7
+    }
+   ],
+   "title": "E09 00:06.30",
+   "hook": "Peasant Mother: \"Please! They told me there was a woman here who knows herbs. My boy is burning with fever!\"",
+   "cliffhanger": "Peasant Mother: \"Why isn't it working?\"",
+   "why": "Opens on a high-intensity beat (please) and cuts on an unresolved moment (why).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.478,
+    "cliff": 0.634,
+    "intensity": 0.326,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.478,
+    "cliff_strength": 0.634,
+    "hook_beat": "E09.B008",
+    "cliff_beat": "E09.B041",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6594,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 47.7,
+   "episodes": [
+    9
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H18-082",
+   "segments": [
+    {
+     "episode": 18,
+     "start": "00:06.50",
+     "end": "00:33.00",
+     "start_sec": 6.5,
+     "end_sec": 33.0,
+     "duration": 26.5
+    }
+   ],
+   "title": "E18 00:06.50",
+   "hook": "Juliana: \"Alexander!\"",
+   "cliffhanger": "Juliana: \"What happened?\"",
+   "why": "Opens on a high-intensity beat (screaming) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.478,
+    "cliff": 0.634,
+    "intensity": 0.446,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.478,
+    "cliff_strength": 0.634,
+    "hook_beat": "E18.B005",
+    "cliff_beat": "E18.B016",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.658,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 26.5,
+   "episodes": [
+    18
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H45-225",
+   "segments": [
+    {
+     "episode": 45,
+     "start": "00:54.00",
+     "end": "01:45.50",
+     "start_sec": 54.0,
+     "end_sec": 105.5,
+     "duration": 51.5
+    }
+   ],
+   "title": "E45 00:54.00",
+   "hook": "Alexander: \"You poisoned my mother. You tortured my wife.\"",
+   "cliffhanger": "High Priest: \"These vows were never entered into the Royal Matrimonial Register.\"",
+   "why": "Opens on a high-intensity beat (poison, mother, wife) and cuts on an unresolved moment (never).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.823,
+    "cliff": 0.333,
+    "intensity": 0.589,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.823,
+    "cliff_strength": 0.333,
+    "hook_beat": "E45.B039",
+    "cliff_beat": "E45.B065",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6565,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 51.5,
+   "episodes": [
+    45
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H39-197",
+   "segments": [
+    {
+     "episode": 39,
+     "start": "00:42.80",
+     "end": "01:27.50",
+     "start_sec": 42.8,
+     "end_sec": 87.5,
+     "duration": 44.7
+    }
+   ],
+   "title": "E39 00:42.80",
+   "hook": "Wide high-angle shot overlooking the stone cathedral steps where both royal guards lie unconscious on the fallen autumn leaves while more men slip inside the opened doors.",
+   "cliffhanger": "Loyalist: \"Yes, Your Grace.\"",
+   "why": "Opens on a high-intensity beat (unconscious, guards) and cuts on an unresolved moment (your grace).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.531,
+    "cliff": 0.662,
+    "intensity": 0.42,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.531,
+    "cliff_strength": 0.662,
+    "hook_beat": "E39.B026",
+    "cliff_beat": "E39.B051",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6556,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 44.7,
+   "episodes": [
+    39
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H40-202",
+   "segments": [
+    {
+     "episode": 40,
+     "start": "01:06.80",
+     "end": "01:30.80",
+     "start_sec": 66.8,
+     "end_sec": 90.8,
+     "duration": 24.0
+    }
+   ],
+   "title": "E40 01:06.80",
+   "hook": "Elder Nobleman: \"By sunset, Ashburgh will have its new Duke and Duchess.\"",
+   "cliffhanger": "Framed wide shot of Catherine silhouetted in the bright doorway, wearing a breathtaking cream and gold imperial bridal gown with puffed sleeves and an exquisite sheer veil.",
+   "why": "Opens on a high-intensity beat (duke, duchess) and cuts on an unresolved moment (doorway, silhouette).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.713,
+    "cliff": 0.499,
+    "intensity": 0.298,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.713,
+    "cliff_strength": 0.499,
+    "hook_beat": "E40.B035",
+    "cliff_beat": "E40.B041",
+    "dialogue_lines": 4,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6539,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 24.0,
+   "episodes": [
+    40
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H31-153",
+   "segments": [
+    {
+     "episode": 31,
+     "start": "00:14.00",
+     "end": "00:55.50",
+     "start_sec": 14.0,
+     "end_sec": 55.5,
+     "duration": 41.5
+    }
+   ],
+   "title": "E31 00:14.00",
+   "hook": "Catherine: \"Chained in a dungeon like a common criminal.\"",
+   "cliffhanger": "Catherine: \"Do you remember?\"",
+   "why": "Opens on a high-intensity beat (chained, dungeon) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.713,
+    "cliff": 0.422,
+    "intensity": 0.413,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.713,
+    "cliff_strength": 0.422,
+    "hook_beat": "E31.B010",
+    "cliff_beat": "E31.B026",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6511,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 41.5,
+   "episodes": [
+    31
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H39-198",
+   "segments": [
+    {
+     "episode": 39,
+     "start": "01:14.80",
+     "end": "01:38.41",
+     "start_sec": 74.8,
+     "end_sec": 98.41,
+     "duration": 23.61
+    }
+   ],
+   "title": "E39 01:14.80",
+   "hook": "Loyalist: \"Your Grace.\"",
+   "cliffhanger": "Alexander's eyes burn with furious determination as the screen cuts sharply to black.",
+   "why": "Opens on a high-intensity beat (your grace) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.75,
+    "intensity": 0.296,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.75,
+    "hook_beat": "E39.B047",
+    "cliff_beat": "E39.B058",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6509,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 23.61,
+   "episodes": [
+    39
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H45-226",
+   "segments": [
+    {
+     "episode": 45,
+     "start": "00:51.50",
+     "end": "01:11.50",
+     "start_sec": 51.5,
+     "end_sec": 71.5,
+     "duration": 20.0
+    }
+   ],
+   "title": "E45 00:51.50",
+   "hook": "Alexander: \"You poisoned my mother. You tortured my wife.\"",
+   "cliffhanger": "Alexander: \"You hurt the two women who mattered most to me: my mother, and my wife.\"",
+   "why": "Opens on a high-intensity beat (poison, mother, wife) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.823,
+    "cliff": 0.333,
+    "intensity": 0.514,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.823,
+    "cliff_strength": 0.333,
+    "hook_beat": "E45.B039",
+    "cliff_beat": "E45.B044",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6505,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 20.0,
+   "episodes": [
+    45
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H21-099",
+   "segments": [
+    {
+     "episode": 21,
+     "start": "00:53.00",
+     "end": "01:39.20",
+     "start_sec": 53.0,
+     "end_sec": 99.2,
+     "duration": 46.2
+    }
+   ],
+   "title": "E21 00:53.00",
+   "hook": "Prudence wraps a cloth around the iron handle of the steaming kettle resting over the hearth fire and lifts it.",
+   "cliffhanger": "Lady Juliana: \"What do you mean? Is someone ill? The Dowager Duchess?\"",
+   "why": "Opens on a high-intensity beat (fire) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.491,
+    "cliff": 0.634,
+    "intensity": 0.344,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.491,
+    "cliff_strength": 0.634,
+    "hook_beat": "E21.B037",
+    "cliff_beat": "E21.B067",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6504,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 46.2,
+   "episodes": [
+    21
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H12-056",
+   "segments": [
+    {
+     "episode": 12,
+     "start": "00:05.70",
+     "end": "00:46.70",
+     "start_sec": 5.7,
+     "end_sec": 46.7,
+     "duration": 41.0
+    }
+   ],
+   "title": "E12 00:05.70",
+   "hook": "Juliana: \"No! That watch was not in his coat!\"",
+   "cliffhanger": "Juliana: \"What do you want?\"",
+   "why": "Opens on a high-intensity beat (furious, defiant) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.643,
+    "cliff": 0.634,
+    "intensity": 0.464,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.643,
+    "cliff_strength": 0.634,
+    "hook_beat": "E12.B004",
+    "cliff_beat": "E12.B029",
+    "dialogue_lines": 14,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6496,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 41.0,
+   "episodes": [
+    12
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H04-018",
+   "segments": [
+    {
+     "episode": 4,
+     "start": "00:34.00",
+     "end": "01:14.50",
+     "start_sec": 34.0,
+     "end_sec": 74.5,
+     "duration": 40.5
+    }
+   ],
+   "title": "E04 00:34.00",
+   "hook": "Mysterious Bearded Man: \"A woman who was betrayed.\"",
+   "cliffhanger": "Juliana: \"I don't know what waits beyond these doors.\"",
+   "why": "Opens on a high-intensity beat (betray) and cuts on an unresolved moment (what, wait).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.57,
+    "intensity": 0.324,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.57,
+    "hook_beat": "E04.B028",
+    "cliff_beat": "E04.B049",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.642,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 40.5,
+   "episodes": [
+    4
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H46-230",
+   "segments": [
+    {
+     "episode": 46,
+     "start": "00:37.30",
+     "end": "01:21.10",
+     "start_sec": 37.3,
+     "end_sec": 81.1,
+     "duration": 43.8
+    }
+   ],
+   "title": "E46 00:37.30",
+   "hook": "High Priest: \"The church married a vagrant to a ruined lady. It never married the Duke of Ashburton to anyone.\"",
+   "cliffhanger": "Juliana: \"Now a church calls my marriage a lie!\"",
+   "why": "Opens on a high-intensity beat (duke, never, ruin) and cuts on an unresolved moment (lie).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.782,
+    "cliff": 0.333,
+    "intensity": 0.542,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.782,
+    "cliff_strength": 0.333,
+    "hook_beat": "E46.B023",
+    "cliff_beat": "E46.B044",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6384,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 43.8,
+   "episodes": [
+    46
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H48-241",
+   "segments": [
+    {
+     "episode": 48,
+     "start": "00:34.20",
+     "end": "01:20.00",
+     "start_sec": 34.2,
+     "end_sec": 80.0,
+     "duration": 45.8
+    }
+   ],
+   "title": "E48 00:34.20",
+   "hook": "Catherine: \"Everyone in that chapel saw me humiliated today.\"",
+   "cliffhanger": "Exterior shot looking through the dark diamond-paned window frame at Catherine standing motionless in the warm candlelight, staring outward into the night with cold, unyielding ambition as the scene fades to black.",
+   "why": "Opens on a high-intensity beat (humiliat, fierce) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.467,
+    "cliff": 0.75,
+    "intensity": 0.269,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.467,
+    "cliff_strength": 0.75,
+    "hook_beat": "E48.B022",
+    "cliff_beat": "E48.B042",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6384,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 45.8,
+   "episodes": [
+    48
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H37-189",
+   "segments": [
+    {
+     "episode": 37,
+     "start": "01:06.50",
+     "end": "01:36.00",
+     "start_sec": 66.5,
+     "end_sec": 96.0,
+     "duration": 29.5
+    }
+   ],
+   "title": "E37 01:06.50",
+   "hook": "Nobleman: \"A public execution after a wedding.\"",
+   "cliffhanger": "Rhythmic water drips splashing onto stagnant dungeon puddles and a low, mournful ambient drone.",
+   "why": "Opens on a high-intensity beat (execution, wedding) and cuts on an unresolved moment (drone).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.632,
+    "cliff": 0.48,
+    "intensity": 0.451,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.632,
+    "cliff_strength": 0.48,
+    "hook_beat": "E37.B039",
+    "cliff_beat": "E37.B049",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6382,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 29.5,
+   "episodes": [
+    37
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H25-119",
+   "segments": [
+    {
+     "episode": 25,
+     "start": "00:18.80",
+     "end": "00:57.50",
+     "start_sec": 18.8,
+     "end_sec": 57.5,
+     "duration": 38.7
+    }
+   ],
+   "title": "E25 00:18.80",
+   "hook": "Alexander's gloved fingers pull back the torn fabric of her cloak and sleeve, revealing a raw, bloody welt slashing across her bare shoulder.",
+   "cliffhanger": "Alexander: \"Who?\"",
+   "why": "Opens on a high-intensity beat (blood) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.491,
+    "cliff": 0.634,
+    "intensity": 0.251,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.491,
+    "cliff_strength": 0.634,
+    "hook_beat": "E25.B013",
+    "cliff_beat": "E25.B034",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.638,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.7,
+   "episodes": [
+    25
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H22-103",
+   "segments": [
+    {
+     "episode": 22,
+     "start": "00:19.10",
+     "end": "00:49.50",
+     "start_sec": 19.1,
+     "end_sec": 49.5,
+     "duration": 30.4
+    }
+   ],
+   "title": "E22 00:19.10",
+   "hook": "Lady Juliana: \"The Duchess is dying.\"",
+   "cliffhanger": "Housekeeper: \"Who is this?\"",
+   "why": "Opens on a high-intensity beat (duchess) and cuts on an unresolved moment (who).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.634,
+    "intensity": 0.141,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.634,
+    "hook_beat": "E22.B010",
+    "cliff_beat": "E22.B025",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6246,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 30.4,
+   "episodes": [
+    22
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H23-109",
+   "segments": [
+    {
+     "episode": 23,
+     "start": "00:36.00",
+     "end": "01:19.00",
+     "start_sec": 36.0,
+     "end_sec": 79.0,
+     "duration": 43.0
+    }
+   ],
+   "title": "E23 00:36.00",
+   "hook": "Close-up of the Dowager Duchess gasping hoarsely for air, her throat straining as she weakly fights to breathe.",
+   "cliffhanger": "Prudence: \"What are you saying?\"",
+   "why": "Opens on a high-intensity beat (throat, duchess, gasp) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.633,
+    "cliff": 0.634,
+    "intensity": 0.353,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.633,
+    "cliff_strength": 0.634,
+    "hook_beat": "E23.B016",
+    "cliff_beat": "E23.B036",
+    "dialogue_lines": 7,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6241,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 43.0,
+   "episodes": [
+    23
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H44-223",
+   "segments": [
+    {
+     "episode": 44,
+     "start": "00:03.30",
+     "end": "00:34.20",
+     "start_sec": 3.3,
+     "end_sec": 34.2,
+     "duration": 30.9
+    }
+   ],
+   "title": "E44 00:03.30",
+   "hook": "Police Constable: \"Lord Henry Sterling, you are under arrest by order of the Crown.\"",
+   "cliffhanger": "Catherine: \"Do you know what this did to me?\"",
+   "why": "Opens on a high-intensity beat (arrest) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.634,
+    "intensity": 0.456,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.634,
+    "hook_beat": "E44.B003",
+    "cliff_beat": "E44.B019",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6228,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 30.9,
+   "episodes": [
+    44
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H08-037",
+   "segments": [
+    {
+     "episode": 8,
+     "start": "00:16.30",
+     "end": "01:00.50",
+     "start_sec": 16.3,
+     "end_sec": 60.5,
+     "duration": 44.2
+    }
+   ],
+   "title": "E08 00:16.30",
+   "hook": "Alexander: \"Soldiers learn quickly which plants keep a man alive.\"",
+   "cliffhanger": "Alexander: \"That one grows near the northern stream. Crushed leaves ease swelling.\"",
+   "why": "Opens on a high-intensity beat (alive) and cuts on an unresolved moment (swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.537,
+    "intensity": 0.192,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.537,
+    "hook_beat": "E08.B016",
+    "cliff_beat": "E08.B046",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6167,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 44.2,
+   "episodes": [
+    8
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H18-083",
+   "segments": [
+    {
+     "episode": 18,
+     "start": "01:55.50",
+     "end": "02:33.20",
+     "start_sec": 115.5,
+     "end_sec": 153.2,
+     "duration": 37.7
+    }
+   ],
+   "title": "E18 01:55.50",
+   "hook": "Wide interior shot as the entire parlor collapses into an uncontrollable inferno of roaring flames.",
+   "cliffhanger": "Juliana: \"Why would anyone do this?\"",
+   "why": "Opens on a high-intensity beat (collapses, inferno) and cuts on an unresolved moment (why).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.562,
+    "cliff": 0.634,
+    "intensity": 0.294,
+    "standalone": 0.7
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.562,
+    "cliff_strength": 0.634,
+    "hook_beat": "E18.B061",
+    "cliff_beat": "E18.B070",
+    "dialogue_lines": 3,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6127,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 37.7,
+   "episodes": [
+    18
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H15-069",
+   "segments": [
+    {
+     "episode": 15,
+     "start": "00:23.20",
+     "end": "01:03.50",
+     "start_sec": 23.2,
+     "end_sec": 63.5,
+     "duration": 40.3
+    }
+   ],
+   "title": "E15 00:23.20",
+   "hook": "Juliana: \"Please! Those plants took months to grow!\"",
+   "cliffhanger": "Juliana: \"Stop!\"",
+   "why": "Opens on a high-intensity beat (please, desperate) and cuts on an unresolved moment (stop).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.564,
+    "cliff": 0.333,
+    "intensity": 0.529,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.564,
+    "cliff_strength": 0.333,
+    "hook_beat": "E15.B019",
+    "cliff_beat": "E15.B042",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.6056,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 40.3,
+   "episodes": [
+    15
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H33-165",
+   "segments": [
+    {
+     "episode": 33,
+     "start": "01:08.50",
+     "end": "01:53.50",
+     "start_sec": 68.5,
+     "end_sec": 113.5,
+     "duration": 45.0
+    }
+   ],
+   "title": "E33 01:08.50",
+   "hook": "The maid gasps in sheer terror, her chest heaving as tears stream.",
+   "cliffhanger": "Lord: \"Praying... or chanting?\"",
+   "why": "Opens on a high-intensity beat (tears, gasp) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.555,
+    "cliff": 0.422,
+    "intensity": 0.414,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.555,
+    "cliff_strength": 0.422,
+    "hook_beat": "E33.B040",
+    "cliff_beat": "E33.B065",
+    "dialogue_lines": 15,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5981,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 45.0,
+   "episodes": [
+    33
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H06-027",
+   "segments": [
+    {
+     "episode": 6,
+     "start": "00:00.00",
+     "end": "00:40.70",
+     "start_sec": 0.0,
+     "end_sec": 40.7,
+     "duration": 40.7
+    }
+   ],
+   "title": "E06 00:00.00",
+   "hook": "Juliana lifts the hem of her white satin wedding gown to keep it out of the pooling mud, shivering under her dark hooded cloak.",
+   "cliffhanger": "The heavy wooden cottage door creaks open. Juliana steps across the threshold into the dark, barren room.",
+   "why": "Opens on a high-intensity beat (mud, wedding) and cuts on an unresolved moment (door creaks).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.467,
+    "cliff": 0.432,
+    "intensity": 0.31,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.467,
+    "cliff_strength": 0.432,
+    "hook_beat": "E06.B001",
+    "cliff_beat": "E06.B030",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5977,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 40.7,
+   "episodes": [
+    6
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H19-088",
+   "segments": [
+    {
+     "episode": 19,
+     "start": "01:01.60",
+     "end": "01:46.20",
+     "start_sec": 61.6,
+     "end_sec": 106.2,
+     "duration": 44.6
+    }
+   ],
+   "title": "E19 01:01.60",
+   "hook": "Informant: \"And Lady Catherine, she behaves as though she is already the future duchess.\"",
+   "cliffhanger": "Juliana: \"I don't know what we will do tomorrow.\"",
+   "why": "Opens on a high-intensity beat (duchess) and cuts on an unresolved moment (tomorrow, what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.714,
+    "intensity": 0.334,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.714,
+    "hook_beat": "E19.B034",
+    "cliff_beat": "E19.B056",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5977,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 44.6,
+   "episodes": [
+    19
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H17-077",
+   "segments": [
+    {
+     "episode": 17,
+     "start": "00:36.50",
+     "end": "01:03.50",
+     "start_sec": 36.5,
+     "end_sec": 63.5,
+     "duration": 27.0
+    }
+   ],
+   "title": "E17 00:36.50",
+   "hook": "Medium shot in the warm, flickering firelight of the stone cottage. Juliana kneels on the stone floor beside a washbasin of water while Alexander sits quietly in a chair beside the blazing hearth.",
+   "cliffhanger": "Alexander: \"Of them?\"",
+   "why": "Opens on a high-intensity beat (fire, kneel) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.531,
+    "cliff": 0.422,
+    "intensity": 0.177,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.531,
+    "cliff_strength": 0.422,
+    "hook_beat": "E17.B029",
+    "cliff_beat": "E17.B042",
+    "dialogue_lines": 6,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5911,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 27.0,
+   "episodes": [
+    17
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H38-195",
+   "segments": [
+    {
+     "episode": 38,
+     "start": "00:45.50",
+     "end": "01:27.91",
+     "start_sec": 45.5,
+     "end_sec": 87.91,
+     "duration": 42.41
+    }
+   ],
+   "title": "E38 00:45.50",
+   "hook": "Juliana: \"What if I die here?\"",
+   "cliffhanger": "A sharp, high-tension dramatic swell strikes and echoes out into silence alongside the fading toll of the distant church bells.",
+   "why": "Opens on a high-intensity beat (die, pleading) and cuts on an unresolved moment (swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.467,
+    "cliff": 0.48,
+    "intensity": 0.428,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.467,
+    "cliff_strength": 0.48,
+    "hook_beat": "E38.B029",
+    "cliff_beat": "E38.B056",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5824,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 42.41,
+   "episodes": [
+    38
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H19-089",
+   "segments": [
+    {
+     "episode": 19,
+     "start": "00:00.00",
+     "end": "00:45.80",
+     "start_sec": 0.0,
+     "end_sec": 45.8,
+     "duration": 45.8
+    }
+   ],
+   "title": "E19 00:00.00",
+   "hook": "Juliana clutches her mother's scorched leather-bound herbal book against her chest, her face streaked with soot as she stares at the ruin in disbelief.",
+   "cliffhanger": "Informant: \"Your Grace.\"",
+   "why": "Opens on a high-intensity beat (ruin, mother) and cuts on an unresolved moment (your grace).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.467,
+    "cliff": 0.662,
+    "intensity": 0.321,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.467,
+    "cliff_strength": 0.662,
+    "hook_beat": "E19.B001",
+    "cliff_beat": "E19.B027",
+    "dialogue_lines": 13,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5817,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 45.8,
+   "episodes": [
+    19
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H07-033",
+   "segments": [
+    {
+     "episode": 7,
+     "start": "00:33.20",
+     "end": "01:23.50",
+     "start_sec": 33.2,
+     "end_sec": 83.5,
+     "duration": 50.3
+    }
+   ],
+   "title": "E07 00:33.20",
+   "hook": "Aristocratic Woman: \"Home? Look at your hands, Juliana.\"",
+   "cliffhanger": "Gerald freezes, his arrogant bravado instantly vanishing as cold dread overtakes his face.",
+   "why": "Opens on a high-intensity beat (mocking, gloating) and cuts on an unresolved moment (freeze).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.302,
+    "cliff": 0.538,
+    "intensity": 0.385,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.302,
+    "cliff_strength": 0.538,
+    "hook_beat": "E07.B014",
+    "cliff_beat": "E07.B041",
+    "dialogue_lines": 11,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5815,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 50.3,
+   "episodes": [
+    7
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H46-231",
+   "segments": [
+    {
+     "episode": 46,
+     "start": "01:06.80",
+     "end": "01:41.80",
+     "start_sec": 66.8,
+     "end_sec": 101.8,
+     "duration": 35.0
+    }
+   ],
+   "title": "E46 01:06.80",
+   "hook": "High Priest: \"Love doesn't make a Duchess, girl. Paper does.\"",
+   "cliffhanger": "High Priest: \"And I have the power to undo in one hearing what took you three years to steal!\"",
+   "why": "Opens on a high-intensity beat (duchess, venomous) and cuts on an unresolved moment (what).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.603,
+    "cliff": 0.333,
+    "intensity": 0.457,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.603,
+    "cliff_strength": 0.333,
+    "hook_beat": "E46.B037",
+    "cliff_beat": "E46.B054",
+    "dialogue_lines": 10,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5743,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 35.0,
+   "episodes": [
+    46
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H41-208",
+   "segments": [
+    {
+     "episode": 41,
+     "start": "00:04.90",
+     "end": "01:01.00",
+     "start_sec": 4.9,
+     "end_sec": 61.0,
+     "duration": 56.1
+    }
+   ],
+   "title": "E41 00:04.90",
+   "hook": "Catherine: \"Before I become Duchess of Ashburgh...\"",
+   "cliffhanger": "Juliana: \"You needed an entire chapel to feel powerful over one chained woman?\"",
+   "why": "Opens on a high-intensity beat (duchess) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.422,
+    "intensity": 0.365,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.422,
+    "hook_beat": "E41.B004",
+    "cliff_beat": "E41.B033",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5556,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 56.1,
+   "episodes": [
+    41
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H08-038",
+   "segments": [
+    {
+     "episode": 8,
+     "start": "00:00.20",
+     "end": "00:37.30",
+     "start_sec": 0.2,
+     "end_sec": 37.3,
+     "duration": 37.1
+    }
+   ],
+   "title": "E08 00:00.20",
+   "hook": "Juliana: \"Some of the pages are ruined. Careful.\"",
+   "cliffhanger": "Juliana: \"Not yet?\"",
+   "why": "Opens on a high-intensity beat (ruin) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.362,
+    "cliff": 0.422,
+    "intensity": 0.231,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.362,
+    "cliff_strength": 0.422,
+    "hook_beat": "E08.B002",
+    "cliff_beat": "E08.B030",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5523,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 37.1,
+   "episodes": [
+    8
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H49-245",
+   "segments": [
+    {
+     "episode": 49,
+     "start": "00:01.80",
+     "end": "00:33.50",
+     "start_sec": 1.8,
+     "end_sec": 33.5,
+     "duration": 31.7
+    }
+   ],
+   "title": "E49 00:01.80",
+   "hook": "Father Thomas, clad in a hooded dark mantle over priestly black robes, secures the door behind him and steps into the shadows of the abandoned corridor.",
+   "cliffhanger": "Catherine: \"You didn't need them the first time, either. I just prefer my secrets thorough.\"",
+   "why": "Opens on a high-intensity beat (abandon, father) and cuts on an unresolved moment (secret).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.545,
+    "cliff": 0.333,
+    "intensity": 0.367,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.545,
+    "cliff_strength": 0.333,
+    "hook_beat": "E49.B002",
+    "cliff_beat": "E49.B015",
+    "dialogue_lines": 5,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.5449,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 31.7,
+   "episodes": [
+    49
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H48-242",
+   "segments": [
+    {
+     "episode": 48,
+     "start": "00:00.00",
+     "end": "00:34.20",
+     "start_sec": 0.0,
+     "end_sec": 34.2,
+     "duration": 34.2
+    }
+   ],
+   "title": "E48 00:00.00",
+   "hook": "Catherine, adorned in an ornate dark burgundy gown with braided golden hair, gazes out the dark window before turning slowly with a cold, venomous smirk.",
+   "cliffhanger": "Agnes: \"You sent for me, my lady?\"",
+   "why": "Opens on a high-intensity beat (cold, smirk) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.362,
+    "cliff": 0.422,
+    "intensity": 0.186,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.362,
+    "cliff_strength": 0.422,
+    "hook_beat": "E48.B001",
+    "cliff_beat": "E48.B016",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.4998,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 34.2,
+   "episodes": [
+    48
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H40-203",
+   "segments": [
+    {
+     "episode": 40,
+     "start": "00:19.20",
+     "end": "00:49.80",
+     "start_sec": 19.2,
+     "end_sec": 49.8,
+     "duration": 30.6
+    }
+   ],
+   "title": "E40 00:19.20",
+   "hook": "Lord Harrington: \"And soon, we'll be connected to the Duchess of Ashburgh.\"",
+   "cliffhanger": "Lord Harrington: \"Of the wedding?\"",
+   "why": "Opens on a high-intensity beat (duchess) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.465,
+    "cliff": 0.422,
+    "intensity": 0.212,
+    "standalone": 0.65
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.465,
+    "cliff_strength": 0.422,
+    "hook_beat": "E40.B009",
+    "cliff_beat": "E40.B022",
+    "dialogue_lines": 9,
+    "warnings": [],
+    "passed": true
+   },
+   "repairs": [],
+   "score": 0.4746,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 30.6,
+   "episodes": [
+    40
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  }
+ ],
+ "failed_checks": [
+  {
+   "id": "H06-028",
+   "segments": [
+    {
+     "episode": 6,
+     "start": "01:14.30",
+     "end": "01:55.00",
+     "start_sec": 74.3,
+     "end_sec": 115.0,
+     "duration": 40.7
+    }
+   ],
+   "title": "E06 01:14.30",
+   "hook": "Instead of stopping her, the Mysterious Bearded Man kneels beside the table and begins inspecting and adjusting the wobbly table leg to help.",
+   "cliffhanger": "Close-up on the crackling flames and glowing embers of the fireplace, slowly fading to black as the music swells warmly.",
+   "why": "Opens on a high-intensity beat (kneel, beg) and cuts on an unresolved moment (swell).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.545,
+    "cliff": 0.292,
+    "intensity": 0.391,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.545,
+    "cliff_strength": 0.292,
+    "hook_beat": "E06.B064",
+    "cliff_beat": "E06.B095",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.4672,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 40.7,
+   "episodes": [
+    6
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H05-024",
+   "segments": [
+    {
+     "episode": 5,
+     "start": "00:10.50",
+     "end": "00:49.00",
+     "start_sec": 10.5,
+     "end_sec": 49.0,
+     "duration": 38.5
+    }
+   ],
+   "title": "E05 00:10.50",
+   "hook": "Juliana: \"The vows are spoken, Father. I am his wife now.\"",
+   "cliffhanger": "Lady Ashcroft: \"And the ledger...\"",
+   "why": "Opens on a high-intensity beat (father, wife, defiant) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.493,
+    "cliff": 0.286,
+    "intensity": 0.345,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": true,
+    "ends_unresolved": false,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.493,
+    "cliff_strength": 0.286,
+    "hook_beat": "E05.B008",
+    "cliff_beat": "E05.B024",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.4463,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 38.5,
+   "episodes": [
+    5
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H50-250",
+   "segments": [
+    {
+     "episode": 50,
+     "start": "00:31.00",
+     "end": "01:18.50",
+     "start_sec": 31.0,
+     "end_sec": 78.5,
+     "duration": 47.5
+    }
+   ],
+   "title": "E50 00:31.00",
+   "hook": "Father Thomas: \"Absolution is free. Discretion has a price.\"",
+   "cliffhanger": "Sharp, terrified gasp catching in Agnes's throat.",
+   "why": "Opens on a high-intensity beat (cold) and cuts on an unresolved moment (gasp).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.165,
+    "cliff": 0.48,
+    "intensity": 0.328,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.165,
+    "cliff_strength": 0.48,
+    "hook_beat": "E50.B016",
+    "cliff_beat": "E50.B038",
+    "dialogue_lines": 8,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.343,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 47.5,
+   "episodes": [
+    50
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  },
+  {
+   "id": "H50-251",
+   "segments": [
+    {
+     "episode": 50,
+     "start": "00:00.00",
+     "end": "00:56.50",
+     "start_sec": 0.0,
+     "end_sec": 56.5,
+     "duration": 56.5
+    }
+   ],
+   "title": "E50 00:00.00",
+   "hook": "Father Thomas lies flat on his back, breathless, while Catherine rests beside him, her fingers tracing across his bare skin.",
+   "cliffhanger": "Catherine: \"In another room no one uses?\"",
+   "why": "Opens on a high-intensity beat (father) and cuts on an unresolved moment (episode-ending beat).",
+   "source": "heuristic",
+   "llm_scores": {},
+   "heur": {
+    "hook": 0.201,
+    "cliff": 0.422,
+    "intensity": 0.146,
+    "standalone": 1.0
+   },
+   "checks": {
+    "length_ok": true,
+    "hook_in_3s": false,
+    "ends_unresolved": true,
+    "clean_cuts": true,
+    "has_dialogue": true,
+    "segments_ok": true,
+    "hook_strength": 0.201,
+    "cliff_strength": 0.422,
+    "hook_beat": "E50.B001",
+    "cliff_beat": "E50.B026",
+    "dialogue_lines": 12,
+    "warnings": [],
+    "passed": false
+   },
+   "repairs": [],
+   "score": 0.3226,
+   "rank": null,
+   "rank_reason": "",
+   "judge": {},
+   "notes": "",
+   "duration": 56.5,
+   "episodes": [
+    50
+   ],
+   "transcript": [
+    "(transcript omitted: run without --redact to include the script lines)"
+   ]
+  }
+ ],
+ "rejected_llm_output": [],
+ "quality": {
+  "candidates_after_dedupe": 101,
+  "pass_rate": 0.96,
+  "check_fail_counts": {
+   "length_ok": 0,
+   "hook_in_3s": 2,
+   "ends_unresolved": 2,
+   "clean_cuts": 0,
+   "has_dialogue": 0,
+   "segments_ok": 0
+  },
+  "review_warnings": {
+   "hook_in_3s": 0,
+   "ends_unresolved": 0
+  },
+  "ranked_with_warnings": 0,
+  "auto_repaired": 0,
+  "repairs": {},
+  "rejected_llm_items": 0,
+  "avg_duration_ranked": 40.6,
+  "ranked_from_first_10_episodes": 2,
+  "llm_usage": {
+   "calls": 0,
+   "cached": 0,
+   "input_chars": 0,
+   "output_chars": 0
+  }
+ }
+}
