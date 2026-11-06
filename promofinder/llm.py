@@ -52,6 +52,7 @@ class LLM:
         self.dir.mkdir(parents=True, exist_ok=True)
         self.pending: list[str] = []
         self.usage = {"calls": 0, "cached": 0, "input_chars": 0, "output_chars": 0}
+        self.log = print          # the pipeline swaps in its own logger (shown live in the app)
 
     @property
     def enabled(self) -> bool:
@@ -119,28 +120,35 @@ class LLM:
                 last = e
                 msg = str(e).lower()
                 status = getattr(getattr(e, "response", None), "status_code", None)
-                # model renamed / retired: ask the endpoint which models exist and switch once
-                if (status == 404 or "model" in msg and ("not found" in msg or "not supported" in msg))                         and self.provider == "openai" and not swapped:
+                short = re.sub(r"\s+", " ", body or str(e))[:160]
+                # model renamed / retired, or no free quota left for it: ask the endpoint which models exist, switch once
+                no_quota = status == 429 and any(k in msg for k in ("limit: 0", "per day", "perday", "free_tier"))
+                if (status == 404 or no_quota or "model" in msg and ("not found" in msg or "not supported" in msg))                         and self.provider == "openai" and not swapped:
                     swapped = True
-                    alt = self._pick_model()
+                    alt = self._pick_model(exclude=self.model, prefer_lite=no_quota)
                     if alt and alt != self.model:
+                        self.log(f"model {self.model} unavailable ({status}); switching to {alt}")
                         self.model = alt
                         continue
+                if no_quota:
+                    raise RuntimeError(f"LLM free-tier quota used up for {self.model}: {short}") from e
                 if status in (401, 403) or any(s in msg for s in ("api key", "authentication", "permission")):
                     raise RuntimeError(f"LLM call failed (check the API key): {e}") from e
                 if status in (400, 404) or "not found" in msg:
                     raise RuntimeError(f"LLM call failed: {e}") from e
                 # rate limit / overload / network: back off (free tiers allow ~10-15 calls a minute)
                 wait = 5 * 2 ** min(attempt, 4)
-                ra = getattr(getattr(e, "response", None), "headers", {}) or {}
+                ra = getattr(resp, "headers", {}) or {}
                 try:
                     wait = max(wait, float(ra.get("retry-after", 0)))
                 except (TypeError, ValueError):
                     pass
-                time.sleep(min(wait, 90))
+                wait = min(wait, 90)
+                self.log(f"{self.model} busy ({status or type(e).__name__}): retry {attempt + 1}/6 in {wait:.0f}s - {short}")
+                time.sleep(wait)
         raise RuntimeError(f"LLM call failed after retries: {last}")
 
-    def _pick_model(self) -> str | None:
+    def _pick_model(self, exclude: str | None = None, prefer_lite: bool = False) -> str | None:
         """Pick a current model from the endpoint's /models list (prefers a non-lite 'flash' model on Gemini)."""
         import requests
         try:
@@ -151,12 +159,15 @@ class LLM:
         except Exception:
             return None
         if self.preset == "gemini":
-            flash = [i for i in ids if "flash" in i and "lite" not in i and "image" not in i
-                     and "tts" not in i and "live" not in i and "audio" not in i]
+            flash = [i for i in ids if "flash" in i and i != exclude and not any(
+                k in i for k in ("image", "tts", "live", "audio", "embed"))]
+            if not prefer_lite:
+                flash = [i for i in flash if "lite" not in i] or flash
             stable = [i for i in flash if "preview" not in i and "exp" not in i]
             pool = stable or flash
-            return sorted(pool, key=lambda i: [int(x) if x.isdigit() else x for x in re.split(r"[-.]", i)
-                                               if x.isdigit()], reverse=True)[0] if pool else None
+            ver = lambda i: [int(x) for x in re.split(r"[-.]", i) if x.isdigit()]
+            return sorted(pool, key=ver, reverse=True)[0] if pool else None
+        ids = [i for i in ids if i != exclude]
         return ids[0] if ids else None
 
     def _anthropic(self, system: str, user: str, max_tokens: int) -> str:

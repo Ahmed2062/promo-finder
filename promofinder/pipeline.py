@@ -149,6 +149,7 @@ def run(input_dir: str, out_dir: str = "outputs", provider: str = "none", model:
     out = long_path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     llm = LLM(provider, model, out, base_url, api_key)
+    llm.log = log
 
     # 1 parse ---------------------------------------------------------------
     eps = load_show(input_dir)

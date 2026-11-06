@@ -89,7 +89,11 @@ if st.button("Find promos", type="primary", disabled=not folder):
         st.error("Episodes should look like 1-5 or 1,3,7")
         st.stop()
     with st.status("Reading episodes and picking promos…", expanded=True) as status:
-        pipeline.PROGRESS = lambda m: status.update(label=m)
+        def show(m):
+            status.update(label=m)
+            if "retry" in m or "switching" in m:
+                st.caption("⏳ " + m)
+        pipeline.PROGRESS = show
         try:
             res = run(folder, str(out), provider, model or None, None, key or None,
                       "Demo show" if src.startswith("Demo") else None, top, judge, episodes)
